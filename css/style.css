@@ -1,0 +1,818 @@
+body {
+  margin: 0;
+  font-size: 18px;
+  line-height: 36px;
+  font-family:'Playfair Display';
+  color: #000000;
+}
+
+/*Сброс глобальных стилей*/
+
+button {
+  padding: 0;
+  border: 0;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+/*ul обычно надо очищать margin:  0 padding:  0*/
+ul { 
+ list-style: none; 
+}
+
+figure {
+  margin: 0;
+}
+
+/*Типографика*/
+h1 {
+  font-size: 80px;
+  line-height: 86px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  color: #ffffff;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  text-align:center;
+}
+
+h3 {
+  text-align: center;
+}
+
+/*Контейнер -обертка  для первой страницы about*/
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.main-header {
+  position: relative; 
+  min-height: 500px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+  /*background-color: #41228e;*/
+  background-image: url(../img/header-index.jpg);
+}
+
+.main-title {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 10px;
+}
+
+.main-header-title {
+  display:  block; 
+  width: 58%; 
+  padding: 0;
+}
+
+.main-header-blog {
+  position: relative; 
+  min-height: 500px;
+  padding-top: 30px;
+  padding-bottom: 75px;
+  box-sizing: border-box;
+  background-color: #41228e;
+  /*background-image: url(../img/header-blog-singl.jpg);*/
+}
+ 
+ .main-title-blogs {
+  /*див итак блочный элемент*/
+  margin-top: 160px;
+  text-align: center;
+ }
+
+/*Подложка для шапки для первой страницы*/
+.header-index {
+  margin: 0 auto;
+  max-width: 1440px;
+  padding: 0 15px;
+}
+
+
+/*Подложка для шапки для второй страницы*/
+.header-blog {
+  /*не сделала паддинги слева справа для этого блока*/
+  /*margin: 0 auto;*/
+  max-width: 1600px;
+  padding: 0 110px;
+ }
+
+/*Навигация для страницы about */
+.main-navigation-about {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-between;
+  align-items: center; 
+}
+
+/*Навигация для страницы blog */
+.main-navigation-blog {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center; 
+  margin: 0 auto;
+}
+
+ .main-navigation-blog h1 {
+  text-align:  center; 
+ }
+
+
+/*Базовый блок навигации*/
+.site-navigation {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 84px;
+  }
+
+/*Блок для навигации первой страницы*/
+.site-index {
+  margin: 0;
+  padding: 0 10px;
+  max-width: 1440px;
+}
+
+/*Блок для навигации второй */
+
+/*неправильно сделано, а паддинг обнулять здесь вообще не нужно*/
+.site-blog {
+  padding: 0 10px;
+  margin:  0;
+  max-width: 1440px;
+}
+
+.site-navigation-item a {
+  padding-left:35px;
+  color: #ffffff;
+}
+
+.promo {
+  position: relative;
+  padding-top: 55px;
+  padding-bottom: 35px;
+}
+
+.promo-salute {
+  position: relative;
+  width: 690px;
+}
+
+.promo-salute h1 {
+  position: absolute;
+  top: -170px;
+  left: 5px;
+  padding: 0;
+  margin: 0;
+}
+
+.promo-salute-item {
+  margin: 0;
+  padding-bottom: 30px;
+}
+
+/*Реализована подложка вместо картинки- и она неправильная*/
+.profile-photo {
+  position: absolute;
+  top: -240px;
+  right: 0;
+}
+
+.profile-photo img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 25px;
+}
+
+.profile-photo-signature {
+  padding-top: 65px;
+  text-align: center;
+}
+
+.profile-photo-signature span {
+  font-size: 22px;
+  line-height: 22px;
+}
+
+
+/*Активный пункт меню*/
+.active a {
+font-weight:  700;
+}
+
+/*Типографика, в принципе тоже можно вынести в начало кода в -типографику*/
+ h2 {
+  font-size: 60px;
+  line-height: 86px;
+}
+
+.work {
+  padding: 145px 150px ;
+}
+
+.work-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;  
+  box-sizing: border-box;
+  padding: 0 50px;
+  font-size: 22px;
+  line-height: 84px;
+}
+
+.work-item {
+  position:  relative; 
+  max-width: 273px;
+  margin: 0;
+  padding-top: 110px;
+  text-align: center;
+}
+
+.work-item h3 {
+  margin: 0;
+  font-size: 22px;
+  line-height: 84px;
+  font-weight: normal;
+}
+
+.work-item p {
+  position: relative;
+  margin: 0;
+  font-size: 15px;
+  line-height: 28px;
+  font-family: 'Roboto', sans-serif;
+  color: #585858;
+}
+
+/*ВСЕ ПРЕКРАСНО РАБОТАЕТ!!!!!!!!!!!!!!!!!!!!*/
+.work-item:before {
+  content: "";
+  position: absolute;
+  margin-bottom: 200px;
+  bottom: 0;
+  left: 50%;
+}
+
+/*Блок 1*/
+.work-item:nth-child(1)::before {
+  width: 58px;
+  height: 58px;
+  margin-left: -25px;
+  background: no-repeat url("../img/icon-research.png");
+}
+
+/*Блок 2*/
+.work-item:nth-child(2)::before {
+  width: 50px;
+  height: 50px;
+  margin-left: -25px;
+  background: no-repeat url("../img/icon-design.png");
+}
+
+/*Блок 3*/
+.work-item:nth-child(3)::before { 
+  width: 60px;
+  height: 45px;
+  margin-bottom: 200px;
+  margin-left: -30px;
+  background: no-repeat url("../img/icon-deliver.png");
+}
+
+.team {
+  position:  relative;
+}
+
+.team:after {
+  position: absolute;
+  display: block; 
+  content:  '';
+  margin: 0;
+  background-color:#f6f4fc;
+  width: 52%;
+  height: 93%; 
+  left: 0;
+  top: 0;
+  bottom: 40px; 
+  opacity:  0.5;  
+}
+
+
+.team:before {
+  position: absolute; 
+  display: block; 
+  content: '';
+  /*background-image: url(../img/rectangle-5.jpg);*/
+  /*background-repeat: repeat;*/
+  background-image: url(../img/точка1.png.);
+  background-repeat: repeat; 
+  width: 100%;
+  height: 85%; 
+  left: 0;
+  top: 0; 
+  margin-top: 125px;  
+}
+
+.team-content {
+  position: relative;
+  height:  868px;
+  text-align: center;
+  padding-top: 45px; 
+  box-sizing:  border-box; 
+  z-index: 1; 
+}
+
+.team h2 {
+margin: 0; 
+padding: 0;
+}
+
+.team-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 100px 0;
+  font-size: 22px;
+  line-height: 84px;
+}
+
+/*Реализуем подложку под картинку-неправильно получилось*/
+.team-members-profile {
+  padding-bottom: 40px;
+  color: #000000;
+  background-color: #ffffff;
+  border-radius: 7px;
+  box-shadow: 0px 59px 42.826px 3px rgba(224, 241, 255, 0.34);
+  /*background-color: #d4cfcf;*/
+}
+
+.team-members-photo {
+  border-radius: 7px 7px 0 0;
+}
+
+.team-members figcaption {
+  max-width: 210px;
+  margin: 0 auto;
+  line-height: 30px;
+}
+
+.team-position {
+  color: #dddddd;
+}
+
+.clients {
+  height: 420px;
+  padding-top: 20px;
+  padding-bottom: 115px;
+  box-sizing: border-box;
+}
+
+.clients-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  box-sizing:  border-box; 
+  align-items: center;
+  margin: 0 auto;
+  padding: 35px 80px 0;
+}
+
+.contact {
+  box-sizing: border-box;
+  height: 525px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  margin:  0 auto;
+  font-size: 15px;
+  line-height: 28px;
+  background-image: url("../img/rectangle-5.jpg");
+  background-repeat: repeat;
+}
+
+.contact h2 {
+  margin: 0 auto;
+  max-width: 1170px;
+}
+
+.contact-list {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; 
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  left: 50%;
+  margin-left: -382px; 
+  width: 765px;
+  height: 505px;
+  margin-top: 80px;
+  padding: 10px 75px 40px 65px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 81px 14px rgba(224, 241, 255, 0.34);
+}
+
+.contact-list h3 {
+  display: block;
+  position: relative;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 0;
+  padding-bottom: 30px;
+  font-size: 22px;
+  line-height: 0px;
+  font-weight: normal;
+}
+
+.contact-item {
+  width: 50%;
+  font-family: 'Roboto', sans-serif;
+  color: #737373;
+}
+
+.contact-item-messege {
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  color: #737373;
+}
+
+.contact-item input {
+  width: 265px;
+  height: 10px;
+  padding-top: 10px;
+  border: 0;
+  border-bottom: 1px solid #c7c7c7;
+}
+
+.contact-item-messege textarea {
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid #c7c7c7;
+}
+
+.contact-submit {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 0 150px;
+  background-color: #41228e;
+  color: #ffffff;
+  font-size: 22px;
+  line-height: 0;
+  font-family: 'Playfair Display';
+  border-radius: 9px;
+}
+
+.footer {
+  min-height: 544px;
+  padding: 225px 0px 75px;
+  box-sizing: border-box;
+  background-color: #222222;
+  box-shadow: 0 7px 6px 1px rgba(153, 153, 153, 0.5);
+}
+
+.footer-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0 213px;
+  font-size: 22px;
+  line-height: 84px;
+  color: #ffffff;
+}
+
+.footer-list li {
+  display:  block; 
+  width: 280px;
+  padding-bottom: 60px;
+}
+
+.footer-item {
+  display: block;
+  width: 100%;
+  line-height: 35px;
+}
+
+.footer-item:nth-child(2) {
+  padding-right: 0px;
+}
+
+.contact-name {
+  font-size: 18px;
+  line-height: 50px;
+  color: #7a7a7a;
+}
+
+.footer-copyright {
+  width: 100%;
+  padding-top: 35px;
+  font-size: 15px;
+  line-height: 28px;
+  font-family: 'Roboto', sans-serif;
+  color: #bdbdbd;
+  text-align: center;
+  border-top: 1px solid #363636;
+}
+
+/*Вторая страница*/
+.blogs {
+  padding: 65px 100px 55px 100px;
+  box-sizing: border-box; 
+}
+
+.blogs h1 {
+  position: absolute;
+  top: -320px;
+  left: 0;
+  margin-left: 682px;
+}
+
+.blogs-text h2 {
+  /*опять отступы у заголовков, а не секции*/
+  /*ширина тут не нужна, уж обсуждали*/
+  width: 790px;
+  text-align: left;
+  font-size: 40px;
+  line-height: 57px;
+}
+
+.blog-photo {
+  margin-top: 10px;
+}
+
+/*Сделана подложка под картинку , для того, что , если картинка слетела, то оставался фон.и потом , фон везде сделан в макете.- почему-то везде неправильно*/
+.blog-photo figcaption {
+  padding-bottom: 25px;
+  font-size: 22px;
+  color: #737373;
+  /*background-color: #3b04db;*/
+}
+
+.blog-photo img {
+  border-radius: 10px;
+}
+
+.blogs-text figure + p {
+  
+  padding-bottom: 30px;
+  margin-top: 35px;
+  font-size: 22px;
+  line-height: 36px;
+  font-family: 'Playfair Display';
+  color: #000000;
+}
+
+.blogs-text p {
+  padding-bottom: 30px;
+  font-size: 15px;
+  color: #707070;
+  line-height: 25px;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding-bottom: 15px;
+}
+
+.comments {
+  padding: 25px 100px 15px 100px;
+  box-sizing:  border-box; 
+}
+
+.comments-list {
+  padding: 25px 100px 15px 100px ;
+  margin: 0;
+  box-sizing: border-box;
+  background: #fafafa;
+}
+
+.comments-title {
+  margin: 0;
+  padding-bottom: 15px;
+  font-family: 'Playfair Display';
+  font-weight: 700;
+  text-align: left;
+}
+
+.comments-item {
+  position: relative;
+  padding-bottom: 5px;
+}
+
+.comments-item:nth-child(2n+1) {
+  margin-left: 70px;
+}
+
+.comments-item:nth-child(2n) {
+  margin-left: 160px;
+  border-top: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.comments-item-author {
+  display: flex;
+}
+
+.comments-item-author-name {
+  position: relative;
+}
+
+/*Цветная подложка под аватарку сделана*/
+.comments-item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: -100px;
+  margin-top: 15px;
+  border-radius: 34px;
+  /*background-color: #dbdbdb;*/
+}
+
+.comments-item-author-name {
+  margin: 0;
+  padding-top: 25px;
+  font-size: 22px;
+}
+
+.comments-item-author-text {
+  margin: 0;
+  padding-top: 20px;
+  font-size: 15px;
+  line-height: 25px;
+  color: #737373;
+  font-family: 'Roboto', sans-serif;
+}
+
+.comments-item-reply {
+  padding-top: 5px;
+  font-size: 15px;
+  color: #000000;
+}
+
+/*костыль-потому что всегда под любой репликой кнопка ответить а тут в макете нету*/
+.comments-item:nth-child(2n) a {
+  opacity: 0;
+}
+
+
+ .feedback {
+  display: block;
+  padding: 10px 100px 0 170px;
+  box-sizing: border-box; 
+  border-bottom: 2px solid red;
+}
+
+.feedback-list {
+  display: flex;
+  flex-wrap: wrap;: 
+  justify-content: space-between;
+  box-sizing: border-box;
+  font-size: 15px;
+  line-height: 28px;
+  }
+ 
+ .feedback h3{
+  display:  block; 
+  padding-bottom: 30px;
+  border-bottom: 1px solid #eeeeee;
+  text-align: left; 
+ }
+
+.feedback-modal-show-name {
+  width: 400px;
+}
+
+.feedback-modal-show-messege {
+  width: 470px;
+  margin-bottom: 15px;
+}
+
+.feedback-modal-show-name-item input {
+  width: 98%;
+  padding: 40px 0 10px;
+  border: 0;
+  border-bottom: 1px solid #c7c7c7;
+  font-size: 15px;
+  line-height: 28px;
+  font-family: 'Roboto', sans-serif;
+  color: #737373;
+}
+
+
+.feedback-modal-show-messege textarea{
+  width: 475px;
+  min-height:  165px;
+  padding-top: 55px;
+  border: 0;
+  font-size: 15px;
+  line-height: 28px;
+  font-family: 'Roboto', sans-serif;
+  color: #737373;
+  background-color: #fafafa;
+  border-radius:  8px;
+}
+
+.feedback-modal-info-submit {
+  display: block; 
+  margin: 0 auto;
+  margin-top: 25px;
+  padding: 0 210px;
+  background-color: #41228e;
+  color: #ffffff;
+  font-size: 22px;
+  line-height: 60px;
+  font-weight: 700;
+  font-family:'Playfair Display';
+  border-radius: 9px;
+}
+
+.stories {
+  padding-top: 155px;
+}
+
+.stories-list {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+
+.stories-item {
+  height:  500px;
+  width:  370px;
+  box-shadow: 0 0 81px 14px rgba(224, 241, 255, 0.34); 
+}
+
+/*Цветная подложка под фото сделана*/
+.stories-photo {
+  height:  270px;
+  background-color: #72bf44;
+}
+
+.stories-item-text {
+  width: 370px;
+  height: 230px;
+  margin: 0;
+  padding: 10px 45px 24px 35px;
+  box-sizing: border-box;
+}
+
+.stories-item-text h3{
+  margin: 0;
+  padding: 0;
+  font-weight: normal; 
+  text-align: left;
+}
+
+.stories-item-text p{
+  margin: 0;
+  padding-bottom: 5px;
+  font-size: 15px;
+  line-height: 25px;
+  font-family: 'Roboto', sans-serif;
+  color: #737373;
+}
+
+.stories-item a {
+  font-size: 15px;
+  padding: 5px 10px 5px 15px;
+  background-color: #f6fafa; 
+}
+
+
+
+/*По Алискиным замечаниям\
+4.не работает форма
+5pзасунуть на место логотип.
+7- подложки под картинки не работают проверить под блоки- почему не работают.
+
+/*Вопросы
+
+
+10- сделать кнопку отправить ссылкой и куда отправлятьподумать
+окно работает, но форма не отправляется
+11ошибка. ворк не туда прицеплен.
+12/ стр 2 в подписи к фото в блоге есть сиреневые буквы. получается, что это ссылки.КУда они ведут
+почитать про ссылки якоря ?
+12 а.не выделен на обоих страницах класс - находимся на этой странице.
+14. не прописан адрес ссылок перехода наа другую страницу по хлебным крошкам.
+64 строка кода Reply? - ответить - это ссылка или кнопка Думаю, что кнопка, так как навешиваем потом скрипт.
+18-сделать прокрутку на блоге, а то он бесконечный
+20- полосочка никак не выравнивается по правому краю в комментах
+переделать аватарку с подписью bи переверстать возможно полностью во флекс
+21-пыталась реализовать подложку, под картинки, но вышло неправильно
+
+/

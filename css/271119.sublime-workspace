@@ -1,0 +1,1737 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"z",
+				"z-index\tproperty"
+			],
+			[
+				"bac",
+				"background\tproperty"
+			],
+			[
+				"padbo",
+				"padding-bottom\tproperty"
+			],
+			[
+				"borb",
+				"border-bottom\tproperty"
+			],
+			[
+				"top",
+				"top\tproperty"
+			],
+			[
+				"bacc",
+				"background-color\tproperty"
+			],
+			[
+				"mag",
+				"margin\tproperty"
+			],
+			[
+				"wic",
+				"white-space\tproperty"
+			],
+			[
+				"col",
+				"color\tproperty"
+			],
+			[
+				"br",
+				"br\tTag"
+			],
+			[
+				"c",
+				"class\tAttr"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/htmlacademy/932587-kross/index.html",
+			"settings":
+			{
+				"buffer_size": 6628,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "style.css",
+			"settings":
+			{
+				"buffer_size": 8417,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/htmlacademy/932587-sedona-25/index путь.sublime-workspace",
+			"settings":
+			{
+				"buffer_size": 6452,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				" Sublime",
+				"SublimeLinter: Show Line Errors"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 236.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/htmlacademy/932587-kross"
+	],
+	"file_history":
+	[
+		"/C/htmlacademy/932587-kross/img/logo11.jpg",
+		"/C/htmlacademy/932587-kross/img/team-item-photo-1.jpg",
+		"/C/htmlacademy/932587-kross/img/Rectangle-5-.jpg",
+		"/C/htmlacademy/932587-kross/img/Rounded-Rectangle-research.jpg",
+		"/C/htmlacademy/932587-kross/kross.sublime-workspace",
+		"/C/htmlacademy/932587-kross/kross.sublime-project",
+		"/C/htmlacademy/932587-kross/index..html",
+		"/C/htmlacademy/932587-kross/style.css",
+		"/C/htmlacademy/932587-kross/index.html",
+		"/C/htmlacademy/932587-kross/style1.css",
+		"/C/htmlacademy/932587-kross/index1.html",
+		"/C/Users/Mama/AppData/Roaming/Sublime Text 3/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+		"/C/htmlacademy/932587-sedona-25/css/krosss",
+		"/C/htmlacademy/932587-sedona-25/index.html",
+		"/C/htmlacademy/932587-kross/krosss.html",
+		"/C/htmlacademy/932587-sedona-25/kross",
+		"/C/htmlacademy/932587-sedona-25/img/Без-имени-1.jpg",
+		"/C/htmlacademy/932587-sedona-25/img/b5.jpg",
+		"/C/htmlacademy/932587-sedona-25/css/style.css",
+		"/C/htmlacademy/932587-sedona-25/img/777.jpg",
+		"/C/htmlacademy/932587-sedona-25/img/calendar.svg",
+		"/C/htmlacademy/932587-sedona-25/img/blue-calendar.svg",
+		"/C/htmlacademy/932587-sedona-25/img/calendar blue.xml",
+		"/C/htmlacademy/932587-sedona-25/css/blue.svg",
+		"/C/htmlacademy/932587-sedona-25/img/sedona-logo.svg",
+		"/C/htmlacademy/932587-sedona-25/img/icon-facebook.svg",
+		"/C/htmlacademy/932587-sedona-25/img/youtube-icon.png",
+		"/C/htmlacademy/932587-sedona-25/img/polygon.png",
+		"/C/htmlacademy/932587-sedona-25/img/header-bg.jpg",
+		"/C/htmlacademy/932587-sedona-25/img/city-sedona.png",
+		"/C/htmlacademy/932587-sedona-25/img/city-sedona1.png",
+		"/C/htmlacademy/932587-nerds-25/img/filter-button.svg",
+		"/C/Users/Mama/Desktop/slider 1.html",
+		"/C/htmlacademy/932587-nerds-25/img/slide2.png",
+		"/C/htmlacademy/932587-nerds-25/img/slide3.png",
+		"/C/htmlacademy/932587-nerds-25/img/slide1.png",
+		"/C/htmlacademy/932587-nerds-25/css/style.css",
+		"/C/htmlacademy/932587-nerds-25/карта",
+		"/C/Users/Mama/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Mama/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/htmlacademy/932587-nerds-25/draft.html",
+		"/C/htmlacademy/932587-nerds-25/index.html",
+		"/C/htmlacademy/932587-nerds-25/css/176d921bf4.jpg",
+		"/C/htmlacademy/932587-nerds-25/catalog.html",
+		"/C/htmlacademy/932587-nerds-25/.editorconfig",
+		"/C/htmlacademy/932587-nerds-25/css/README",
+		"/C/Users/Mama/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Mama/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/htmlacademy/932587-nerds-25/Readme.md",
+		"/C/htmlacademy/932587-nerds-25/img/README",
+		"/C/Users/Mama/Desktop/lesson/style.css",
+		"/C/Users/Mama/Desktop/lesson/index.html",
+		"/C/Users/Mama/Desktop/style.css",
+		"/C/Users/Mama/Desktop/index.html",
+		"/C/Users/Mama/Desktop/тест.html",
+		"/C/Users/Mama/Desktop/cстили ссс.css",
+		"/C/Users/Mama/Desktop/test.html",
+		"/C/Users/Mama/Desktop/test.css",
+		"/C/Users/Mama/Desktop/Мишка и зайка/зайка меню css.docx",
+		"/C/Users/Mama/Desktop/Мишка и зайка/Зайка меню разметка.docx",
+		"/C/Users/Mama/AppData/Roaming/Sublime Text 3/Packages/User/LocalizedMenu.sublime-settings",
+		"/C/Users/Mama/AppData/Roaming/Sublime Text 3/Packages/LocalizedMenu/LocalizedMenu.sublime-settings"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 190.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"opa",
+			"margin",
+			"padding",
+			"block-1",
+			"padding",
+			" box-shadow",
+			"modal-contact-info",
+			"modal-show ",
+			"contact ",
+			"contact  ",
+			"contact a ",
+			"h2",
+			"border",
+			"bottom",
+			"footer",
+			"list",
+			"clients-list",
+			"info",
+			"info ",
+			"modal-contact-info ",
+			"info ",
+			"info input",
+			"h3",
+			"contact",
+			"clients",
+			"clients-list",
+			"padding",
+			"h3",
+			"modal-contact-info",
+			"h3",
+			"h",
+			"h3",
+			"background-image",
+			"background-image:\n",
+			"profile-photo img",
+			"decoding",
+			"profile-photo",
+			".work-item",
+			"clients\n",
+			"h2\n",
+			"h2#\n",
+			"h2\n",
+			"team\n",
+			"h2",
+			"list",
+			"container",
+			"team",
+			"work-item p",
+			"work",
+			"team h2",
+			"team-list",
+			"lilac",
+			"team h2",
+			"work",
+			"team",
+			"profile-team-item",
+			"team",
+			"work",
+			"border",
+			"profile-team-item",
+			"figure",
+			"team-item-photo",
+			"figure",
+			".work-item p",
+			".work-item h3",
+			"work-list l",
+			"team-list",
+			"container",
+			"container\n",
+			"con\n",
+			".figure",
+			" figu",
+			" img",
+			"img",
+			".profile-photo img",
+			"text-align",
+			"h2",
+			"h1 ",
+			"h2",
+			"team h2",
+			"wor",
+			"opa",
+			"team",
+			"text-align",
+			"p",
+			"display\n",
+			"te\n",
+			"  text-align\n",
+			"  text-align: cent\n",
+			"text-align: center;",
+			"container",
+			"h2",
+			"work-item h3:before ",
+			"border",
+			"work-item",
+			"text-align:",
+			"text-transform",
+			"font-family",
+			"Roboto",
+			"text-align: center;",
+			"border",
+			"promo",
+			"wor",
+			"profil",
+			"container",
+			"promo",
+			" promo",
+			" border",
+			"promo",
+			"rela",
+			"re",
+			"abs",
+			"ab",
+			"promo",
+			"rel",
+			"absolute",
+			"promo-salute"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/htmlacademy/932587-kross/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6628,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5474,
+								5484
+							]
+						],
+						"settings":
+						{
+							"SL.13.region_keys":
+							[
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										5484,
+										5485
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"region.greenish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										5454,
+										5455
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2460.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"file": "/C/htmlacademy/932587-kross/img/logo2.jpg",
+					"semi_transient": true,
+					"stack_index": 3,
+					"type": "image"
+				},
+				{
+					"file": "/C/htmlacademy/932587-kross/img/logo1.jpg",
+					"semi_transient": false,
+					"stack_index": 4,
+					"type": "image"
+				},
+				{
+					"file": "/C/htmlacademy/932587-kross/img/team-item-photo-3.jpg",
+					"semi_transient": false,
+					"stack_index": 5,
+					"type": "image"
+				},
+				{
+					"buffer": 1,
+					"file": "style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8417,
+						"regions":
+						{
+							"col_000000FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										249,
+										256
+									],
+									[
+										5405,
+										5412
+									],
+									[
+										5869,
+										5876
+									]
+								],
+								"scope": "col_000000FF"
+							},
+							"col_000000FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_000000FF_circle.png",
+								"regions":
+								[
+									[
+										240,
+										240
+									],
+									[
+										5396,
+										5396
+									],
+									[
+										5860,
+										5860
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_222222FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										6996,
+										7003
+									]
+								],
+								"scope": "col_222222FF"
+							},
+							"col_222222FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_222222FF_circle.png",
+								"regions":
+								[
+									[
+										6976,
+										6976
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_363636FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										7742,
+										7749
+									]
+								],
+								"scope": "col_363636FF"
+							},
+							"col_363636FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_363636FF_circle.png",
+								"regions":
+								[
+									[
+										7717,
+										7717
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_41228EFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										6856,
+										6863
+									]
+								],
+								"scope": "col_41228EFF"
+							},
+							"col_41228EFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_41228EFF_circle.png",
+								"regions":
+								[
+									[
+										6836,
+										6836
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_585858FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										2488,
+										2495
+									]
+								],
+								"scope": "col_585858FF"
+							},
+							"col_585858FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_585858FF_circle.png",
+								"regions":
+								[
+									[
+										2479,
+										2479
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_7A7A7AFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										7537,
+										7544
+									]
+								],
+								"scope": "col_7A7A7AFF"
+							},
+							"col_7A7A7AFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_7A7A7AFF_circle.png",
+								"regions":
+								[
+									[
+										7528,
+										7528
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_9999997F":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										7121,
+										7145
+									]
+								],
+								"scope": "col_9999997F"
+							},
+							"col_9999997F_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_9999997F_circle.png",
+								"regions":
+								[
+									[
+										7091,
+										7091
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_ABABABFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										2361,
+										2368
+									],
+									[
+										2539,
+										2546
+									]
+								],
+								"scope": "col_ABABABFF"
+							},
+							"col_ABABABFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_ABABABFF_circle.png",
+								"regions":
+								[
+									[
+										2353,
+										2353
+									],
+									[
+										2531,
+										2531
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_BDBDBDFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										7685,
+										7692
+									]
+								],
+								"scope": "col_BDBDBDFF"
+							},
+							"col_BDBDBDFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_BDBDBDFF_circle.png",
+								"regions":
+								[
+									[
+										7676,
+										7676
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_BFBFBFFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										27,
+										34
+									]
+								],
+								"scope": "col_BFBFBFFF"
+							},
+							"col_BFBFBFFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_BFBFBFFF_circle.png",
+								"regions":
+								[
+									[
+										7,
+										7
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_C7C7C7FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										6671,
+										6678
+									],
+									[
+										6773,
+										6780
+									]
+								],
+								"scope": "col_C7C7C7FF"
+							},
+							"col_C7C7C7FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_C7C7C7FF_circle.png",
+								"regions":
+								[
+									[
+										6644,
+										6644
+									],
+									[
+										6746,
+										6746
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_DDDDDDFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										5363,
+										5370
+									]
+								],
+								"scope": "col_DDDDDDFF"
+							},
+							"col_DDDDDDFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_DDDDDDFF_circle.png",
+								"regions":
+								[
+									[
+										5354,
+										5354
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_E0F1FF56":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										6231,
+										6256
+									]
+								],
+								"scope": "col_E0F1FF56"
+							},
+							"col_E0F1FF56_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_E0F1FF56_circle.png",
+								"regions":
+								[
+									[
+										6199,
+										6199
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_FF0000FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										7060,
+										7063
+									]
+								],
+								"scope": "col_FF0000FF"
+							},
+							"col_FF0000FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_FF0000FF_circle.png",
+								"regions":
+								[
+									[
+										7032,
+										7032
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_FFFFFFFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										296,
+										303
+									],
+									[
+										1041,
+										1048
+									],
+									[
+										1349,
+										1356
+									],
+									[
+										5434,
+										5441
+									],
+									[
+										6097,
+										6104
+									],
+									[
+										6874,
+										6881
+									],
+									[
+										7332,
+										7339
+									]
+								],
+								"scope": "col_FFFFFFFF"
+							},
+							"col_FFFFFFFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_FFFFFFFF_circle.png",
+								"regions":
+								[
+									[
+										276,
+										276
+									],
+									[
+										1033,
+										1033
+									],
+									[
+										1340,
+										1340
+									],
+									[
+										5414,
+										5414
+									],
+									[
+										6077,
+										6077
+									],
+									[
+										6865,
+										6865
+									],
+									[
+										7323,
+										7323
+									]
+								],
+								"scope": "col_gutter"
+							}
+						},
+						"selection":
+						[
+							[
+								6299,
+								6299
+							]
+						],
+						"settings":
+						{
+							"SL.14.region_keys":
+							[
+								"SL.csslint.Highlights.|aa828554ade681ee92dbb11d4d1dbb2bce15159ebe8a4e323a0029b2ffe38eb5|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|b163e00b3dfb30ae942b029363a4e0654f572551dd5272c890663164191b00e0|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|0c0c3dcf2fef53066b2262542fcbdfc40f548e99c557d5fc4846b06639885b8c|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|ffd35318b76fea41834d7ba62e3337c7018bc95dce050054083c00361638b08b|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|2118a198531da9f293bc0bdc3be3c4e98d0943f57459593cd5452e5596398452|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|b9e85f675a40551b171d2413b6edcf69d4aadb774652104e3b526e6aa3dde8f6|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|628177d8eb5557c35a48075e125df7e2365fbb3e3f4eb0e59dfa6ee77cc7fd31|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|36b8cde052892bad06319d60305ee7837e4bcef015342a3e11103b7e1c1134f5|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|71c45b72a7c7dd74e3e32d0af95058a17818210c238da53506e52e162b36c072|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|a43027577ea75d9a06ee5b793e6d100bbbbec9b77589a3a8899a0c57d59b9f2a|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|75c2c16a25148beddfabf6a604748f6498faffaf273282e6915b1df4c8ec953c|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|df5c2c45a9b2740d3c71e4614a634e7c771ef24543deeb48b6a8576232bcf85f|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|618e7204a0aaccd25faaaa292cb14f244f2d7f6cb56bee6379bfe95191091784|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|98f56ed52c2a887841d16f3d7cb5c4ffce871ea0919a5ccdb1aa0f8c9b5362ce|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|9c6d152a13918d23f9f07eae5f4f19dee718d949cfe5c945c6bd2c281a3e8425|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|cc85f485e9a30622a1f0e905c3b1681c365c432ff1becbad53eb10cbc7a572c8|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|24d25852a5e5989923fcdb36ffd4771c7b85dddd5b82e7118a1d81f27deb8204|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|32c340925dbfe8af39469d8f982d65fb1fa062f6fe1533e18f07aa7f0652e03f|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|829dfe49586b91d5a17fc7f1ee2a784ef43852e8c6408da16a57d9d4f3ad2c7d|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|f3bfeff1dfdf0d980ee60cb8b7f8ece7275046e0cf209143102f39beef3eea97|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|d2bb9307b3a8ac570ba063bd46a369803148dd8e3f067f86dc77de37077ea7e3|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|604fe6c553abdd9be4951fd9910f0eee2c31b4417f1c0fbf0aa858ffbcc6df8f|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|0b00b9ad0bfb74d30b845bf10217dd0f23a6fdd04e2e4bbd7f29886c1d55e757|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|3df0c539f57c3f0659d475d69bd5d4895db082ad2681349c48b7ed9c1391db38|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|ee4b7d49c2a8a6ae98242148f40211900fe99bc82f0fcc170ac0ae5f612e57c1|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|5034bf523c5066d6288153e9930a61ffb58196504d13fba14c951bb90daeb98d|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|00f92a968663e3f2d13160bf044a80dc2260a80c46101856413567a5538784c4|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|d1a9fc4b61011ca2aa07c5679a0032cabad62989bba6cc3ae2f326cbc5ae7357|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|199cfdb1c76611c8a0a36fb8865b6929fefda76a533963cae9e7037f01cc9006|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|9821598787f75114ea9e3139d10a47aaa37543cf8b16213b446419f4a32320c1|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|20115813926473ea4c4ec25d6d27a3c8863a260f80d209484d0d10e5ebde89ca|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|c0bde0af894b25d1fac0cf3fc92d3c25ac2268268cde8b5a8cf9a3417eb0cb66|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|acc2ef8dc38e8a2a078995533f05f0877851b91f1c209b4824463e40881dbbe4|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|d4660644588e1764a342ddc903ccf0caf177dd41ed2848166dfa3d717eaed60a|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|7d96436cbbde2b9d9cbd447ba84f1a4c3a101d06c000544b38a784ba7a7af011|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|8c4327e904b366c8a76e620007cf561fa300aa37f4b7d21483dd473f23b27ad1|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|1a29b712fe8e388490292c750a9ea40d704f6897475cb8e58ddd3162bbf834cd|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|2995f9abf4f923fc626830b7da10d778c682be6882c6feee1b64b6f6afc300c3|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|448e3c98de6063a121380466ddd10917b4260c4007e695620cf5c576d58e782e|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|877d1d8cfa758fb389a332847bd8eaa36c86f5944f8bad8c501a446c1e888926|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|e9205bb03e46b8471a10b3021388cd7c19175dde69c847cac2c957f6a1b140e5|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|57abd77363d7d4b84a58b6c96bb35dca3c18ffff4749fe4e4ba6f2090cbb7973|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|25a337c52a39d64d87f93ddd75c151b2081498b7279d1f87d21881403518dbdf|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|09f359f38ffca2085da65e97fae3d906aa5c671a54ebf590131df38663881dbb|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|542b894dd35ccc9fbe4c931a66b2f70e7221eb3e319a0ef48cb149d1b0143e5e|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|92e9cac97aeac2d8151462490ce89c96a97aa511def399653ae70c27224e3724|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|54f7acf2dffd1f42c54dc480d778709369f9dded82c6a5099218ae58e17997a9|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|3350554ed453986559d409e737a3db2d1eae05780e97fc6f052a669a8d1854e1|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|2820e09dab09cf9d05fb7d791a3896821f53ce2ea2481ae71148339e287cc79a|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|4191ddc25099a643d9d700bbba897ff3d81f8e9e63d7664139c96def6f2be1a4|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|d25fd6a8ad7ae35909a5c2ffcce3ba5572febb47fe261cf63fc60f4c88a313fb|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|f1226e4238da06637539cccf225559338970f704839924155af3525493eea27f|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|591800ae520689a49115100918eb070b4c469942af69d1a2b8cb56f3cbb99bd5|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|602136e44da0d1c646256ed249a728af9946992182d70bad53b316353c214b22|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|402ad6540ef22ee21643c2e89260694e4b16f8fcfc04944479b96d20d46d8bf3|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|f81b5d739203713b07141707f22b733495cf4351e6aaf9ad1540f963fa7434fe|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|367cd25c6bcef701c2950d61d4c7b05c2aefba2db22923bd8484adf421ba2ead|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|af6d2d6581ac4a07fc15040b4fbc57eaf659214254c85fc19711161f6cda1bc1|region.yellowish markup.warning.sublime_linter|32",
+								"sublime_linter.protected_regions",
+								"SL.csslint.Highlights.|534b5390f4b9b93068c75ab7e1d9a750cb985adab4ee8f669d047dd4c9cf2ae6|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|5ac02fd0ca6c178c9ffbadeac6a1786111c26e69e64c2a0db2ff39c445558f3e|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|e971be88ffb8efb4ba8e7f27d2646b12a6171b8afe6079c2d797a22cd4a28ae2|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|091aed84b5a8de64cc04b588096745a4eeb9cbee93feecd77aea8099c4a30275|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|51b990051172596786d8b85719499d62f31b15a5d893840df924a9675c330619|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|4ab4fd93b094947ce02891a239acea71e3bbc8dc481bced915904c646a221138|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|f490dd80a29627e12925a50b64e98ae61d5cee896e99c082f63c521dee8b8859|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|95ca8b56a886efefa6e6ca0ea4acaac2e4746b4a8312cd3192cd404f7b89f813|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|ee7ada3b3bf069447cd437f26f4f250ae8d8b30e5aadcbf933e4ac6a452af020|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|37fce35d2e57347bc0fbc3920e919c81eb36c1aa7ecae12f8633189d7f221c60|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|d48473444e07cd8741fe37770f45097c71d3310c09562d329698f6444de08193|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|b804da6546c8b28f90cbd120e96cb3139e36294cab7ba459c2988668e4177ddb|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|e6564f10d630fdb42e8b2ad014b95699a7414ca1dde93fc16f2c8a87e25e8a99|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|d9583784e6f3acf86c5ad9c9ca4983afb13781716bf830af43f01c2c097c78bb|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|dde73ba702d8b3388ba40df3cce22b2d80489c3c3b31f1a4215b04e81df40720|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|d0dfbd92c33b78cba9ad8b6fbf1b3df3124132876d500cdb4d0825b502a28339|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|717b35ef89415ec8d33f63f85ee05abf77be53ec3deb561163450a12e81bcd32|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|e64a403eabdd8ea197d0ef5b6243428f8a51db9a08ce828e2fa5520fad0505a4|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|389c7073d81d2f6bbc8a33aee4955be63753eaf70ce34705a24867689846e2cc|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|fdb3a0d90952c5bc130f64649645f3c9c217984ee209d16fc625b7fb137a87fb|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|5a9df736d3295790b9483a7355f0db6a4214407dca3c325457ca562f97031ff2|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|f5c0c8a9898478b0184825332c9d5767d05f9e32bdb36d66a03834166b6e8ac1|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|8f8b8b0efa79b61cb3a37fb6dc49abeff80ae8f7d6dd185be7f2d36e8702815e|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|6be3b2a79c3d0d86476cbb5ba18e422848a9d08bfb2c62c6443af231ca4c022d|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|4c0c778b701c16ea0a02c2f5dfd1f82084d01e73b04112f06047af04b8d57a58|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|f1eba6a5265fcc60e4f4beb6a63e54b2ceebaa555944e12104185bf59ff1bd7b|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|928e919147b5f4403bb4b88d884e55ae4e832562d2e88b9656dd45f2df4f0eeb|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|0a8601cef315a44568e2c9bd95a6d2f0bb15034a8c89e866101f5cdea72036d4|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|f3ec8535062604cbc855a111a4c9c8087b6599f0168b042768a716fae8b46cc6|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|d4c6052c050ddb31e56a14df2f13bc8c6831d4d32f1fd9cd1dd940ef7e93bf8e|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|a9dbe31de045e41e35130067fcab9df6bb906db0fc5ffaa035967de51c816bde|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|b6d39486a52cda0a4bc4686d7c80de6726d2b0cfdce9e8416e2db14f8a28ce1d|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|d992bad044389cb4a6f2b0737f99016cb48792d71e5c03fcf7f469211765bbb4|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|6f68a0eab0411b7e5dcd48abc1880d2ab72c0a335f21634d6597e20501a947e2|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|fbed34ca3db399d83b3becf42278517a8dd7676eef8130676058c37e8952e194|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|8946c21e283d98a9695e1015532ee130833dca17dec4a6e5a7f32b2b63626543|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|60c4c627c9f907e122398b9f072e0451d047336ec0d6e7acc0a5db910ccdd0a0|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|4517987ac3f9d050da5161013cc6f750c31e1ed69860f465aa71b9defe5c9643|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|acd78b6541a98583fc32e611520d1513dab59bfccca2965737c99c2cc2e89bee|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|26f68eff76448f91f89667f0cb0902dc00c2d21b30043bd8798c00bbc30f1919|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|5275927bb840bf942f09bd57b76745f14d0cab49b54932304b8a9aa7f3a23ce4|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|6b097e2340b627c19ca4a144be34d67ae4370288357e1a81ba0703ed19b960b4|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
+								"SL.csslint.Highlights.|4019083d9f0c15c4ca50c436680ec60ba5429806fc201ac48f93de8fc7af4099|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|32c3f300095d8f02aafc5eeca5fe84f46bfe72f0cd2a55302ba413712c281289|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|3d92c48c33fa3bddd5a1bbabd0f36664c782f8fdf2d7f66a258e03423736a9c0|region.yellowish markup.warning.sublime_linter|32"
+							],
+							"SL.15.region_keys":
+							[
+								"SL.csslint.Highlights.|d992bad044389cb4a6f2b0737f99016cb48792d71e5c03fcf7f469211765bbb4|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|7ee4a4fbfbfe50eb83af704bf224c20291505540faf32f1a1c3d6fb7e3b85996|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|f5c0c8a9898478b0184825332c9d5767d05f9e32bdb36d66a03834166b6e8ac1|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|4a2063a18b348deeb7f01b4f6ec9a6d4074b6425a099c55c3ef108242cb56239|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|ac1fbf59140d2781a5511bc23b2a25ca06805852a5711029efdce144c96cbf6f|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|dd218db3ab491176226a434334dd145bb1b0de13221ecdd663c1fe9c9706b6a4|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|542b894dd35ccc9fbe4c931a66b2f70e7221eb3e319a0ef48cb149d1b0143e5e|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|255b249a9a9df6dca2edd9026378b04c3ce498f7986dba7d3fb46f157b47790e|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|06ddba751dbd196333bf2332babc1d5d0c40bb0ee868fc8d79321aa7d3710de4|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|cb7e3f38460a7c9f9a846bcba1f5f99359780786d01113d2bf74d08851aaa823|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|7114322e046a346688e0766c4b9e08c39a0e3199062a5109364a152d3317f67a|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
+								"SL.csslint.Highlights.|1e6f6df2e9d601590f4e815e0cd357f0c0716fcd5112d74bfe5d53e0261ad52b|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|5421a9d1de2ae0e8d799fd4c4c2cba170e89cb8dac235995e8d937d481568256|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|9c3028b49e55ad76c502d3011b50c73c34f88870c6a7fb67993ebde366e7757f|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|bbdddf64d528aef2f03c44ac996e4d150c265198755c5f6efffb94313a63bf2b|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|ffd35318b76fea41834d7ba62e3337c7018bc95dce050054083c00361638b08b|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|fe139327fe84838a7e9e8dfa629781e4ba381bca4fcb9d9245de9a3ab398da45|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|5ac02fd0ca6c178c9ffbadeac6a1786111c26e69e64c2a0db2ff39c445558f3e|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|1dcc4f53296f6281fdc3250bdc69c3bbd65d873e7418c19ea65ac82e9622b0e8|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|418e4b0078946672c90cf1f4e699beaec977e8f2a121b2ade78ad5067f8d1143|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|30b213638837f18c5f3cc8dcec2951b57e7aae4feea4003664defb36db011614|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|b6556e564200941053af099b7ec473355d5187bb481dbdb640438a8d43cbd940|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|0029fdd01cad7fe75a86fceaa7332000ec73b7ad6455f5034384302266020817|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|a2463634ede9e94bb2276c635ce0e01d46bfb5ce7a0f5d6e84cc5dd96b884cca|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|a47315188f41d1f467ff313e791846e803e64bd618bc39aba34cea283c749cd6|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|479962314833e5944dbe914ee3b2a4c4b7fdf24383b356e2697f66a1cbf4bc7d|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|5f44ffae70a59374ca2257078ed0a75ada89aea97e9a87c03ddd745f9e3e57e4|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|a9dbe31de045e41e35130067fcab9df6bb906db0fc5ffaa035967de51c816bde|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|24d25852a5e5989923fcdb36ffd4771c7b85dddd5b82e7118a1d81f27deb8204|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|743527f199807cf8cc7d89495972db943446b35ebf913e2acf419ee59775a6fe|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|a0858e09d63f0991ff14f930c62ef4525546ae822a71b7ebc6883f1e236def87|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|61cdba2a9b4c602156b091f509d979990a87a8079afb405214bcd3f2aafa98ea|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|543f8567e32e7e7762b7bfa4852c75e2f99dbb0f060d8f63e5a4db45fac2a4c7|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|ff2e9a06b1d5937ad8af11535d7672f76f2dc3ee765f3a728f1c6d7a3cbe16b6|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|6f9be2d69970a59118916993bc68423a07aa2d267ce98324300c04e97c6dd7ec|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|37422f8dbbdb0b5b456ef752a4bea40188604c053ff67d75fbd81439057e1f0a|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|c1c5458037cddb599785d2cb17fe84c58a7be4c77bf19b67acb0546f2fdf442d|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|be1555e8e868f039c7b73d395420eebc60cc529fa4b5d5ae38b2e2d5915190af|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|02c3bceaf674aa23cf69c420f5734f336f26ed4d9460192bc655ae16f5704b77|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|29e56348a5eebb349b38b275ae9ccc0995c5c4f8dd1e905d88f27d6a4fdc8669|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|9a3acef9ba4c1aeeb4855655aad305a23c343cd02fdae37e15e02d262186c5eb|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|c4ac158f7a39e72bd2c828e5fb54e2e9d96603983cd0baec0ee4c259b51400e8|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|87fc692c62aa865b0548c6d6e04d90adad21d7c87a0ba166494b075f8603c402|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|f03dffe64d9063f1eb721065d1c130529ad7eccb414f5bb0da934c571138aa98|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|5bc0d3df62595b988a41f93cad5cd551815bb6834c8dcfed7bd8c1660cf69d8f|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|92e9cac97aeac2d8151462490ce89c96a97aa511def399653ae70c27224e3724|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|8bd86ad63208620374168d25f1b9770615aed06db38409f19194d23a712de706|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|6b9df1e0eedd53f5dfea055587397bbdd74fa1a4b077595775d6c7079a057df4|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|822ce4eb288074d5f53b797ad7a1135043b0cee1f63170dfcba2deb55a4c4e01|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|8946c21e283d98a9695e1015532ee130833dca17dec4a6e5a7f32b2b63626543|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|b61174c7a4e00b72f93948be264824d4957ab8e6b9b2e125f557d511372c0607|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|54f7acf2dffd1f42c54dc480d778709369f9dded82c6a5099218ae58e17997a9|region.yellowish markup.warning.sublime_linter|32",
+								"sublime_linter.protected_regions",
+								"SL.csslint.Highlights.|03b24445798554ac24adf1721107bfdd8f910144ca013d151535a22c3f701cb3|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|edcee4f85825d9d326b2be85a54626f215f5acd99bd027904ac68c6a0d7b415e|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|d1b878d59b68800664228c387630cf6435789c2495b635f2e9fe6aea550387e3|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|73b9a01321669cf764e61a5d7885b14d6609ca771a38d48a0da68766d16ea6e2|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|2170f8dc4807af202294bfc3cf42e4110d7a19b33e111ee3ddfdaa3f8ed8605c|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|0665a2abb631b751568b0903eb74b1ffa4a9fa6551e52c646503a0b1ede613af|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|399e024798c2001566e8fd98a5c8cce6015fbcaaea9cda3451ee405c237236f5|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|64411ed8f4c712a30ceedd00551e1108785643f61e89a3736420f4320aa453b6|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|e25107af35f2120fb6ce55812246df9c533aae4a4294c1bb03d52f1a097d1b38|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|08d6b34d9c39601a8db16890e4dfdff8dbb012009f6dd41bfe2d9e3adc46bbac|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|31ed513c9d7911342aeff251404f0712baa31a1172559636d0eaafdbc3f04b59|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|ee7ada3b3bf069447cd437f26f4f250ae8d8b30e5aadcbf933e4ac6a452af020|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|2b1df3a6a6d5805e6f62953ea3c1bf2074cb9cc46c067690110a71fd00f1723d|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|233b2f37a0655ca27649c36067d3e38cfc52ef8506a7565b18c7268bef838b5c|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|cd710ddd2f520bc520098dbafdbd11b30fb6c48df2e486fe56c10b69fb8593b9|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|a841f8dee1a1b015789276aa109f6966ad5f20da2f8259a37a9a386d2d7e1e86|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|1c6b095f15481ce09b4bac1e8e20d179b764a31e89ab75fcebf58f49ae6b1112|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|e2b751ca973598917ab280a20ffa373009c2c1273b1b6967f7a1b0ff66e5e644|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|81161408b7d3bf3ef1304e810c7355285838b5e59120b6241a878a0456a80125|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|9d599c7ad6d5613e6a6356eedab4f3432e48ba7b75de49124ad71fd26d0bcd3b|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|5728defe801a7d0c43026836d796a7acfd70ba1076964794064661ee172f26d6|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|7d96436cbbde2b9d9cbd447ba84f1a4c3a101d06c000544b38a784ba7a7af011|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|8edc1249fc480c75e3f2774ca63dc055b97a89e24c571e16ca1ac4cbb09bd882|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|8f211c96732eccc01d24a373334a3f6690ae07520d48ac7baa874fdd09e797b7|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|14ed7fa3b159cc393685b174e768cf5b74b783157c93d9a0be9883c26113e35a|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|38e9895ec7decfba85188b029cbfa0f2ee8e79dfe7cc2720a3091b45e37fbdf1|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|9a76a9d938add86fe18e7bb1e623e323e4d3085bcdd807109ef48779495e245e|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|041b099e2babb3fbf714f1aac4a864420f9b0f4264adfa729838355b9550b485|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|5aec35bca7c25651cba2023d667162aed9ef355b2c3448c594a351177fee25ee|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|ecca74fa5af5d8fab3b485d9c1a57983a154bf4165dbf486fbbdcea1c6f26f37|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|327cb29eec3d206671ba3fed4b26caa245ebe8e50deab6c6c3ed65c5566444f4|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|9b5b7bf42b155f3ebd157bd974a9712ff85857520143f145c5e249299f204835|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|705c140e3d8691780522d069da3ba6474b56790fc5242319356de8a481b0d51d|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|7bf273dd533e0c93423e97332e1f4cc1fd8246adb5ee860d1f19d12e57a3f5c4|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|d0dfbd92c33b78cba9ad8b6fbf1b3df3124132876d500cdb4d0825b502a28339|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|f156129395c2cbfc5431b5b78bcc76300104b9f833778ac205e816281f57bc55|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|bf06134858dffb319ed49f94cfb905995e0ebc6d401d41a6a1ee8eef653a9e23|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|5f5584d582b54f63e22b8590b7d1e6bffa7030895fba07ed2da08b4bef30ccfa|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|44f85b9abcdf4a64f0f54e2be2ff46749459aad1cddddc7511d753f965b5bc49|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|d2bb9307b3a8ac570ba063bd46a369803148dd8e3f067f86dc77de37077ea7e3|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|ee3f414de15ed9462f635e649a2bcce262e7ab05f743f2526c4a02981b2230d2|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|623b15cb2e4b592b6cf5ae5a266240278d18bbb61c7eb39f0787d06823914f25|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|d7de40f06c5103166ce8df1c9b9bf154043d14d900a5a30dafcaf4b5117dab2d|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|f88c6c78b0f4fdee4aaf33dd47178cc38146a15cef71ea1d7a4522b9fcddc720|region.yellowish markup.warning.sublime_linter|32"
+							],
+							"SL.62.region_keys":
+							[
+								"SL.csslint.Highlights.|c9bf7ac8a5b3f2158694149cf968812516ab1e777855d797b00423a8aa93f7a3|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|3d0b8790243a4554189afd73f6d7e90b7193779effb9b0bfb63daceae5ea3143|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|c1a1d724f8b4dbe0f5dd053afe2215572fb11965e042b05324f41134b2ccaeb1|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|0ada8e2426b6ea3ee625add4c5252cca4f8abd923deec77b80f54752e7f27a1c|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|8a88d4da946dfeae99219e5240ed5e99bedba1ab9ecc5f755bdb4ae654ce2dc5|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|26a7cbea155f5900b7e0f39a288b5af1f34f504ffa06ad5b44e0fcc5aac039e8|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
+								"SL.csslint.Highlights.|5600487ee166eca2600a4145686f53e1a36231dfaa2d46c60a11b8456d5bee27|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|d288175b22475d1f2b9384a5364f6293d400027e5050e209959431773dabc4ab|region.yellowish markup.warning.sublime_linter|32",
+								"sublime_linter.protected_regions",
+								"SL.csslint.Highlights.|9c43fca2f2d66ba4f0c71f96222016ac353c5b0e3c0b5ebb434afcb33251080c|region.yellowish markup.warning.sublime_linter|32"
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1020,
+										1021
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										970,
+										971
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										6298,
+										6299
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										6293,
+										6294
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 7180.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/htmlacademy/932587-sedona-25/index путь.sublime-workspace",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6452,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 68.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.SublimeLinter Messages":
+	{
+		"height": 132.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "271119.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 195.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

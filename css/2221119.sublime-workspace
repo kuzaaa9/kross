@@ -1,0 +1,3717 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"texa",
+				"text-align\tproperty"
+			],
+			[
+				"fon",
+				"font\tproperty"
+			],
+			[
+				"z",
+				"z-index\tproperty"
+			],
+			[
+				"bac",
+				"background\tproperty"
+			],
+			[
+				"padbo",
+				"padding-bottom\tproperty"
+			],
+			[
+				"borb",
+				"border-bottom\tproperty"
+			],
+			[
+				"top",
+				"top\tproperty"
+			],
+			[
+				"bacc",
+				"background-color\tproperty"
+			],
+			[
+				"mag",
+				"margin\tproperty"
+			],
+			[
+				"wic",
+				"white-space\tproperty"
+			],
+			[
+				"col",
+				"color\tproperty"
+			],
+			[
+				"br",
+				"br\tTag"
+			],
+			[
+				"c",
+				"class\tAttr"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/htmlacademy/932587-kross/blog-single.html",
+			"settings":
+			{
+				"buffer_size": 10695,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/htmlacademy/932587-kross/about.html",
+			"settings":
+			{
+				"buffer_size": 6580,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "style.css",
+			"settings":
+			{
+				"buffer_size": 14243,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/htmlacademy/932587-sedona-25/css/style.css",
+			"settings":
+			{
+				"buffer_size": 16797,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				" Sublime",
+				"SublimeLinter: Show Line Errors"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 236.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/htmlacademy/932587-kross",
+		"/C/htmlacademy/932587-kross/css"
+	],
+	"file_history":
+	[
+		"/C/htmlacademy/932587-kross/img/about-222.jpg",
+		"/C/htmlacademy/932587-kross/about.html",
+		"/C/htmlacademy/932587-kross/img/team-item-photo-1-1.jpg",
+		"/C/htmlacademy/932587-kross/img/team-item-photo-3-1.jpg",
+		"/C/htmlacademy/932587-kross/index.html",
+		"/C/htmlacademy/932587-kross/img/photo-blog.jpg",
+		"/C/htmlacademy/932587-kross/css/blog-singl.html",
+		"/C/htmlacademy/932587-kross/blog-singl.html",
+		"/C/htmlacademy/932587-kross/css/style.css",
+		"/C/htmlacademy/932587-kross/img/leaf1.jpg",
+		"/C/htmlacademy/932587-kross/img/Rectangle-5-.jpg",
+		"/C/htmlacademy/932587-kross/img/Rounded-Rectangle-research.jpg",
+		"/C/htmlacademy/932587-kross/kross.sublime-workspace",
+		"/C/htmlacademy/932587-kross/kross.sublime-project",
+		"/C/htmlacademy/932587-kross/index..html",
+		"/C/htmlacademy/932587-kross/style.css",
+		"/C/htmlacademy/932587-kross/style1.css",
+		"/C/htmlacademy/932587-kross/index1.html",
+		"/C/Users/Mama/AppData/Roaming/Sublime Text 3/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+		"/C/htmlacademy/932587-sedona-25/css/krosss",
+		"/C/htmlacademy/932587-sedona-25/index.html",
+		"/C/htmlacademy/932587-kross/krosss.html",
+		"/C/htmlacademy/932587-sedona-25/kross",
+		"/C/htmlacademy/932587-sedona-25/img/Без-имени-1.jpg",
+		"/C/htmlacademy/932587-sedona-25/img/b5.jpg",
+		"/C/htmlacademy/932587-sedona-25/css/style.css",
+		"/C/htmlacademy/932587-sedona-25/img/777.jpg",
+		"/C/htmlacademy/932587-sedona-25/img/calendar.svg",
+		"/C/htmlacademy/932587-sedona-25/img/blue-calendar.svg",
+		"/C/htmlacademy/932587-sedona-25/img/calendar blue.xml",
+		"/C/htmlacademy/932587-sedona-25/css/blue.svg",
+		"/C/htmlacademy/932587-sedona-25/img/sedona-logo.svg",
+		"/C/htmlacademy/932587-sedona-25/img/icon-facebook.svg",
+		"/C/htmlacademy/932587-sedona-25/img/youtube-icon.png",
+		"/C/htmlacademy/932587-sedona-25/img/polygon.png",
+		"/C/htmlacademy/932587-sedona-25/img/header-bg.jpg",
+		"/C/htmlacademy/932587-sedona-25/img/city-sedona.png",
+		"/C/htmlacademy/932587-sedona-25/img/city-sedona1.png",
+		"/C/htmlacademy/932587-nerds-25/img/filter-button.svg",
+		"/C/Users/Mama/Desktop/slider 1.html",
+		"/C/htmlacademy/932587-nerds-25/img/slide2.png",
+		"/C/htmlacademy/932587-nerds-25/img/slide3.png",
+		"/C/htmlacademy/932587-nerds-25/img/slide1.png",
+		"/C/htmlacademy/932587-nerds-25/css/style.css",
+		"/C/htmlacademy/932587-nerds-25/карта",
+		"/C/Users/Mama/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Mama/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/htmlacademy/932587-nerds-25/draft.html",
+		"/C/htmlacademy/932587-nerds-25/index.html",
+		"/C/htmlacademy/932587-nerds-25/css/176d921bf4.jpg",
+		"/C/htmlacademy/932587-nerds-25/catalog.html",
+		"/C/htmlacademy/932587-nerds-25/.editorconfig",
+		"/C/htmlacademy/932587-nerds-25/css/README",
+		"/C/Users/Mama/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Mama/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/htmlacademy/932587-nerds-25/Readme.md",
+		"/C/htmlacademy/932587-nerds-25/img/README",
+		"/C/Users/Mama/Desktop/lesson/style.css",
+		"/C/Users/Mama/Desktop/lesson/index.html",
+		"/C/Users/Mama/Desktop/style.css",
+		"/C/Users/Mama/Desktop/index.html",
+		"/C/Users/Mama/Desktop/тест.html",
+		"/C/Users/Mama/Desktop/cстили ссс.css",
+		"/C/Users/Mama/Desktop/test.html",
+		"/C/Users/Mama/Desktop/test.css",
+		"/C/Users/Mama/Desktop/Мишка и зайка/зайка меню css.docx",
+		"/C/Users/Mama/Desktop/Мишка и зайка/Зайка меню разметка.docx",
+		"/C/Users/Mama/AppData/Roaming/Sublime Text 3/Packages/User/LocalizedMenu.sublime-settings",
+		"/C/Users/Mama/AppData/Roaming/Sublime Text 3/Packages/LocalizedMenu/LocalizedMenu.sublime-settings"
+	],
+	"find":
+	{
+		"height": 41.0
+	},
+	"find_in_files":
+	{
+		"height": 190.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"comments-list",
+			"comm",
+			"blogs-text",
+			"text",
+			"container",
+			"main-header-blog",
+			"main-navigation",
+			"header-blog",
+			"ul",
+			"work-list",
+			"ul",
+			"site-navigation",
+			"ul",
+			"team-list",
+			"wor",
+			"list",
+			"work-item h3",
+			"si",
+			"promo",
+			"profile-photo",
+			"promo-salute-text",
+			".site-navigation-main-header-logo img",
+			".header-index",
+			"red",
+			"items",
+			"wor",
+			"profile-photo",
+			"team",
+			"pa",
+			".main-header-title",
+			".header-index",
+			".main-navigation",
+			".site-index",
+			".main-header",
+			".main-navigation",
+			"team",
+			".header-index",
+			"team",
+			"contact-list",
+			"list",
+			".clients-list",
+			"wor",
+			"team",
+			" #",
+			"team-point-background",
+			"team",
+			"wor",
+			"main-header",
+			"base-container",
+			".team-point-background",
+			".team-list",
+			"-messege",
+			"contact-list",
+			"contact-list ",
+			"contact-list h3",
+			"h3",
+			"contact",
+			"con",
+			"coht",
+			"h2",
+			"client",
+			"15",
+			"clients-list",
+			"clien",
+			"contact",
+			"con",
+			"red",
+			"work",
+			"work-item h3",
+			"sig",
+			"main-header",
+			"promo-salute",
+			"promo-salute h1",
+			"profile-photo-signature",
+			"main-navigation",
+			"promo-salute h1",
+			"h2",
+			"clients-list",
+			"modal-contact-info-submit",
+			"icon-design",
+			"header-index",
+			".work-list li",
+			".work-list li:nth-child",
+			"work-item",
+			":nth-child",
+			"contact-item",
+			"contact\n",
+			"contact-item\n",
+			"modal-contact-info\n",
+			"cli\n",
+			"h2\n",
+			"team-item\n",
+			"deliver\n",
+			"Deliver\n",
+			"profile\n",
+			"profile-photo\n",
+			"logo\n",
+			"logo-sundanse\n",
+			"\">\n",
+			"«Kross»",
+			"\">\n",
+			"blogs-text figure+p",
+			"blogs h1 ",
+			"site-navigation ",
+			"site-navigation site-blog",
+			"messege",
+			"feedback-modal-show-messege",
+			"feedback-modal-show-messege-item",
+			"feedback-modal-show-messege",
+			"profile-photo",
+			"team-item-profile",
+			"blog-photo",
+			"team-item-profile",
+			"profile-photo",
+			"sto",
+			"comments-item img",
+			"stories-photo",
+			"blog-photo",
+			"blog-photo img",
+			"background",
+			"air",
+			"signatur",
+			"signature",
+			"sig",
+			"contact-modal-btn",
+			"contact",
+			"comments-item img",
+			"comments-item"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/htmlacademy/932587-kross/blog-single.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10695,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6452,
+								6452
+							]
+						],
+						"settings":
+						{
+							"SL.13.region_keys":
+							[
+							],
+							"SL.14.region_keys":
+							[
+							],
+							"SL.15.region_keys":
+							[
+							],
+							"SL.27.region_keys":
+							[
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										6416,
+										6417
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"region.greenish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										6376,
+										6377
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 840.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"file": "kross-logo.png",
+					"semi_transient": true,
+					"stack_index": 3,
+					"type": "image"
+				},
+				{
+					"file": "/C/htmlacademy/932587-kross/img/LOGO-копия.jpg",
+					"semi_transient": false,
+					"stack_index": 4,
+					"type": "image"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/htmlacademy/932587-kross/about.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6580,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								414,
+								414
+							]
+						],
+						"settings":
+						{
+							"SL.14.region_keys":
+							[
+							],
+							"SL.15.region_keys":
+							[
+							],
+							"SL.16.region_keys":
+							[
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 120.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14243,
+						"regions":
+						{
+							"col_000000FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										103,
+										110
+									],
+									[
+										5533,
+										5540
+									],
+									[
+										9367,
+										9374
+									],
+									[
+										10606,
+										10613
+									],
+									[
+										11003,
+										11010
+									]
+								],
+								"scope": "col_000000FF"
+							},
+							"col_000000FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_000000FF_circle.png",
+								"regions":
+								[
+									[
+										94,
+										94
+									],
+									[
+										5524,
+										5524
+									],
+									[
+										9358,
+										9358
+									],
+									[
+										10597,
+										10597
+									],
+									[
+										10992,
+										10992
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_222222FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										7671,
+										7678
+									]
+								],
+								"scope": "col_222222FF"
+							},
+							"col_222222FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_222222FF_circle.png",
+								"regions":
+								[
+									[
+										7651,
+										7651
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_363636FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										8422,
+										8429
+									]
+								],
+								"scope": "col_363636FF"
+							},
+							"col_363636FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_363636FF_circle.png",
+								"regions":
+								[
+									[
+										8398,
+										8398
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_3B04DBFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										9020,
+										9027
+									]
+								],
+								"scope": "col_3B04DBFF"
+							},
+							"col_3B04DBFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_3B04DBFF_circle.png",
+								"regions":
+								[
+									[
+										8998,
+										8998
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_41228EFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										957,
+										964
+									],
+									[
+										1325,
+										1332
+									],
+									[
+										7443,
+										7450
+									],
+									[
+										11994,
+										12001
+									]
+								],
+								"scope": "col_41228EFF"
+							},
+							"col_41228EFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_41228EFF_circle.png",
+								"regions":
+								[
+									[
+										937,
+										937
+									],
+									[
+										1305,
+										1305
+									],
+									[
+										7423,
+										7423
+									],
+									[
+										11974,
+										11974
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_585858FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										3958,
+										3965
+									]
+								],
+								"scope": "col_585858FF"
+							},
+							"col_585858FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_585858FF_circle.png",
+								"regions":
+								[
+									[
+										3949,
+										3949
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_707070FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										9145,
+										9152
+									]
+								],
+								"scope": "col_707070FF"
+							},
+							"col_707070FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_707070FF_circle.png",
+								"regions":
+								[
+									[
+										9136,
+										9136
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_72BF44FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										12441,
+										12448
+									]
+								],
+								"scope": "col_72BF44FF"
+							},
+							"col_72BF44FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_72BF44FF_circle.png",
+								"regions":
+								[
+									[
+										12421,
+										12421
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_737373FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										6993,
+										7000
+									],
+									[
+										7090,
+										7097
+									],
+									[
+										8989,
+										8996
+									],
+									[
+										10486,
+										10493
+									],
+									[
+										11593,
+										11600
+									],
+									[
+										11803,
+										11810
+									],
+									[
+										12822,
+										12829
+									]
+								],
+								"scope": "col_737373FF"
+							},
+							"col_737373FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_737373FF_circle.png",
+								"regions":
+								[
+									[
+										6984,
+										6984
+									],
+									[
+										7081,
+										7081
+									],
+									[
+										8980,
+										8980
+									],
+									[
+										10477,
+										10477
+									],
+									[
+										11584,
+										11584
+									],
+									[
+										11794,
+										11794
+									],
+									[
+										12813,
+										12813
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_7A7A7AFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										8213,
+										8220
+									]
+								],
+								"scope": "col_7A7A7AFF"
+							},
+							"col_7A7A7AFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_7A7A7AFF_circle.png",
+								"regions":
+								[
+									[
+										8204,
+										8204
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_9999997F":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										7708,
+										7732
+									]
+								],
+								"scope": "col_9999997F"
+							},
+							"col_9999997F_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_9999997F_circle.png",
+								"regions":
+								[
+									[
+										7680,
+										7680
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_BDBDBDFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										8367,
+										8374
+									]
+								],
+								"scope": "col_BDBDBDFF"
+							},
+							"col_BDBDBDFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_BDBDBDFF_circle.png",
+								"regions":
+								[
+									[
+										8358,
+										8358
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_C7C7C7FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										7217,
+										7224
+									],
+									[
+										7317,
+										7324
+									],
+									[
+										10928,
+										10935
+									],
+									[
+										11498,
+										11505
+									]
+								],
+								"scope": "col_C7C7C7FF"
+							},
+							"col_C7C7C7FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_C7C7C7FF_circle.png",
+								"regions":
+								[
+									[
+										7190,
+										7190
+									],
+									[
+										7290,
+										7290
+									],
+									[
+										10901,
+										10901
+									],
+									[
+										11471,
+										11471
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_D4CFCFFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										5678,
+										5685
+									]
+								],
+								"scope": "col_D4CFCFFF"
+							},
+							"col_D4CFCFFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_D4CFCFFF_circle.png",
+								"regions":
+								[
+									[
+										5656,
+										5656
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_DBDBDBFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										10275,
+										10282
+									]
+								],
+								"scope": "col_DBDBDBFF"
+							},
+							"col_DBDBDBFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_DBDBDBFF_circle.png",
+								"regions":
+								[
+									[
+										10253,
+										10253
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_DDDDDDFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										5858,
+										5865
+									]
+								],
+								"scope": "col_DDDDDDFF"
+							},
+							"col_DDDDDDFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_DDDDDDFF_circle.png",
+								"regions":
+								[
+									[
+										5849,
+										5849
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_E0F1FF56":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										5629,
+										5654
+									],
+									[
+										6684,
+										6709
+									],
+									[
+										12317,
+										12342
+									]
+								],
+								"scope": "col_E0F1FF56"
+							},
+							"col_E0F1FF56_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_E0F1FF56_circle.png",
+								"regions":
+								[
+									[
+										5593,
+										5593
+									],
+									[
+										6656,
+										6656
+									],
+									[
+										12289,
+										12289
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_EEEEEEFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										9935,
+										9942
+									],
+									[
+										9971,
+										9978
+									]
+								],
+								"scope": "col_EEEEEEFF"
+							},
+							"col_EEEEEEFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_EEEEEEFF_circle.png",
+								"regions":
+								[
+									[
+										9911,
+										9911
+									],
+									[
+										9944,
+										9944
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_F6F4FCFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										4760,
+										4767
+									]
+								],
+								"scope": "col_F6F4FCFF"
+							},
+							"col_F6F4FCFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_F6F4FCFF_circle.png",
+								"regions":
+								[
+									[
+										4741,
+										4741
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_F6FAFAFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										12921,
+										12928
+									]
+								],
+								"scope": "col_F6FAFAFF"
+							},
+							"col_F6FAFAFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_F6FAFAFF_circle.png",
+								"regions":
+								[
+									[
+										12901,
+										12901
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_FAFAFAFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										9561,
+										9568
+									],
+									[
+										11832,
+										11839
+									]
+								],
+								"scope": "col_FAFAFAFF"
+							},
+							"col_FAFAFAFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_FAFAFAFF_circle.png",
+								"regions":
+								[
+									[
+										9547,
+										9547
+									],
+									[
+										11812,
+										11812
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_FF0000FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										10840,
+										10843
+									]
+								],
+								"scope": "col_FF0000FF"
+							},
+							"col_FF0000FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_FF0000FF_circle.png",
+								"regions":
+								[
+									[
+										10813,
+										10813
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_FFFFFFFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										465,
+										472
+									],
+									[
+										2491,
+										2498
+									],
+									[
+										5562,
+										5569
+									],
+									[
+										6625,
+										6632
+									],
+									[
+										7461,
+										7468
+									],
+									[
+										7916,
+										7923
+									],
+									[
+										12012,
+										12019
+									]
+								],
+								"scope": "col_FFFFFFFF"
+							},
+							"col_FFFFFFFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_FFFFFFFF_circle.png",
+								"regions":
+								[
+									[
+										456,
+										456
+									],
+									[
+										2482,
+										2482
+									],
+									[
+										5542,
+										5542
+									],
+									[
+										6605,
+										6605
+									],
+									[
+										7452,
+										7452
+									],
+									[
+										7907,
+										7907
+									],
+									[
+										12003,
+										12003
+									]
+								],
+								"scope": "col_gutter"
+							}
+						},
+						"selection":
+						[
+							[
+								11259,
+								11259
+							]
+						],
+						"settings":
+						{
+							"SL.14.region_keys":
+							[
+								"SL.csslint.Highlights.|84bbcd62dc861f63e1855b08dd4abeb525440207f8ba1b8b264577836a22d3a0|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|aa3dfcfc1b66990c80eb961278fb88a200a2f89dd2c9767ad56642807e7acad1|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|dd9ec9b22b796bbd5ec88c88c0b3e06aa75bd5184bd64f289d3930a53214e791|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|a0d9cd62a275efe9d82dbc132c7d0977e2e0133c98537ed90b83263a2ac55521|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|ab84c8537c8a759be2c8992ddd21a397183b2eb0a18168afcdd4385f7f31696b|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|bfdb0a48a1f5f4384f7894e7ec1c4e7aca0b60b3446fbd3b13e8f4c2dfd616b7|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|05fe886883deab556416294504f809c847040c108f786bf5ae11fc0e5f2bb072|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|b4d2d923f9247f74ddcc7ea7d9dc8ed4709e97e3c4f3bd6af72554ed76005bf0|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|42ebd22f5f108bbcd440b0659467966c9a7f914a73e6b343e3bae246cbacf1b8|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|f414fb201ea36a692f11d68565f72da5a32d53817d970274d62d1562fbcbf9f7|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|950f9ff2879d41b734d9652d54c46534babd29b74b41d660f783d32b765b47c5|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|6cb8427524bc537398e9cccd386d47f0f69b10d2f272dec251cd8a7ff5003651|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|1462a24063f77bdbaf1cada68d2cc2a15b8e7fa8ddd1cde465df880460663aff|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|53b7e5cd503925e3c7fa73ae86fb02506712797d0a914f01d578b347277c8653|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|a1a854e112094142c3439e780f825d11e6459304a3959930890e88c56f900f96|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|6872010e3d05552674b7fa14b6832d96b540bd93d530c58a7d477d9a1d2ba879|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|d33df09eeea49f833cb0f110d65b744c42e2a29a1143bab4163921db1a1a2b7f|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|39baefb00b02243f9522508af4a2022d4bb7157ca910e30a48df37b8dd4f4829|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
+								"SL.csslint.Highlights.|0b17f443c512b1dd926ac90f56d98dd1208253ff4eb4214bb12ebdcdee32593b|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|80d9fab73cd9667d3cd645ace975a3997da04c8bed4a6b19cbf4821ee9bb355a|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|fdcade8f88077d2c20ea02fc432842f1e75ce3c10d503051801358ecbb016436|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|10a3d467f3c7c8b5af99d4fcbf14c436a6007b48f6b1da8d22613727f5ac2b06|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|12942f9d2e7f25e2d28f993070f919d6fc52299b13919aca58846d53df9c51e1|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|74ae6136cae73d6424bae79d423a743376f3c8b7e9be24097b04e40bce5fe4bc|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|ce59485c7cb5d5427c53de7945b78ac9509e49bccdcd81894eabca0d1fe292d0|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|ab61167a18fd2baef68b449ce74c8ee7dad3670a61e4bc1bf1827919353d36fc|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|f7c1d5eacf0c7dded4d5ddd88429b0ec57e29bc7c135c5fe6e3692420d730c06|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|16c83851043aa71e291f6403f2b44548e1dec440b73f9104feb48f3815f72dc9|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|ee7ada3b3bf069447cd437f26f4f250ae8d8b30e5aadcbf933e4ac6a452af020|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|f6c1dc712ac8f0ea879501d14709980e6f4b848ba54264f1b13e0cb7b63130d8|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|67f5dbf7bf410fcbeabca6ef8fc1499b76ac2bcb43f88b856c6f3d0f6a64bdf8|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|cc9dff8fabf15f76a4caf3d630d10dff9e5520d13475364795ca694ad3e3cbb3|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|812b2d08de7ee049ceabdddb4899960897a8e05c95cc95c9ae4ed9598a6ee3a2|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|1fb5f4384351186299fdf1a88b5655ab8b42f6cdb430c484ccc50711313876b5|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|046b85995c074c0e89fdfdf529ce5c197b0ac4ab256899e9a229171bb69bdf8f|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|5b578b6ba0cf870da5c722b4e791fd1eb716fcdbb6d24c49278904922c4676fa|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|aa9ebfc61f9be9cbc5114a2e673449e9d8d6027332921910b9cc6b7d0dba58ea|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|3ae5dffa3c536588cd30aa7cb6981cf8f41272d5d82f98d562ad37822a08fd0b|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|fd07be0018b57f667a7344963ca8e243c05c585ea9062727f09b3000789253e8|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|542ca7c0fb04364e2ec66f3487a6dc368bfb923a73ba133d3e0c0cdc32f0f161|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|605d3d3d702c7fd1dbcaf181b44708487e000798c6c9979420760359d3c1cf3d|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Gutter.|region.redish markup.error.sublime_linter|dot",
+								"SL.csslint.Highlights.|f18b7e41d46e45bd70541d3d729d8a3669fc23df14fc1a37eebdfc263669d935|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|1ee45a88954559b4736eb8794c1bc88d499b1f7e950fbc63b57a12771f962719|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|51e626967f7f738ae0330093f44e37facd6ec7d06d300b92982def89a73db528|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|71440a0691963d71b65b9359ba96d33d9c048d2a0354ac3105f9c718bc268626|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|927d926b3568394a467af01f78d61ccb4c6701801bc2e632cb342bfbd7125d89|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|f4df384ae0215805051f4af81c8a4bcc777d976aac6a9fcef7e1a8953f962c06|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|2b1dc7b6f3107bdb624ecd3f3e792737137b7dc4b549107a08889e936485b650|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|ce880881c6402a6e705920384276504c7929a823c74b2fb6de49322e2b2b6bb4|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|424556b84e9702efefb8e03e00baf9325139ec97f90386eb54a96bea866dd146|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|f9a11d452cbb0435aa2f82499657dd68e2fbff216dcb788eda8bf767312bc154|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|a92354ba1458631156456bae679ccb4e3c7f19e7e302f306567289a1cdb348cd|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|96d678f7eb0c56af9aecd7574c437dbbe49264979f149202bc1b01fd073e6f6e|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|b2b8803194722eab40fdc1fe81837e05748330511e9409744d4118fd567cc769|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|02dd01927e12bfac32a58312ef7bf11239a79906fe5e8370d24e0fca704bd3eb|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|91573107b5638c3f88288c2591a242aae1de38d1941ff70927a0054b6d079660|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|83f772cc7eafa4950dae2e191c81b16718174cad9b64fdab784e667703c333da|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|680fe8ce9117a289f242001b5c39ee76b58f86d3ffc7ebf6290f0704174e9d54|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|1e8c815aa6e5708c0e327e921cd38dcdadcd65db32c19fca0e0edd00b43d6f9d|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|20211639f442bf295b580021055a4954809ac4a33308423f76d5cf1bcdf90733|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|f1579a0445d9aef50a82baef1a314a149756e5300cac9fac73c3a86d356cedc6|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|2ba6c8f7973bdeb54907da9631c28db388306b2590c0e1a3b0313278c6b62bb9|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|14718e4fecc03d43dc5c9b79145b83699faa1114e2a8ba199b37340cc33673f2|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|5baf73d425eb3b830201faf2f7ca267729fa37146c54a56c05279b87461336f4|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|ba3ccbebbba8787266e9ca3ea94adf68bfb99113715121d763480503f4902b82|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|6fa95330653ddcb020a4ad9a7b093cfb6eef35f75a3e82c93f65fbf078674a56|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|47d89fe4bec1076feba931f46c1bbfc56ab621742d57da8ab940a3933ceb0cdc|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|a9bae40636aaa9a67acdb154a41028b2b924c7ee5f5dab027d2db43558d4bb28|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|6a34183ebfe34b6f9dedbbe4a0f3ca6d0f6fb09d967554ddb461c379f49b42f7|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|1f882aff313c4248d370f1c7115d3cd6043690298ca6fc839fdcb891f52585c8|region.redish markup.error.sublime_linter|32",
+								"SL.csslint.Highlights.|b2366131db9c5d058037cfde658b7162481566e73760ed15acaa1e29a20be94c|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|47a78db7e83d98c94ad75b33472560b8f5c873169b2d8128d218ae74f5866547|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|5edcf24964a5b72bbfea14e9993370edbdcda47e76c99e88a272d3b30742f83a|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|93d1a9dd1641882579a29fc83c023bdc1e8b8e4ddb2f4ee2008d8b0472a76d92|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|c6e05e076cf9b417d03e3bf2b149aa2be3e9f8b79daf4442530a276989c31c1c|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|6321b057a39f58ea5788587048dba79af9b84d82c0bccfad43caa7348c28f581|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|35b0d45c2ca2ce65a26d949fccf75f8eeb72eaa704c5c3112e02bc11e8b95d62|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|921cfac5ac2f634cb5ca2be02bb98c8f78174b8b30a69b40e11284136686a341|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|60602ad336bf3dca1ed9493872e4800b895dd239f8a2405f4b0028478012870b|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|d803367b264ef4715b443815566b656ecd64d9be2c9f8e157e5cc783a5b8541c|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|8425927784f5b734fa234c711d018bfb19ac18e65078a921e3580e88a1814cb1|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|9b0ceb4d237fffecc78d003a876806135bb7e2e7f9819b1a6decdb8aed228e4b|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|04f7c8a338f07cdd153e43e814a0582ee73e37540fe427edc1be1c382b6b8067|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|79070a17b4caacc2ab72bd010357b7fd74a4a1ca6e7eeef32aeb04920c3dbb39|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|145c1acc3c3af6585014783f17e8e7007c2915007c5fd8bae8b2e12cb4cb4246|region.yellowish markup.warning.sublime_linter|32",
+								"sublime_linter.protected_regions",
+								"SL.csslint.Highlights.|cf76bf7bb36c831bb6ba47290544158f726ae34b1508dba678f7b20a8b526bf0|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|7428978c3514cd77a9d08196f4855eafd0d8929223cc626da095ac65813230ba|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|a33f4ca616fbc21b2e021897bea6696f21a6b0902bf538b7a7cbb49872aa4dc5|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|1727414c027cd8edbb313741bea8d69888a2beadccd48ac1614c7e4bec61a562|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|56eb5ba66ce9aab7f8805e4b414aa2b490d350b3bf8275913dd96446f2ff8499|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|b0cdc94ad16d3cc3a474bfdd9f071a02f5b4f31d044d855be4e57c10e94123e5|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|be53ebbaa186ba487e96783ccadcbd312f9c711046487dfef975dc071bb1defe|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|2b7c2712c7699001b0f3b46834f9aacce3b74e6df1cdf513b10ac78caee78493|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|cdf167c10f4f3d01bd102bb3fe5e81b23aa766a2a53af00b1651f75fd683e1cf|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|b7bbf190469e3a9faa2646a94270a72b7a98d4870f97f1d8494c54f052f80037|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|d766c6dbb87ace122f654dd664f05a89db759c689bbbab603fc44589a7ebacab|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|a48f736bbc98934de5c80923afd83f46314a7f2d19872ddad6a53d33c50405ee|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|60f8ff9d6763a0d4df5e5748c8107e68150c9d6ff9558be29d7d1ef3d7392172|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|e3dfddfca5bc01f78b73944e99c737d4b7a028f7515de0ff3b22ac814fd6e145|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|e807a6152512e56f66595b9e4993df9d3cff694e73d289f229a2e26a5af015f1|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|e5b23429e1c370799eb02a5ebd4ffb74fc34dc08c29f11b8808188cede6871d8|region.yellowish markup.warning.sublime_linter|32"
+							],
+							"SL.15.region_keys":
+							[
+								"SL.csslint.Highlights.|e64fd9aaf86bdad06b69dbf0f689198dc560e2b0cc37fab0df75a10b0246dabf|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|57f42a1d3907ecdb310a24b083f22e952e01a81daf47eaf73c9f8c134e0b591c|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|8fdacbed8c2804932673b6ed5b8f60ff510b3722ba7c84f1fa3cc6989507bbdd|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|4954b2d93af9854d3c7921abda1a89bc83a51bd114e93f8f72208784e60b45b0|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|51b34ee43278eaf02d32026662e5bbc7841769972ca3e127ffcd04962390c65e|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|e6563319bede37da750bc5c379585c10844b8556a5de2342c4901b6cf1af4774|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|60b23295a66b938e52a0659f026bf910b169520eb92aed237c6846ae13c97767|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|e10c9548e59b7d8bd498ff876082528fe5ecc0926f56beae4305ea541225ed51|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|8ced3bb649609df96af15be5fb2f5c9c5b84a456ddcd04713fe265c79a20d963|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|8f26ddd59d5433d3cb7c98e6743a658e3afcc633b397c7230a30f4b3321e7543|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|eb090861c0cf4576f626f519fc6aa5d716921240a05be366573db2000ee0befd|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|145c6ac5f10b8eaaeb18e57aeb8b456719799c854c58bc2526b306b43be63679|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|8d4a27cede477d4cf2cc1636c26805ee7375e5b1e6add51e677a70741ea443d5|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|85ac64dd840964a7f88f49f42bffc2589aabe099f967e102536d08dc39cf5593|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|577894e9aa6252cc3431b368a893454e2cd79ebed5c91145140749e4773107b5|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|5c4399d19a7f16686402160ea3da12b33f57b11292be19723c24f49c441a7162|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|ca3867ab21d9e90ffd6c741e918ab44d64f6b8ebf4264f5a950a85f7bdc07ad0|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|3150d1746540d94e6d5cd2327fc0d3b453beaf94d40bcd3265a6be2b9706a4ef|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|288329dce70bfce49fb22e309e6e851fc536d13e1518d63cd1fd55091b1c8fd8|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|319830b370262570f6426dfdf0cd80fb94cddd6cda1ffb404c870502c4e9c4ff|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|55f2ed4a674650a338a7f8da7bc93d0bd9287aa25ddab44466bf709d74e230d3|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|d6a220e21f320108cdc4d79b7d7cdd0b4c9d0c70b92659357ee76ca0ec8b36d8|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|8732b8158790e4a7b99473102875e1e7da89f1f82a9a58ee71f7bebf9c162f26|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|5a32eb8edd9bd8397472158501045485efb771abf4094b330eeb686764f10896|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|8a74ee9b69be0e46a98f4121a066c5181b12c654c2e9e63319aa0a93cb3cad57|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|5b838f140b99d2e252c6f091aacfd1fde587c52107c90cb22846e47ec6288e65|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|e32685a408147f40430400c1366d46b0a43153621d56b60dbe1773b5d468cedd|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|3c54e98a4112f901cf5cfb9370d16308df2569838aa7da610a7be4e7ff1e7c19|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|6ba981ab2b8c06161a3edbdbc78890c081b02ae8ad21f7130c7f3a10fcf31380|region.yellowish markup.warning.sublime_linter|32",
+								"sublime_linter.protected_regions",
+								"SL.csslint.Highlights.|cfe09c13c4a636b465e50c866d3b78db7c1167fdaeb3f6c877acc390cb409b0b|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|cf9e5750247c7610e17da65f4a10cbea5e6271ad65093f7e4ddb8fa7f584115c|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|01dd28b5931160fad020b599865a3b7698d590192ddb685f07d1b7a621a1174e|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|0610fb881ad299a773c0f40e06d65217e13aa6ebc4acd3a15d5b4e2900192e92|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|622a1185560e8d678b362a8f17ac00e66ad2187356e0a35e85322d594b7413e0|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|28b6ead6c00e7322629ae86cd3ff324e66650b1aa4397950dd4de68b3690bedc|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|f5a49647e843a448fb8bcb39c0658de9bb933e681da7a138ffa1b27aaf3c2ac6|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|c6304a06fe2e4976b5af4e3058a0644149dcd7c75de9ddb0c06f3d87105c3618|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|ae1edc40728ef2f8a95956bb91e90f8b84f30dd2d227db320540c9215e4b0912|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|2a437217aab48c9445735dc5ae1c615e39fb617e0a8273abd036ca3b9f946eaa|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|58cdc74b26d23de3b44bcbe580b936acbb80e64facb468f59c3a20b64d7de378|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|c6d35fde7fc3de3d8ff58ea28c48c164de471be6fc8b482404f13f8bac138b28|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|07c8d72b71edae1972d4b58db3e4eb710e291c364cd4912a41770873300122e0|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|2fe4fab85c5c943ca4ad13ff96c11c4ec21fccec4b352063f658fc7dd9d2c255|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|cf50ac4bb503b38e16639ecabdb07c7d37968793ea34955d40b71ed89f11e1f2|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|2d814dbd8b57e200933d37fb5ed8ee970861d6c0236eb470ad484106cf36b974|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|376dd55c6484c0bb4e8f160b87158dbee51b226f2ed21cc9a6bd2d662acd4ffc|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|990388b131cf0f9218b20bdd64ca11bbc7c620f0a4fe42c7798d55956280fc31|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|def06cf42dd00386e324386d1d37e8e57a259e88678ebd8e731aa7aba3760039|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|a2cd1068f01c0885c12e4ee152cc99b8ac3e4f949eaf636cb436f20e7c5eadcb|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|c03d40b2e5ed9bef92874e3f705747aa3f7a420da80f502fcb7aaf2103800146|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|a335af26f867625cea8e5ccb82d8d0fc68ea92155b292da4f9ea25d34cb8e596|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|830af6463a20fa1c65a302518347a2aa9dfdaf1fa0b837bc3b034f8dad3af750|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|6ecb9920d15bd263cecd9c43144434cd0a7444819a34f474a128a67f4940ccf2|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|3959d067a37b6a0d8ed6a6345054116d2e5239ff78e8ea24e93aa454dfd261a1|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|b6885530a1af4e1f43c6e8d2a21ac59c7e5fa80bd288c6e235d52a9870ab767e|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|a660b15ea466e226fb59d75803d74377368da774a38ccd2f58cc32e27ba6537d|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|6b28dee812e30281bf1a03743e92611625bc32a8a03db20b5f0c2cc15dccdab0|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
+								"SL.csslint.Highlights.|82b1cec8e16634e24f01722ab90872edb7047130db2aa6f377a6c00ec25d6d08|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|5506664cdcf58991d0b2d325d2bb049afa7a93e24fcc370fdf81eddbefb96a81|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|8809a04e1739ff31d4f783af3daa3baca9c3ae83fd2c6dd8b09f001fb0a9651d|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|374d4e31eebf6941d4f92525311afe3172773ba5d459eff16114e0347f583836|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|3085d377f88195438dac5b9e52f818ad5b7dd5db9d55d77a1c7b68134572f7c1|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|decceb10e310acd7d618f1bc247627813e98d552f3a38aa9358b8b22a85d1850|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|4d45e1c1fc621ecfb92fd91b3cbed1477013e9857f0498e5fb543570350df1b0|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|9b235ccc893825f45b01d5433449ce8a0048030a21679ebdb47ebe978e38456e|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|d047ce05941fa418314627075beed9e83e74d61ed6d3d22a2ab4c24383911de1|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|a5975b7cc98b66a3fc494fe204f992c8fe92b5c698c5a711f7554d8f434eef6f|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|3c79b1fd24a226c2f9abe78f20898ea708cced89831dc2b460b0ffd5cabb3885|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|94434a2c75d08ae37c5e790ae39a50a4dcd4a2f3031acfb77f655f68f0f93a8d|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|10e107de63abe62d3558b22d03f77743daa41d20930b90f945516db2166a748c|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|f8cd2a41658f87b8301fe38e0cb98296b32c0535452411c8b49677181461d361|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|008486666aaac138e52c85bad3ef3fa49be06ef6d376b4fea389c0779506738c|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|be780034cfbbd48de20b74331a729fd25184fc3935cc89ef5a53378f98b09125|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|87010bfd7469ff266121fe9e39c974851afc3450afee0c5fa5ae878eb86cb5d6|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|1fc417c45f3fbeed0f0619017e56273e7368fc415e814231e46a10a40ab31187|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|0798365da88a8794827ab42d72af0a5c35f2b20713e6e78c99a8e31caaad8a6f|region.redish markup.error.sublime_linter|32",
+								"SL.csslint.Highlights.|72bf69fd92351997807be9be31b83768efdaea32e0f7d662165e77ed8e16b0e9|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|96f45895b26686610036fbe5eaa85f9b06c8bd67eb3c65150248e49aea416172|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|d8d3a86c2fde1c6a0d44b3447ea957bc0b3412aa9f8a16e37049f7522d9e36e8|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|e30b93525ed7d1c21d6b392b5076ec2e0ac300c180ae37ad7ce6db189e08096b|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|b65e5043dad45ffd04ad2bc7a6a264eb119b1f8a604bb1a95160ecc7f40aac34|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|0ec9f18d9c046614f460e81b0114bf95339ad9c84128cc91b1e8890e80576d7a|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|4209cf37c7547703da95d81edec926871871357b4d1cc233f2aa14bca539a1f7|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|52d3594fc58afc76fdae5071a836791ae53bda5ee6f1d4ff7fdc54e6643a197d|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|585019a537439c8affabf9bc3e8b7e533fac6379e2011293b33bb87d6cdcabe0|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|a5bc4af208f8b8ff9a3e25063ddea5d1e7e962f2114a33a3bf6da62b1565e91c|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|f8ea795ad9e05280a8db6032da2ab296e30511150298b54a7573b0d80a95f9ce|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|87bc65a62dca78166b9a625a7be44086cedb64aef0754e250d556cf87b847c74|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|f6d2cd016ef6529d0ba71b687d8824df32775a5f503f19a21418c4c50492d5e2|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|9a51d11750227bb97a909223c2066c7300082efba6b5e08b73cb1df1fa60805b|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|a059a0cbfa372f93621565abb67d13bba4372eb778e6264f54fc60494ecb41ef|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|b07c4bcdd5b9020fcedb85446ee268525cc3b48e9e3869172c7496646eafde14|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|375c5fc0ea3d4630420a94c8185112050173698f33424dbdc7d88a882ebb7160|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|70d199a619b37b5ad1dd950e2fb6d24053a28c8e19884d63211907945653153d|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|d97008e4df1f809de1e4c0892a6b92cc80452723caaed53aacc648691d156164|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|8fcb7c1360d204f3b40bbe29f34e4de7a6be673faa849c290e763d1604dbcb15|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|436508f6bc63804e62b98ec287a9b0962379b15dce3b43f3bdc3e2565b96a0e0|region.redish markup.error.sublime_linter|32",
+								"SL.csslint.Highlights.|cf92f6424e1720225fedc3754f2335a3759e6fea6e3cb61a3148c205be6c40ac|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|679b30d53d3d39469fa84ea0524509cb1ee663d8684f02ddebfe8d196f5e5c57|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|0e04c52d5be5a5f61b3d447fedecd259c91987044eeed88c9bbb8bc57d54da99|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|8799508cbb39e30bb2ed13cd69f49ef627e4252995edd4f9adaf518d1de4f431|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|a8556e8431ba3fb77895c0b790608a2b2ab9f9d02ab7a18cff12d1f2475500f5|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|0df9ec48df50baae6a3108c3a36e7774f87db35536f85494c2e5160fa8dbc3e0|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|991c0bdcbd5e729571a8218732168305b1ec6f480f91c3bdb37dbb8b96778760|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|2a78a6590d922a830e035f0672781b376aebaf55b00865a96762d78c889e74a5|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|5d1edb96dcc9c11e0e271b3601a93ab30a771b8af07d3b5d21f4f57b127c1855|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|3ba9341e924da78f5f24dd98369ba785b12c69bfc7e2b83fe769d378cf6ab36d|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|ae49e2e43ccd5d4ad35152bbccc21a4bec9f2ac4a7c1913b6b879b1c1ad4ac42|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|78521c3694e01dc49f796ff0bcbb6ef1f91f841e15e82b244d8b26afc4686b84|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|917d3c6649361d68626f98a62ed86516030fef6c7c6a600031445903eff48faa|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|7502692e308c7247145bd1d267fc9dd1d221b17c12e8f39ea0457ad07d0b255f|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|308635b50d0e5c9ab15b190a1197d3b0ca84297fcd59568dc2e18aa812b02219|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|ac73a093d6f20fb0869eb03f9a192ba1100c2d454d58a5ce49c5dd8dfc93539e|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Gutter.|region.redish markup.error.sublime_linter|dot",
+								"SL.csslint.Highlights.|cd070362fb2a5be5f71eb1ec9089bbabd08b89cf612599743273f7fa562a8b17|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|7011455947fd6576701f2f50eba75e3fef6ae73214ec97aac11a30e06eb8e9f3|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|9069b9bf4b0a092ba4da14516ff9f3a9be8a04ee3dcf7c6762e0bacb45a312f8|region.yellowish markup.warning.sublime_linter|32"
+							],
+							"SL.16.region_keys":
+							[
+								"SL.csslint.Highlights.|52e588597df5cc2f2e35e2eade4d8f7a12e3a6e3742e4891a490a659c0c131ea|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|598dbcd91ede2cb8ed15ea0c756264aae9b2d8ffe4bb6711a8f28b2598b145a5|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|7104f068f93f0f10f681cc5f4b543c136a555a83865a887bfa88386c8c8da202|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|fc85fe2d556d96eeb675f6c70a1789db98d79950723774cfb244b60640a16945|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|f87adad801d8451c0867938fe8275fb38855899f6e3a3eb4940c6458ba72322e|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|0eb34e0a17975ee098a78518fe4ca9a9bc356817f65d1f2006f372c45c597f4a|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|bba9c1f98409f64887c35404c5c196ca9a9da7b2a8ffd2e3fbd7b2f8cddbe66e|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|7a4b8a61c9d6e0b9643841068973554f0708379d914278d9d2d97126b8147dfc|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|b05422edcc85dc8f28a5d9d7da4ee48e0a4486d0d26855742267d734d3adad0c|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|81919345ba12499e0546bd10a6d1818dc6270c3e301103b5a4a33db9920e56c9|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|d667363b737f0a31c2ccf454b4d0e7ea044aa39dd6f0835d61d2d0c45bcb5f61|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|c760e9d7efca0592167be94272319aacffd6364e78e4cd59f046db1fa666d98b|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|64fc7af2b4eb950508cf514f9db2e5d6231aa2bcf17c5910645604579a020e1c|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|29d0420e5c4f877f6601408bdcb330703394daff964248e3e09f0b6e589196d8|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|522e2bb9d22819906325d136d61bf850bd9369b44787048fdb85f104caaa5adb|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|4dba3d9ad9b9f799d5011b390a5e1c959a080f36749dbc40043d085acc9c4ab6|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|32b27ce5b8085e50f513a7b20a58fb94882c98f01b77626319364c9379a652fd|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|7e89a84834770be7f06412996dfbe3b3c6da8df31ee48fe9520a66e3bfa27515|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|222c14049742de5099371b8e7690876bda5c7f5f15a66d68989a5802726dcd97|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|1cdae7e812eddc5369ea35bc6b9539e670718bd2fe7834032fb1dc6078160d5e|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|69381cbcda54666d7a8309b638769f01d8aa90de692c09e6554037f18dbef032|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|030648a2d9ba77fd797dcb325ea4e202141a6f09228994b31726d07f0b0cb601|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|807e22f68dd428372b298e3f5e211d642258a3d1b2fd76a7e2fa0c41ceeecd80|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|f4a87e9691b1a4f6652982a2c472995b2c7a311528ac316204317c3397dfc7fd|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|aae693cc2741f6c0d9b5498c76bc2b8eb16486f313f4f429ba94a9e127325ae7|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|f75aaae5364377ced603b21c46a55d86894f8ff18b91f1a5890f3f7de376fae6|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|fc5f326824dd2f494fc45520f41663cf285de72e080ff1733ae1d89a29417c14|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|84aa00575429a550dc8c1531d35686e0d0ab31209ab0c611373c0a516f439a3d|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|f11306a8fe112b97fc58e0a2777a89fc95899d7b6a523951c587460973469008|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|2c0d1d3f696b57a48c5c856bc334f4a7ec364b6b8c396ecea7da3309ebab6930|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|a9b62af333fd18c1b6effc4b4a8546e6f654f02edbe09a350a74287a03aeef05|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|e7e88bcb029077bb492257d3cdef2fb3fef4e6d41e63d409a40f3b547c307033|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|2c5aa3f4823deed5ea18dcd82e3f9a23e92bddcc4e5957fa16f71c3c97d07c8d|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|a6b8b48b8dc737b22cd259e48cb178531d97de565723f918fbb4aa3c870e4d7b|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|9f8f5bd7d740fb41dd936354597f0acbf3a34aee0ba7ac1b24a6ec5fd3496812|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|934bc98cf5d29995ab7e15ed9df8282e98ce5b4b9c86dce40d66738ae86a9991|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|ee7ada3b3bf069447cd437f26f4f250ae8d8b30e5aadcbf933e4ac6a452af020|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|d08be6651e1053ff3d9b6e0ddc4b3714583ceef636e8ba2ebc80a6ef9825a63f|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|ac54aa0b601ad34ecd2e3ea7d937fb12717c32e767041f06a81e15f65011c8b2|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|6909865acc8bc9181de81cad69b912bf96e536dd8c3fb2a6b173c5f48f51f765|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|79aa38535a4538a835e379deb6c04a0603b51d8930bba039efcfea32a9dc8b7c|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|c5fd1c87645e2269bd1399f2fb5a227bdca18c24fb6078cc988bdd9355cccdc9|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|a7335b7240cccaae60e7b683708895f2fb890fc12f0939848cc3ef8541ec552a|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|a0b8c07c494b700a787fd773647d199ec6ed52327f7f37e144bd3b9570003db2|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|8edc5bfc58ca708cb5feacfb8d25bf51279195ef6affd06bed33d6f50aad661c|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|1566cab3ec846c7da7b7fe33197e20742a641d7e5d2d9950a092f4dcc30eb8ec|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|ffd967004fd0000c0ee505ccb21f8240edeac73094014bf6b341d3eeefe1fd49|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|880bf44352543ef5e79ab48a3e077c26b9474494912408e9d2f062046cd36d66|region.yellowish markup.warning.sublime_linter|32",
+								"sublime_linter.protected_regions",
+								"SL.csslint.Highlights.|645e0e4ed24198df5a96b5697798a0611504d5da620083b8a89b9bdce5e424a8|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|ed6a4aaaeb012b6dce01a7d5a5eab6a07f1ef37c9a817d2088ec8ba32e7a4ea3|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|e034e086cbe98af9caeea64008bf931ccf63f70f7788adbbad579c80d78a66b3|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|e1575309ed0ca43c0feca6c4a5b98e1808d8df00166f4f8c0e635ff12f8ee0a8|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|33ab55d625317dd9b84ee3e3c114c234ee7dd2e86fe7d024d1bca050fba7ead1|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|77d00cd20e531c0a7f5294a9358056677bd22dd25a0c4a9439bbbc36ab9ded83|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|e72d4cced53582b543805b58112e8245f38497a8d28843d3b04e207bb680e748|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|dc9a89e23db0324d41a1361f8077151d11f72bf26328fa9069f7d107c4c4f531|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|bd966ba3f37253bef02d8bee64eb3893484f412c3ed44fda1c88489ec00a06a6|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|233e83b5ed2119c5a43d5aa98c03e2ac3e6076016c8574764c659cab9734e6e5|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|243c3348d5707b19d0e53078ad2205f4bd6b5415e06629cd6086d80310883257|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|9bf9db8fdc49376ca44a7db3005b1beb58a89d81db985b3417889a23e839eba3|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|e9dad372f8e83885b879580a74bdf8bc08af3961bc0500e492f4c215a8aa3db2|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|17c9cd78b108ab8526eb46713de1aba400139ece83c373bdabb4c990fa2f40f8|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|51a7933a11fba2c4f9d20434b7051b003cf8037ede9acd05c49c1b2382ac4100|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|d8614f54b1de4d28a48083a90d11c6cab09ade58dc488d916ceec9e21faa0247|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|d51a0e8db27f5c8f6c5a9ebdafcbd75837f3eb1293b270718f875863eb9260f7|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|5e6490e06d85f0e5af3059a4368434e2e64189f97825f60821376f09b4a78ff9|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|6214891335afb5007ce1f496391519cc5c78edf63cfb501932c8eae641b23bb3|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|1c4edc1f275ad960c8c9a9e05d7cad5f669078ebabead00eb701a2afd9e08278|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|669dac0f9b064190a6adcb23356de4753888f85b8a58e91e3c2ff771094f9aa1|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|3bd54c5fc0273da105bb55a061a8ab7f253a40a732a9ffeebd53d426d61488af|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|fd7e548ea2e48cd6e8bc35c1e5f404222efe12ce9b4cf867e7e71550182a7748|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|6a8076193b9090e21f7a19f6f0e2a170de893e9a76b0ded5ea40c3f8015ab482|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|1a2389ccc601ef26660c27dd5a8b461a2643a04f7b13583cdc046a157f76a355|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|53af8b13cc421878ebeaee3f78dd2657a507fd00458adadf65201870e083dec4|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|da5fb5f86bca0466b5476cf89f02b2e93072b2d3ab75f7db5607b30f2c28a165|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|bec5b9d165a260ec95895ec543612979e1e89aab41310eb08d17ffb89bebbca5|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|bcee32586ebfe7427cfe58387e446db929fd398fc417900a04a1021802209601|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|44b270e748b4eba2b20e9868c89727ea2a960b09d2860d5fe4c0ab736cf06434|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|f3b52e8de7b1dcaaaab45f3d421b921461bca47891643d40f18a2a5c28e1b4b1|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|de5cb7cb657fbb43c61c27841e06cf7620ef06b89e3d8223f73014d91b73772b|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|44463173b947b31fd515629d87345ce7899a34afdff0b9857a1d1077431d2931|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|3238ee8092b97fa72bd44b3c89351fd98debfd32c0c4564d2f677aeba24c2628|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|8f74217daeac9766646ca4901b3514237084f640d650ac07ad227b69e987871b|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|82c86ff6269d10e2cfdfe072be7c8aab5cb943d8be82276bbdbd8fc9cd1ff518|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|62b0434967c1060932fdaccb5f24f3ba1a2fb70677efd076533c5f24feee68f9|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|cb55010ba8faf37a8513e084637bd3a1220a101e5a7252fa92e01cbcfafa5792|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
+								"SL.csslint.Highlights.|b0cad6c1e03c66517fd87061a11b9650825eeec06220d2ca259ebb03900811e1|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|14e36d918081eb8fc9885d48cef5075fd3faeabd22714c7df85702f4c8904fc5|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|cbf67cb12e0b81e4e8f719bba6fccd2f230322e27d0157047322b1d7f370d883|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|8fb968bdc8dfd6fc9ec1c46208bd8dc6a52858eb4993685abcf1750720bb2f54|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|8eaf8da45e73e68aed1c1b504dd87b6da8a7b84a93e4c6c97082e4256dd73dc7|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|ab84c8537c8a759be2c8992ddd21a397183b2eb0a18168afcdd4385f7f31696b|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|4a0fed819724ef36faf887f3a682ab9498520963ab5807311b8a0d89a47de706|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|0b0a7e5cd2c493961fd6802374c63c20c236a54d07bab62bc71ecf58d82f394e|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|f936dc06ac541c82778f366f6e9ac5275b8d12864d2ffb666c5392575c948855|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|9aa8f88c0ba9fad07cbe6dbe06443028430afe663e7f7191632297bcaded151f|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|a4f6f16dd249c45911cafd05bc95e850195733065785abbf272ed18e1e205f56|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|4fc5ad0a3f28d1ea0af7cd8ec35ca360b2ffbb7ef973cd62119d3537c7850128|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|e8b31c7bf3adf4f85277bd9a4dbf4a6b2018aa01ed00c0363cf5da6e61682559|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|c21d46b9aea2a48bd25ffe539b9e6dab55a5ac4a2f85dc1cff97f613e874dd6d|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|e9beeee42a776c123c27a230be733947ee986ad0dafce1d56ca6227093106de6|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|8a82eaf261ec994e2e599020403974441d2f1fedc03c9be71d044bef52928ca4|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|db5dfc61b7911f7b9e87e4f944aba7c43070a12de9bffaa9810fd8f2c3e9b7fe|region.yellowish markup.warning.sublime_linter|32"
+							],
+							"SL.20.region_keys":
+							[
+								"SL.csslint.Highlights.|23fcc671449b63ad64acb16ffb962cc8d1f8fff626045b1661a9a4167719d6af|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|4cc2c1bd98cd289ed0cb98ad108c88b45dbbe3560c4061ac8ecd976c4a42a9d3|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|4086410baf7ee6a26553f3e6561a1001c9ea39904b96134e92043e88a827dcce|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|619a380a27c3859038ce8e7e36c17e14adea8662c01aa106279b618969d3b558|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|708b965f348682f102412718f55c0256d88c7e4fd59f7e7a0ddafabc87d73f3f|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|460847cb4c2383fbb889d2f42d980f87ccdf5656742f1e76fec4b4fdff05fad0|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|61db7bf86bc702acbc0a8c68ad8af8f0a6982d5369c551ba0afa265bff0cfd32|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|5633ffee44f7b06c4e77ccab87bdbda4d2e8a389ebd92a74ef28474c746f4fcf|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|4376cb5384a7024dabf91eccac8dc9064a6915fbac1a722840664e40b0cf16bb|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|76f55d20136f91d6499bfeaa95d4be5e3d7865ba6e929e8bd1989120d1137c9d|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|1d8eee0823a2f2db25f44a2484bfb0893e802134886964c4550d5c49b11566d6|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|e2a3e09e77232fc53017f0cc0145194943b13e9ac50c0c7288574f02cd19eba8|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|2deb065fee4cbb527e4df0c10473c80206ce59490214f65e7544ed5ca659c420|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|abbd2bd03b9c5aa92f5086195180b405d5d78b4e170852ae182dd19adc25bd6b|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|3ee570e37ea8301f7ca663e2b9f2ce61602d7495251cd88f9d40b4adcb519a2b|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|f6206a2dcdaddaf7b0806159dcd20c54d87f547bbe9383dc5e46ff88de0e2b39|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|5d76d0e4f692a39751d7a8a0de3110c422e01c3eb4c50cd99ba2c4ebfae97cf5|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|cbbb123f640fa3e48ee06b2d2147e54c8e4ebe9dc200ae6e26d3aed79182dca3|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|bb4d3346311ef8248d4ad49c0dabffa32d192d84bf6ded17789078ae983eceeb|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|e1c5c2a044d4c3ee7f18d11483119ea18cf592741dfe98172791d3eeba28355d|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|00103074897508665911038f533bf6ca6e67e70bf0310b19a108bd0d5d4864fc|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|d11e007f98056fce45652955fb3aaba9b1a8c2c70b69ecaa34f5b82d695b576b|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|b6046488d3ea51c4a44f9429c75d78e04327436d473e789306742817eb8d76e2|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|328b09a35f4b130720a8668b84153547525e44b0868949ed7b799113b217b4a0|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|6d044f303006bc51a254c3a3be87ae3843888713a46039aca75bd0abf3bf593f|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|19c15f9cc24198b6f8d133eaad1c235377af65fd4fe7f5683629a90dcc19035c|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|9db1839336ff6be9dcfa4619b02f8992480f67655ca8c0f043134693837677c1|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|51df530c8c59fa7a24db7259008e074418b82c70017f4d25f21c097e3e106b43|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|9181be7dc0a2541f5b20b5e6a13f6f7f2202b45ed77c702d8e938ac48f1d030c|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|c0965cc934898622de725baf85e1e764889ba6b1e9e4ebb83808ce73733c575e|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|684ed4ec6fa3dd0060741848a25e43f231ff258b9c9a3db5b6ed76d0dd4ccf28|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|a1e1aa01bdc7654508f9d61b7472a4371e5a24142fcc1bd6513a70bb546614c6|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|9a8405f5ba4f7037624c9842ea47fe2deb5b5776f73012fbec408ad6c5cdbfd0|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|65fdbc72481f36f5b77c4be9aa9d706c88c0b0787fdb76e1118bbf56b1677187|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|9fafad7466f996c0f6178ec5467bc7a0af4e2ab6712da085c6ab73b91fc8c7ff|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|5043e556ced7755d0e49b68f5b95b5faae170015b185fe2706842c2fb26110e1|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|f0731ae9bc1c7334ec356c137af174248880638e4de3896a5378e42863b944ef|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
+								"SL.csslint.Highlights.|ac0bdd47dbbc404fd4ea7923b46b4f15ff5a4e37c608d6b968386d2d6143a31b|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|4e94518d5a2aabc1e88b9e97f1603253e86e9ea255f3f1d7975a48f7956525f8|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|878d7cdafb0438ed1f55612e3f6bf94c20fc03736969748299f9b3ccc99bd740|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|6c3fe4f2f491fe5bdb5b6b3c5638f13dbceb680f9de11a1c44fa351e92d37c2f|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|aa8f69be7415686129ba4e6db8254948bd86ffb49455a8758bc019c4f27ca43e|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|a268935907ef02ba9a692118639ce4179cf6168aaeb74df51efea86cac37d1a4|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|711fe8232773c2928726b8e3626c7ad713015929c21d59eaa7c1fb7e8de000af|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|8967166afb8e9ccd5187a79859762cf011d78f4140929576627e300ef33a39a8|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|63e946aad9df9fa7f023753d409b68ce99759dad5bb226071389bc905b275831|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|cb2960a8679baf70648ed8b1a977954dabc932d155b6db426ee43fc9b81296bb|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|aa2cd83ad50cf77fd228609c102cba368983c2327d23a6c8299437423e10b3be|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|ac86328386c9ac4035dd729b4a91c7248456cf500c969e11cd857bc188e53b5c|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|c03fe036910864328ee2d8bfdf22686fda85a96706432d66992019e8a9a07959|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|015a69f84a4b3ffc56ebe73c08d4e6fb4f976b39bf2c6d7da7249145f261e0c9|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|a8ca234dfae78d1d601159158c4204063d816762c6f4df6cbbb006e6365807a3|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|4a5dcba4e642f3110382fb5fdff7b484f2135914caf6b698286071d85f4754d6|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|a9dbe31de045e41e35130067fcab9df6bb906db0fc5ffaa035967de51c816bde|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|23ad0ea4235fab22bb5946a154dae4e1cd4e4170dc83364cc1182007de377880|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|3b35faa6132f76b320919a1b3bcf0b6bc63e3b5fae166284279174958f8771e7|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|ee7ada3b3bf069447cd437f26f4f250ae8d8b30e5aadcbf933e4ac6a452af020|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|6e6c8eaa8149f1d38aa40961e401c8b8d4a24bf59e243e50bfea91edbd7c0cc6|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|ba3e31a4cac21b31bd3d04db68d58b416b673745fa3b468c7e553ad3c4bed3f3|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|a839e85ea2b31fd7e09ba7887c99da6d3b7e49a472e506a82f08002062f06c67|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|249fcbbdce52db4dba35e08a85e6ebc0e6b371428a13c4bcf8688e5abae44ff8|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|3a237737e5e4a67330c5199935d542120a8ed5453f9b18e08c72f587fd2d2e04|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|f9c4bcd25107eb7053320e72ddbd068e0306ed51845086e4284d03f92596e19a|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|15f90950521223ffdc57ec55f3043c2025fcf9661b361b9ad3b27371eecbc230|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|e84dff5141ae910b75d298ef6fa8989c8dcb1a4d4496db37aa858ae597c0844c|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|c97710957879c047a2667e2acbcb9c7c969d66a38034c958fac55b5667f8f4f5|region.yellowish markup.warning.sublime_linter|32",
+								"sublime_linter.protected_regions",
+								"SL.csslint.Highlights.|1c546070012c424ab3beb9550156d0806233c978d61c8870b7037cfed8523a74|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|61f39c112d46e5663a56c9b5a750183bee0e6a2ba60d5eca53979a1177ee860c|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|2be554940ff8ab254fb7a19e227f61dd8b6100cdfc37ee47554560d51f6137c7|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|a3720b2d6cb466b99074036bafe0b78ca859cac2b630d053aa230dd16e012eb8|region.yellowish markup.warning.sublime_linter|32"
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+									"1":
+									[
+										11256,
+										11257
+									]
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 13082.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/htmlacademy/932587-sedona-25/css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 16797,
+						"regions":
+						{
+							"col_000000FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										128,
+										135
+									],
+									[
+										337,
+										344
+									],
+									[
+										865,
+										872
+									],
+									[
+										1147,
+										1154
+									],
+									[
+										5226,
+										5233
+									],
+									[
+										7829,
+										7836
+									],
+									[
+										7945,
+										7952
+									],
+									[
+										13056,
+										13063
+									],
+									[
+										13875,
+										13882
+									],
+									[
+										15339,
+										15346
+									]
+								],
+								"scope": "col_000000FF"
+							},
+							"col_000000FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_000000FF_circle.png",
+								"regions":
+								[
+									[
+										119,
+										119
+									],
+									[
+										304,
+										304
+									],
+									[
+										854,
+										854
+									],
+									[
+										1136,
+										1136
+									],
+									[
+										5216,
+										5216
+									],
+									[
+										7820,
+										7820
+									],
+									[
+										7936,
+										7936
+									],
+									[
+										13047,
+										13047
+									],
+									[
+										13867,
+										13867
+									],
+									[
+										15329,
+										15329
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_00010133":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										12554,
+										12572
+									]
+								],
+								"scope": "col_00010133"
+							},
+							"col_00010133_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_00010133_circle.png",
+								"regions":
+								[
+									[
+										12528,
+										12528
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_231F20FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										14363,
+										14370
+									],
+									[
+										14632,
+										14639
+									]
+								],
+								"scope": "col_231F20FF"
+							},
+							"col_231F20FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_231F20FF_circle.png",
+								"regions":
+								[
+									[
+										14335,
+										14335
+									],
+									[
+										14607,
+										14607
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_4E4E4EFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										4708,
+										4715
+									]
+								],
+								"scope": "col_4E4E4EFF"
+							},
+							"col_4E4E4EFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_4E4E4EFF_circle.png",
+								"regions":
+								[
+									[
+										4697,
+										4697
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_503E33FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										5340,
+										5347
+									],
+									[
+										15977,
+										15984
+									]
+								],
+								"scope": "col_503E33FF"
+							},
+							"col_503E33FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_503E33FF_circle.png",
+								"regions":
+								[
+									[
+										5318,
+										5318
+									],
+									[
+										15957,
+										15957
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_5496BDFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										8432,
+										8439
+									],
+									[
+										9194,
+										9201
+									],
+									[
+										16135,
+										16142
+									],
+									[
+										16209,
+										16216
+									]
+								],
+								"scope": "col_5496BDFF"
+							},
+							"col_5496BDFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_5496BDFF_circle.png",
+								"regions":
+								[
+									[
+										8412,
+										8412
+									],
+									[
+										9174,
+										9174
+									],
+									[
+										16115,
+										16115
+									],
+									[
+										16189,
+										16189
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_604E43FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										5282,
+										5289
+									],
+									[
+										15920,
+										15927
+									]
+								],
+								"scope": "col_604E43FF"
+							},
+							"col_604E43FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_604E43FF_circle.png",
+								"regions":
+								[
+									[
+										5261,
+										5261
+									],
+									[
+										15900,
+										15900
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_669EC0FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										8383,
+										8390
+									],
+									[
+										9134,
+										9141
+									]
+								],
+								"scope": "col_669EC0FF"
+							},
+							"col_669EC0FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_669EC0FF_circle.png",
+								"regions":
+								[
+									[
+										8363,
+										8363
+									],
+									[
+										9114,
+										9114
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_6A6A6AFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										11170,
+										11177
+									]
+								],
+								"scope": "col_6A6A6AFF"
+							},
+							"col_6A6A6AFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_6A6A6AFF_circle.png",
+								"regions":
+								[
+									[
+										11154,
+										11154
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_766357FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										1266,
+										1273
+									],
+									[
+										5048,
+										5055
+									],
+									[
+										15804,
+										15811
+									]
+								],
+								"scope": "col_766357FF"
+							},
+							"col_766357FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_766357FF_circle.png",
+								"regions":
+								[
+									[
+										1255,
+										1255
+									],
+									[
+										5026,
+										5026
+									],
+									[
+										15784,
+										15784
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_766860FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										15995,
+										16002
+									]
+								],
+								"scope": "col_766860FF"
+							},
+							"col_766860FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_766860FF_circle.png",
+								"regions":
+								[
+									[
+										15986,
+										15986
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_7AADCBFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										8450,
+										8457
+									]
+								],
+								"scope": "col_7AADCBFF"
+							},
+							"col_7AADCBFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_7AADCBFF_circle.png",
+								"regions":
+								[
+									[
+										8441,
+										8441
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_81B3D2FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										1092,
+										1099
+									],
+									[
+										2589,
+										2596
+									],
+									[
+										7894,
+										7901
+									],
+									[
+										8165,
+										8172
+									],
+									[
+										9029,
+										9036
+									],
+									[
+										13762,
+										13769
+									],
+									[
+										13827,
+										13834
+									],
+									[
+										14430,
+										14437
+									],
+									[
+										14567,
+										14574
+									],
+									[
+										14698,
+										14705
+									],
+									[
+										16060,
+										16067
+									]
+								],
+								"scope": "col_81B3D2FF"
+							},
+							"col_81B3D2FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_81B3D2FF_circle.png",
+								"regions":
+								[
+									[
+										1081,
+										1081
+									],
+									[
+										2567,
+										2567
+									],
+									[
+										7885,
+										7885
+									],
+									[
+										8145,
+										8145
+									],
+									[
+										9009,
+										9009
+									],
+									[
+										13734,
+										13734
+									],
+									[
+										13819,
+										13819
+									],
+									[
+										14402,
+										14402
+									],
+									[
+										14542,
+										14542
+									],
+									[
+										14673,
+										14673
+									],
+									[
+										16040,
+										16040
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_88B6D1FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										16227,
+										16234
+									]
+								],
+								"scope": "col_88B6D1FF"
+							},
+							"col_88B6D1FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_88B6D1FF_circle.png",
+								"regions":
+								[
+									[
+										16218,
+										16218
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_92BDD8FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										15404,
+										15411
+									]
+								],
+								"scope": "col_92BDD8FF"
+							},
+							"col_92BDD8FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_92BDD8FF_circle.png",
+								"regions":
+								[
+									[
+										15395,
+										15395
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_A9A9A9FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										7603,
+										7610
+									],
+									[
+										7766,
+										7773
+									]
+								],
+								"scope": "col_A9A9A9FF"
+							},
+							"col_A9A9A9FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_A9A9A9FF_circle.png",
+								"regions":
+								[
+									[
+										7594,
+										7594
+									],
+									[
+										7756,
+										7756
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_ABABABFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										12467,
+										12474
+									]
+								],
+								"scope": "col_ABABABFF"
+							},
+							"col_ABABABFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_ABABABFF_circle.png",
+								"regions":
+								[
+									[
+										12453,
+										12453
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_B2B2B2FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										15457,
+										15464
+									]
+								],
+								"scope": "col_B2B2B2FF"
+							},
+							"col_B2B2B2FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_B2B2B2FF_circle.png",
+								"regions":
+								[
+									[
+										15447,
+										15447
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_B3D1E4FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										14023,
+										14030
+									]
+								],
+								"scope": "col_B3D1E4FF"
+							},
+							"col_B3D1E4FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_B3D1E4FF_circle.png",
+								"regions":
+								[
+									[
+										14014,
+										14014
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_B6B6B6FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										13780,
+										13787
+									]
+								],
+								"scope": "col_B6B6B6FF"
+							},
+							"col_B6B6B6FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_B6B6B6FF_circle.png",
+								"regions":
+								[
+									[
+										13771,
+										13771
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_CACACAFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										14297,
+										14304
+									],
+									[
+										14506,
+										14513
+									]
+								],
+								"scope": "col_CACACAFF"
+							},
+							"col_CACACAFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_CACACAFF_circle.png",
+								"regions":
+								[
+									[
+										14269,
+										14269
+									],
+									[
+										14481,
+										14481
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_E5E5E5FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										6571,
+										6578
+									],
+									[
+										13211,
+										13218
+									],
+									[
+										15063,
+										15070
+									]
+								],
+								"scope": "col_E5E5E5FF"
+							},
+							"col_E5E5E5FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_E5E5E5FF_circle.png",
+								"regions":
+								[
+									[
+										6549,
+										6549
+									],
+									[
+										13184,
+										13184
+									],
+									[
+										15037,
+										15037
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_EBEBEBFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										7276,
+										7283
+									]
+								],
+								"scope": "col_EBEBEBFF"
+							},
+							"col_EBEBEBFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_EBEBEBFF_circle.png",
+								"regions":
+								[
+									[
+										7256,
+										7256
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_EEEEEEFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										2270,
+										2277
+									]
+								],
+								"scope": "col_EEEEEEFF"
+							},
+							"col_EEEEEEFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_EEEEEEFF_circle.png",
+								"regions":
+								[
+									[
+										2248,
+										2248
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_F2F2F2FF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										6994,
+										7001
+									],
+									[
+										7165,
+										7172
+									],
+									[
+										16403,
+										16410
+									]
+								],
+								"scope": "col_F2F2F2FF"
+							},
+							"col_F2F2F2FF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_F2F2F2FF_circle.png",
+								"regions":
+								[
+									[
+										6974,
+										6974
+									],
+									[
+										7145,
+										7145
+									],
+									[
+										16384,
+										16384
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_FFFFFF4C":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										12226,
+										12250
+									]
+								],
+								"scope": "col_FFFFFF4C"
+							},
+							"col_FFFFFF4C_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_FFFFFF4C_circle.png",
+								"regions":
+								[
+									[
+										12212,
+										12212
+									]
+								],
+								"scope": "col_gutter"
+							},
+							"col_FFFFFFFF":
+							{
+								"flags": 16,
+								"regions":
+								[
+									[
+										186,
+										193
+									],
+									[
+										2560,
+										2565
+									],
+									[
+										5390,
+										5397
+									],
+									[
+										5800,
+										5807
+									],
+									[
+										6543,
+										6547
+									],
+									[
+										7362,
+										7369
+									],
+									[
+										8183,
+										8190
+									],
+									[
+										10095,
+										10102
+									],
+									[
+										10789,
+										10796
+									],
+									[
+										11671,
+										11678
+									],
+									[
+										11852,
+										11859
+									],
+									[
+										12360,
+										12367
+									],
+									[
+										12497,
+										12504
+									],
+									[
+										12639,
+										12646
+									],
+									[
+										12886,
+										12893
+									],
+									[
+										12971,
+										12978
+									],
+									[
+										13079,
+										13086
+									],
+									[
+										15822,
+										15829
+									]
+								],
+								"scope": "col_FFFFFFFF"
+							},
+							"col_FFFFFFFF_icon":
+							{
+								"flags": 16,
+								"icon": "Packages/User/Color Highlight.cache/col_FFFFFFFF_circle.png",
+								"regions":
+								[
+									[
+										166,
+										166
+									],
+									[
+										2549,
+										2549
+									],
+									[
+										5379,
+										5379
+									],
+									[
+										5778,
+										5778
+									],
+									[
+										6521,
+										6521
+									],
+									[
+										7342,
+										7342
+									],
+									[
+										8174,
+										8174
+									],
+									[
+										10086,
+										10086
+									],
+									[
+										10769,
+										10769
+									],
+									[
+										11657,
+										11657
+									],
+									[
+										11832,
+										11832
+									],
+									[
+										12346,
+										12346
+									],
+									[
+										12476,
+										12476
+									],
+									[
+										12618,
+										12618
+									],
+									[
+										12877,
+										12877
+									],
+									[
+										12951,
+										12951
+									],
+									[
+										13065,
+										13065
+									],
+									[
+										15813,
+										15813
+									]
+								],
+								"scope": "col_gutter"
+							}
+						},
+						"selection":
+						[
+							[
+								6,
+								6
+							]
+						],
+						"settings":
+						{
+							"SL.17.region_keys":
+							[
+								"SL.csslint.Highlights.|17ca8a477d3b8fe5dac4aff5259dff864962c1ae200e7af2cbd6be3280b0d8cc|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|65ce699e35c3488279317dd4aefe9714285f2e36c6aa5686e00bddb9a9507eb8|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|298d8b8afa3dfea8e8f54a6136dff67e1d621a991d04d022cc2cda784ddcd812|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|df6a7bd1e89adf8476957c687d44f126a5127a5a46856122a81030cbf000f6c4|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|0a920f29f7e9a85c0e64cc9c2c8dc775dfa1824925fc728c876cb0a73ffd0170|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|52b4500ffc480d57b14859c5b80a76d66fb2406572a36c8964e59669e92aa5ce|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|0fc846c063a6528812bccdc24470caf2de4dd93305845fd317719adaf8153c8e|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|9fe40b88590924f447b62328abc7f9a7f17d18abd39cedbd02d80788e0245c0e|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|51024060df9a2c81ad523482f240a66b00b7b43db412f210427e2d891329eb5e|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|141418deb4fd36086d325234f0bc942b67851137ad7ddb0dcec9ef553ecc2cf0|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|7f6bf0c3c10ee913d1a37a312e901a3a6c12b24cc6371ce797b1b48babe26041|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|f8ce39873f510bcc2e91a1c4a1f4c0d4a3009c788a0c869810b49b92cab70e22|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|0489bb598b39438780f33002157e987fd70b7acee10b911e55ab9aa6d72a6762|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|84c94431087e92de938aad51203231d601d9bccf588780dd70c30f1ef92cff7b|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|ac852894a36afbfd584c162211da0aea8c99be1be957fef80936a99e6909ef4e|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|fa7a8a12bbd8d3c6ef4494d7d4e075176b3c87241f8232b41cfef390874e636e|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|9f5a85cf7d32652cdd7e51ed37fe78511acb2ae09f759979f7431ad292b2adb0|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|60ab5ad9dca6069bc6c5c6f07583332ea1f4322921424a03c0fcd8b6174a1195|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|5b1b6a822b443ae209c3c018e00c52296f6c0b81fdfd6a459e80d3acf9a0555b|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|4c9af53a8943004726ae5e026121eb5beb0edc03979fae79c53df0f36baee668|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|367a60005a1221c41e1fbc5f7064d34cb8c76fc30f2d3b8157384877a16a6019|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|29289b18501755701806654942f1e00556f2d7f1997fdbe79a85324c33e923a6|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|52222c0da4b208968eb09a7de1eb5265c85e96ed6834f5248c0efeeefc1e0e29|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|e9f21c2bcd018153eab564242a9de86e58bec0426262e98f6c95fc9209381335|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|e923a873295916847c47f0c953965789d8c1c630e1b670f32e19668327fbea22|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|6332985b228eb3f559b6a492d9db358a932f6c49450c6e38594d477d0c09e9a0|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|ffce61ad11c089d6f4923b4bd00d453640e0a912489b47c9d854641df417987c|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|9eb7e072ff346d9cba04f5d62c6a1d4db334f8f3a0b30d0a7ceaf65e1bc7203a|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|43737c0d36bb57f56f9875f1d67886e4b27f9628cf26da02e16f5bdecc99eb47|region.yellowish markup.warning.sublime_linter|32",
+								"sublime_linter.protected_regions",
+								"SL.csslint.Highlights.|43d50af72c3f2088af515e3bdf8ba4f68de8bf56544cc11309c1590eee10e4fb|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|2ee35075a800a30b2a673a6feb122ed969d479774f0c473f0ff6d9dbf5a3aa06|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|0092c74fdd7aaf229d3e9a63d45ef27e58a37f29ad7d275d13ad16118bba6572|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|b8bf34cf8829852675a97d24ae7f8d7c5c96f87e72d03e330406b6dae7445cab|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|efdfbb5b86efcb62587a4eff626bf06c0c68eda638bf335af8a3a34e184d1d29|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|9a7f05f12f9ba47b596542045bdbea76dc0c9eb81e21192f04d11ec43c058ebe|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|453ce817da22aa3c357c03f9f1a12692f03358591865780eb7f55392890d31ab|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|dc4df1cd705031862410a3fadf2f9c91c3c5d33dbecb7037a743f47ffdad640e|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|b2ac5786a73dff125808a027f736d1941e3b0ff09cf79f56af7d1cbf7d5a3fb3|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|62c3fab0eba7545de1f74fe2ebf71a191f2787b7823e5a1003ac24b30f8771c5|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|59a1812e993e37718da223b3aeae4af54e465a6dcb2056900f3e952ae31c1e8c|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|0c8fd799dcdd00f48bc1a4f95fa39959798bc3fd968f45cc3381d46ab50b56f2|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|aca74f46e4390775c84e8d6db3542580bbec9d8cf009cff617d0f8ccaf852556|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|fec43b5ffb3b0e4d6b0718437d4aba5888a95e7a84e44bc5f950240d7d0a5675|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|a67a1a8478c7ff6dd6a3264eaa0551791c42f302d82420b524e879fcd9af7b29|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|144f3ee2710fbd13f85cd92de30d5124257a6349dc79d433fc1c52fe6eb758b3|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|f981504f9650bc1149e5394258e96d8490f785ecf0bebf15e671c4b4ee11d48f|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|27e84c7c62dd93eda1ed56f817ed708852100c28470c0b1bddcbe68a090e518b|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|790fdfcdf4f7a819e3cc7f3e5923a86ff45bc7276e02f1632355a7affebc05f3|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|ba3819288536b997cb446dda57d2622d33b5626e787e36c65b67a7bbed560da6|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|eda745d6a1360c452845474fbadc397d5be0c523ce67610124cc2387643ccd2a|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|a38af99c527d423c5f94484aaaf26862151fafeaa936e07f22863d2375e3c4b8|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|5390ca5936e24043d795bc23345fc786e8c53fa7cce263beb975fe4e26d55eb6|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|dfd7dc624e44405f0c0f87e20322eb408dcd8c78563588a0f18319b5fb060649|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|09d09debbba43ac6604564f592671a600b2cdfb283324b8ad3deb74078d78067|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|d8d2c63fa9ab8916de0c737e4830b2d66d707df2445a1ff7059d9006ba92d510|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|331f0a96e1cdbe8a8f9f508c918a6c7bba25795c1dd243c69874d2148aa68e1e|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|6f9fd3e4d73f8c526c0d9ce4210299166f2972a972a00a36b31964c02ecdd16a|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|5dff1836b57376b2fa027d8a6fed5ee6f1e815d8c0c9ae7ef02f07b711ea8c8b|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|43da7715e9da2e2df77fa947597abc60aac9e5310b98ff037e24b33704d742c8|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|2d21b5a1930e614eed06a268b6d388ccdf486e6031baeede4cf680825a291a4f|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|79f2b492ef76f3f374bbe940bcae1bcfdd2c146e70b87b5e7bf077e1a18d13a1|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|5d50a61f505513a5e15fe4bd0671c6f9d268ceeb1642f626a787dc7cec727e52|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|109099252c32a0ac6959dfbdf9040e7891bdffefb41055276282a302c1a122eb|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|ba4ddfdeb8851635aa5edd367a01b0c5d7078058e5f843d8d3997d17cb0efc2d|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|35c5dfd4d269ac0f7c99109dc775b0e4a44e2536ad5e369b08a25dbbbab9c54a|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|cbf18d7318501ca9cab8eb373399b93ab4171bb4eb8ca558812e5d75607f9f83|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|644c5288d6ba195d5eccc5fb808d0261c87a3013348683bf2796e1bd8c4a12ea|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|50c029cbce77e3d4c2dc0c540a80276b751a83e3e2f4cf441a1a822f6de07a7a|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|102c1822ea9ee430b4673a1e1d434cdc2fe08a45a9570c7b48bd56548937ae9e|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|5d65aa5c7ee2753cca7056856ceb60803f97cc536d5d26c7e738cb51f83069a7|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|7f4091c95986cd82c3d262ef9a7425c8e1fc7200ed8501585f8349c7874f6bea|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|b8b221d5aac087612f4d3eab18a0e388e0d86c28b4227fe6b33ed31609a04197|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|713fcf2e70a9999ce53ba1a2c036cc6e4d9206a85cb1f3a0f03c308abdf0e9c0|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|d96b368096077194a56cf1fbb5138065c87251f907533c30b42f342b5cd6f51d|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|42383232db3087053695c1f51f6322743657266d7a9d2c06061ec3763e57f480|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|e3773b0177eee5346de4aeef87ec3a82a9a373dca2bfeb86842291248d193119|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|3c0060592e00c8af844d1f0d6870e6fd42876cec480a2302228f6deffc193e30|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|dec3366cfbeebce7cd4d98a79286386aa5015f0da93ea2f92b82ee9ccd3da9aa|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|3c1327825f515b21d905acf02687affa1b96d3bcf2491176a258d82d67db8c3a|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|a0833be1e896e15093e721657648727f85f9fb1f02567002f9a69654347c9a42|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|7ae9b48e7aa5fca1d58640bc23e6823347860478d6171dbf90f8efd16a8fac39|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|9e8915ed68761d7e5aeafb2bd1072f1dc7af0d3d3169d937471fbd8c8aa804e9|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|e74d22c075fd33abfa5772a6b248273638416163c0859a920823944397e7294b|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|7b1aa1be4a47af23727df263e6ae995ad90bcde8e295d057a66bbb5bd27a7803|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|33ffbea5545acf151b32eaf108c49d1049abbf49cf3a2b45b338f6f2fa269c6e|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|84dec6c0960fae5709fd6e37f8d48b1dc97fe2e78e49ada96d618b6ddb419f4f|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|99ae8aa46351dcfea1f321e57961a0e57692f46cae6224b9399213ce9374dd35|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|b8b4b91d11ac047d19fc0885ef17adf78f57da36ebd59dc2806b80f4589e1525|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|264d0e92a5479b6c519ba682c8124ae3a1d21ffd13cbea8173a37896ef78bd02|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|cdad6d436e81c461974c47e36bd64ef2a863e4fdd69e0067680147d8ac87263b|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|d13fba6e6a1122afacfeb30dd5011166cc484dbe5cfd2af01d4a6ceb63d1501d|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|97b2f674aaec361a8604b5cbe979e734f5424e5128ed3c303b3679e2ea6a7d3a|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|eb48419ebfec74d91573f7733ed5dc656f3b53c933fdf28ee613016e119fc124|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|201d74a65b14c332cf9f31c2063e8eae6b8f9d83a81b31ab9a181dc76bed98a0|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|36bd6945e2f5b14a860088171268b76b973152e68ec7bd224f1194bade7459c8|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|06e6fe84e69429c1e7c997a65f2aeda5ae3de43984b47e408a5237750e935eca|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|b10ca6660db1831b92104d224a1c8cde89150b32d9c0e573e2f0e3e3c79f83b5|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|e9e8e83675ab3df0001e732b80d84207054816b4b16d7cbaf6385e24646baf4f|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|c1de476be42404e45b67539140b192ac7381bdfa8acd7c3efb6942b0bf6505f4|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|e5bec3db41df67b67416c534bb8047137eb2f4e2051ca98a2cf7667f5d557ec7|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|f085c597f4de83d9cea8d90ec23bff16f5edff46ee061ce4588fc7669fb286f8|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|bc76d3be79aef2d7d4d82fdcd06bcde58c3e469f684e10f09a70e4e23d06fa1c|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|9b69c5805c3213e08ff985d12a948639c07636d869b66c90b58b42dc536ea375|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|630e8f4b55bb5978903c8abf0bfe352ecf53aaf82874a886f568923875dc59b3|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|c08b8d51aa842fc8cf99f6866c19313381f2b284eaa9f8ccdb75f27b96fe3737|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|8427e04e3cf8b717ff60b47231bf27aa8f4f710c305a0487fea2ea1d2343f395|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|ff220db32ee4b29e7cd6abc7a773b2109dd92c0bd453aff5ec7f311d5cfc4ec2|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|e962ef3d15939eae56b367dadb52f48b10580920dba25a6e3df69306062f88c1|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|10c66406ec283e2ea5e0a85e8e4c010f446e54b4395999a94c758ec4fcc44121|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|3696876976f398f3a62cf225f576ac202cfaef373bc11dd48328a6e94798c05d|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|90c7dd0bf5a561ac6010a289c4ab82d8021a7e98998c62ae6f7211af5d895d2b|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|1ddae029d1393399561db57d0ffcf18a22d6fc7f795955f342b493c179a69fb3|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|b15ae9f0e514614bb3b55dbd005d75de4e94bd7148835c271714db03913fd753|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
+								"SL.csslint.Highlights.|26af6652c7f54dc8a383b5b93e8d2d45f9b47b7b33714be1e9cd9a844ba9f145|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|dd45d78ad548840a503efac1a001ec1eb9266eea8f5e8c8e6fede4a6abb6c7b1|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|5160c38398dcaea920ed4ca60bb68aaf12e351116e042d719e88d9152a817ab2|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|19b22967b833f881cbf5ef0f00cdf19e50997bd9a4ac11cb69c2d0b8272f12dd|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|6771a752ac78fd3b9c94d9309e6277473f2c030c827b3356317f98efc16af09b|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|2b3825309d57c78655a9495e7f125e58a32e3525dcb2078aa385486a9b61c26b|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|0c036ca69095d9603d1cdb66fff368d773650fb4cf7807054de63c0b5740615e|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|03bccb35e76f7cc04a96f72d34fe7075f98be00a68de8712cfcd928f66c196e9|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|5a7722e32f654126a82def38174f75bbc947c1a893d4ee473eeb16efc492ad46|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|b6ed9f08fbdea5fbabdd9b98c253dc7fadb91e9cd6fb6bddaa2aa487faa0d332|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|b0dc352eb3eecd7f51dd550df9a94a91708836e308f5f975fc99e45351a89594|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|f3f70e171723406d97cf1bce1df5a3a7028deab5d1d1c0505e0c15261e3d88c8|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|6fcbe63865dded7796f6e5078edbfa625b3989b34d868002068b48a7f3f0dad7|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|5fd6b917d28168febe186992fd1ae88ab9333d92003b7628cd9c52fc00e02eaa|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|1ceda56c50bfff132f097de9ea47d694dfef2fc96a089b0cbac7dcfde67fa946|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|1cbbcdd0bcf1e3932e4beab06f39b532b8c4dcde03ff309a3c3922091bb46144|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|5d6308bcae2f5a693ced418071dcc84aa390c2c393d80c89da628cb1e607484e|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|6f973bc39301456f50e57374d8ec33a80a339ad681ba11aeaca6c72516f4cc47|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|b598e75d27797b7bc675bf16d302dd6cf7c9ea5097d3510a0a72f86fa017590b|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|e1a1c3c60b25bcdbd05d80537aaea84534de0609cde80621492eb919242bc9cf|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|2397b8404aa3712cef45d5156bd1708e44996abaf2450198d5b85a8ae60cf24b|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|a415609dfdce21061f561aaf9eb10d7e177ab72f7eae0b05cb61fb1cae61d6a7|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|88f42f9c86732f6ce94c321a15778433be4e9cffcae99c23e74ce6b48d0bdc7d|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|387b921f8f0ea6417989e77a2d7c2d2cbb49e0a10994c7c2b8a95edf5b364c2a|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|a5cfcdb0a45d041cc556b5c853367e6f6667b0c00dae202d2f8be44b6dce4b2f|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|dba81fb5a6a645bd8c284e7467053c03aada41eff2bf86791c057ec0d36584c2|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|d67c90c300300fb1c292ea08b09de6c265b2004ce35808d637e2ae83f3183feb|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|526188167d683c72079b45e88df5243c83a240d68adc1461043a54a602df494c|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|8122d377323491ccee429b779193131ee9dfec600fdfedae3d9726c5a2be0cfc|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|94108364759ff16db7a23374bac215d3c54378d46249ece8bdba50e63627e131|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|badca64b5a1e659848b39ecba00bc37b19cb7c484df52f9201aad69ac0dbe97d|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|327fb1019797d85d4aae8c5588fb3d276fbe9986fb3345b35fd84d5051184979|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|84b9e0bafa178770ac0de66503c099faa89b1697f45b83d7d129dae0ddab6c73|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|f6a99387e7467db0682e85849874643845ceabeb291f99114f1e8dd5d1e656cb|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|a0ad4f94c35176773b4bf3fc808bad6ba7e7cef346441109f88d0fa450f6ebe5|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|bef0c30ce45dc0752554e63356e248b38bf628784091d03c527660a49ebfbf4b|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|e896b36d1e3d6601abf13b03e13ac07c7b0ad3257fbc1c3f62275a0ec16811fe|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|b64644658b34f25475ad2607fad2e1f5a6e55da9980044cb6bcd4214b640402b|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|59ceac6b2d706d947c5351691fb82530afd422166587fb7f86e74d4de64d2a8a|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|9ade3442dacb7682590eb843b88a184355847274d421ef41017eb5ff17704482|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|3bd63b8b885ca7003ac397beb0dd140d0b6ff7c57c8aee402c910537957d17f9|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|c2cf3882776a2fcb9a7050debc988d1535e7a96091251255248321aa2140159f|region.yellowish markup.warning.sublime_linter|32"
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										195,
+										196
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										5,
+										6
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 68.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.SublimeLinter Messages":
+	{
+		"height": 132.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 138.0
+	},
+	"pinned_build_system": "",
+	"project": "2221119.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 195.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

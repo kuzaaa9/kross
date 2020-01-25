@@ -2,44 +2,44 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <link rel="stylesheet"  href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Poppins:400,700|Roboto:400,700&display=swap" rel="stylesheet">
   <title>Kross</title>
 </head>
 <body>
-  <header class="main-header-blog">
-    <nav class="main-navigation-blog header-blog">
-      <ul class="site-navigation site-blog">
-        <li class="site-navigation-item active">
+  <header class="page-header-blog">
+    <nav class="navigation-blog">
+      <ul class="navigation__list">
+        <li class="navigation__item navigation--active">
           <a href="#">home</a>
         </li>
-        <li class="site-navigation-item">
+        <li class="navigation__item">
           <a href="#">skil</a>
         </li>
-        <li class="site-navigation-item">
+        <li class="navigation__item">
           <a href="#">service</a>
         </li>
-        <li class="site-navigation-item">
+        <li class="navigation__item">
           <a href="#">porfolio</a>
         </li>
-        <li class="site-navigation-item">
+        <li class="navigation__item">
           <a href="#">contact</a>
         </li>
-        <li class="site-navigation-item">
+        <li class="navigation__item">
           <a href="#">pages</a>
         </li>
       </ul>
     </nav>
-    <div class="main-title-blogs container">
+    <div class="page-header-blog__heading container">
      <h1 >Blogs</h1>
     </div>
   </header>
   <main>
    <section class="blogs container">
-    <div class="blogs-text">
+    <div class="blogs__text">
       <h2>What should be the proper purpose of UI and UX design?</h2>
-      <figure class="blog-photo">
-        <figcaption>Published on May 26, 2017 by 
+      <figure class="blog__photo">
+        <figcaption class="blogs__figcaption">Published on May 26, 2017 by 
           <a href="#">uixgeek</a> on 
           <a href="#">UX design</a> 
         </figcaption>
@@ -59,47 +59,47 @@
   </section>
     <!-- Добавляем отзывы -->
     <section class="comments container">
-        <h3 class="comments-title"><sub>3</sub>Comments</h3>
-        <ul class="comments-list">
-          <li class="comments-item">
+        <h3 class="comments__title"><sub>3</sub>Comments</h3>
+        <ul class="comments__list">
+          <li class="comments__item">
             <img src="img/avatar-1.jpg"  alt="avatar-1">
-            <p class="comments-item-author-name">Jack Hughman </p>
-            <p class="comments-item-author-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde aspernatur deleniti hic eos minima exercitationem! Voluptas itaque nihil temporibus magni. 
+            <p class="comments__author">Jack Hughman </p>
+            <p class="comments__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde aspernatur deleniti hic eos minima exercitationem! Voluptas itaque nihil temporibus magni. 
             </p>
-            <a href="#" class="comments-item-reply">Reply</a>
+            <a href="#" class="comments__reply">Reply</a>
           </li>
-          <li class="comments-item">
+          <li class="comments__item">
             <img src="img/avatar-2.jpg" alt="avatar-2">
-            <p class="comments-item-author-name">Jack Hughman</p>
-            <p class="comments-item-author-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde aspernatur deleniti hic eos minima exercitationem! Voluptas itaque nihil temporibus magni. 
+            <p class="comments__author">Jack Hughman</p>
+            <p class="comments__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde aspernatur deleniti hic eos minima exercitationem! Voluptas itaque nihil temporibus magni. 
             </p>
-            <a href="#" class="comments-item-reply">Reply</a>  
+            <a href="#" class="comments__reply">Reply</a>  
           </li>
-          <li class="comments-item">
+          <li class="comments__item">
             <img src="img/avatar-3.jpg" alt="avatar-3">
-            <p class="comments-item-author-name">Jack Hughman</p>
-            <p class="comments-item-author-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde aspernatur deleniti hic eos minima exercitationem! Voluptas itaque nihil temporibus magni. 
+            <p class="comments__author">Jack Hughman</p>
+            <p class="comments__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde aspernatur deleniti hic eos minima exercitationem! Voluptas itaque nihil temporibus magni. 
             </p>
-            <a href="#" class="comments-item-reply">Reply</a>
+            <a href="#" class="comments__reply">Reply</a>
           </li>
         </ul>
     </section>
     <section class="feedback container">
-        <h3>Leave A Comment</h3>
+      <h3>Leave A Comment</h3>
       <!-- Создаем форму - -->
-      <form  class="feedback-list" method="post" action= https://echo.htmlacademy.ru>
-        <div class="feedback-modal-show-name"> 
-          <label class="feedback-modal-show-name-item"> 
+      <form  class="feedback__list" method="post" action= https://echo.htmlacademy.ru>
+        <div class="feedback__name-author"> 
+          <label class="feedback__name-author-item"> 
             <input type="text" name="first-name" placeholder="First Name">
           </label>
-        <label class="feedback-modal-show-name-item">
-          <input type="text" name="last-name" placeholder="Last Name">
-        </label>
-        <label class="feedback-modal-show-name-item">
-          <input type="email" name="email" placeholder= "Email Adress">
-        </label>
+          <label class="feedback__name-author-item">
+            <input type="text" name="last-name" placeholder="Last Name">
+          </label>
+          <label class="feedback__name-author-item">
+            <input type="email" name="email" placeholder= "Email Adress">
+          </label>
         </div>   
-        <div class="feedback-modal-show-messege">
+        <div class="feedback__messege-author">
           <label> 
             <textarea name="messege">Messege</textarea>
           </label>

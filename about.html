@@ -7,112 +7,108 @@
   <title>Kross</title>
 </head>
 <body>
- <!-- Здесь делю на 2 блока- так как меняется немножко сама шапкана всех страницах -->
- <header class="page-header-about">
-   <nav class="navigation">
+ <header class="page-header page-header--main">
+   <nav class="navigation navigation--with-logo navigation--with-dots">
     <a href="#" class="navigation__logo">
       <img src="img/logo.png" width="104" height="42" alt="logotype «Kross»">
     </a>
-    <ul class="navigation__list">
-      <li class="navigation__item">
-        <a href="#">home</a>
+    <ul class="navigation-list">
+      <li class="navigation-list__item">
+        <a class="navigation-list__link" href="#">home</a>
       </li>
-      <li class="navigation__item navigation--active">
-        <a href="#">about</a>
+      <li class="navigation-list__item navigation-list__item--active">
+        <a class="navigation-list__link" href="#">about</a>
       </li>
-      <li class="navigation__item">
-        <a href="#">blog</a>
+      <li class="navigation-list__item">
+        <a class="navigation-list__link" href="#">blog</a>
       </li>
-      <li class="navigation__item">
-        <a href="#">porfolio</a>
+      <li class="navigation-list__item">
+        <a class="navigation-list__link" href="#">porfolio</a>
       </li>
-      <li class="navigation__item">
-        <a href="#">contact</a>
+      <li class="navigation-list__item">
+        <a class="navigation-list__link" href="#">contact</a>
       </li>
     </ul>
   </nav>
-  <div class="page-header-about__heading container"> 
-    <h1>About Me</h1>
+  <div class="main__heading container"> 
+    <h1 class="main__inner ">About Me</h1>
   </div>
 </header>
 <main>
   <section class="about-me container">
-    <div class="about-me__content ">
+    <div class="about-me__content">
       <p class="about-me__content-item" > Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
       </p>
       <p class=about-me__content-item">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
       <p class="about-me__content-item">Deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia.
       </p>
     </div>
-    <figure class="about-me__photo">
-      <!-- поправить альтернативный текст, чтобы был понятен для читалок -->
-      <img src="img/about-me__photo.jpg" width="467" height="544" alt="y photo" >
+    <figure class="about-me__info">
+      <img class="about-me__photo" src="img/my-photo.jpg" width="467" height="544" alt="My photo" >
       <figcaption class="about-me__caption"> 
-        <img src="img/about-me__caption.png" width="172" height="88" alt="signature Johnathan Smith">
-        <span>Johnathan Smith</span>
+        <img class="about-me__caption-photo" src="img/caption.png" width="172" height="88" alt="signature Johnathan Smith">
+        <span class="about-me__caption-name">Johnathan Smith</span>
       </figcaption> 
     </figure>
   </section>  
-  <!-- Пробую сделать Бэм после лекции стр 49-50) -->
   <section class="work container">
-    <h2 class="">Work Process</h2>
-    <ul class="work__list">
-      <li class="work__item">
-       <h3>Research and Plan</h3>
-       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-       </p> 
-     </li>
-     <li class="work__item">
-       <h3>Design and Develop</h3>
-       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+    <h2>Work Process</h2>
+    <ul class="work-list">
+      <li class="work-list__item">
+        <h3 class="work-list__headings">Research and Plan</h3>
+        <p class="work-list__content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+        </p> 
+      </li>
+      <li class="work-list__item">
+       <h3 class="work-list__headings">Design and Develop</h3>
+       <p class="work-list__content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
        </p>
      </li>
-     <li class="work__item">
-      <h3>Deliver</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+     <li class="work-list__item">
+      <h3 class="work-list__headings">Deliver</h3>
+      <p class="work-list__content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
       </p>
     </li>
   </ul>
 </section>
 <section class="team">
   <div class="team__content container">  
-    <h2>My Team </h2>
-    <ul class="team__list">
-     <li class="team__member">
-      <!-- дурацкое название класса, из которого ничего не понятно-ответ- это участник или член  команды -->
-      <figure class="team__member-profile">
-        <img class="team__photo" src="img/team-members-photo-1.jpg" width="368" height="378" alt="Jack Schenziwe Project Manager"> 
-        <figcaption>
-          Jack Schenziwe
-          <br>
+    <h2 class="team__heading">My Team</h2>
+    <ul class="team-list">
+     <li class="team-list__member">
+      <!-- поменяла!!!!!дурацкое название класса, из которого ничего не понятно-ответ- это участник или член  команды -->
+      <figure class="team-list__info">
+        <img class="team-list__photo" src="img/team-members-photo-1.jpg" width="368" height="378" alt="Jack Schenziwe Project Manager"> 
+        <figcaption class="team-list__name">
+          Jack Schenziwe <br>
           <!-- дурацкое название класса и вообще тут не очень нужно -->
-          <span class="team__position">Project Manager</span>
+          <span class="team-list__position">Project Manager</span>
         </figcaption> 
       </figure>
     </li>
-    <li class="team__member">
-      <figure class="team__member-profile"> 
-        <img class="team__photo" src="img/team-members-photo-2.jpg" width="368" height="378"
+    <li class="team-list__member">
+      <figure class="team-list__info"> 
+        <img class="team-list__photo" src="img/team-members-photo-2.jpg" width="368" height="378"
         alt="Martin Starba UX Designe"> 
-        <figcaption>Martin Starba<br>
-          <span class="team__position">UX Designer</span>
+        <figcaption class="team-list__name">Martin Starba<br>
+          <span class="team-list__position">UX Designer</span>
         </figcaption> 
       </figure>
     </li>
-    <li class="team__member">
-      <figure class="team__member-profile">
-        <img class="team__photo" src="img/team-members-photo-3.jpg" width="368" height="378" alt="Tendi Scott Front End Developer"> 
-        <figcaption>Tendi Scott<br>
-          <span class="team__position">Front End Developer</span>
+    <li class="team-list__member">
+      <figure class="team-list__info">
+        <img class="team-list__photo" src="img/team-members-photo-3.jpg" width="368" height="378" alt="Tendi Scott Front End Developer"> 
+        <figcaption class="team-list__name">Tendi Scott<br>
+          <span class="team-list__position">Front End Developer</span>
         </figcaption> 
       </figure>
     </li>
   </ul> 
 </div>  
 </section>
-<section class="clients">
+<section class="clients container">
   <h2>My Clients</h2>
-  <ul class="clients__list container">
+  <ul class="clients-list">
     <!-- все плохо с форматированием -->
     <li>
       <img src="img/logo-envato.jpg" width="140" height="25" alt="Envato">
@@ -130,43 +126,42 @@
     </ul>
   </section>
   <section class="contact">
-    <h2>Contact Info</h2>
-    <form class="contact__list container" method="post" action= https://echo.htmlacademy.ru>
-      <h3>Contact Form</h3>  
-      <label class="contact__item">
+    <h2 class="contact__heading">Contact Info</h2>
+    <form class="login-form container" method="post" action= https://echo.htmlacademy.ru>
+      <h3 class="login-form__heading">Contact Form</h3>  
+      <label class="login-form__label">
         Full Name
-        <input type="text" name="full-name">
+        <input class="login-form__input" type="text" name="full-name">
       </label>
-      <label class="contact__item">
+      <label class="login-form__label">
         Email@example.com
-        <input type="email" name="email">
+        <input class="login-form__input" type="email" name="email">
       </label>
-      <label class="contact__messege">
+      <label class="login-form__messege">
         Type messege Here
-        <textarea></textarea>
+        <textarea class="login-form__textarea"></textarea>
       </label>
-      <button class="contact-submit" type="submit">SEND</button>
+      <button class="submit submit--contact" type="submit">SEND</button>
     </form>
   </section>
 </main>
 <footer class="footer"> 
   <ul class="footer__list container">
-    <li>
-      <span class="footer__item contact-name">Email</span>
+    <li class="footer__info">
+      <span class="footer__item footer--el">Email</span>
       <span class="footer__item">steve.fruits@email.com</span>
     </li>
-    <li> 
-      <span class="footer__item contact-name">Phone</span>
+    <li class="footer__info"> 
+      <span class="footer__item footer--el">Phone</span>
       <span class="footer__item">+880 2544 658 256</span>
     </li>
-    <li>  
-      <span class="footer__item contact-name">Adress</span>
+    <li class="footer__info">  
+      <span class="footer__item footer--el">Adress</span>
       <span class="footer__item">125/A, CA Commercial Area,  California, USA</span>
     </li>
   </ul>
-  <div class="footer__copyright">
-    <span>© Kross. All Right Reserved 2018.</span>
-  </div>    
+  <p class="footer__copyright">© Kross. All Right Reserved 2018. 
+  </p>    
 </footer>
 </body>
 </html>

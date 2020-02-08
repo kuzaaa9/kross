@@ -33,6 +33,7 @@ h1 {
   font-weight: 700;
   font-family: 'Poppins', sans-serif;
   color: #ffffff;
+  margin:  0;
 }
 
 h2 {
@@ -41,44 +42,66 @@ h2 {
   text-align:center;
 }
 
+/*Типографика, в принципе тоже можно вынести в начало кода в -типографику*/
+ h2 {
+  font-size: 60px;
+  line-height: 86px;
+}
+
 h3 {
   text-align: center;
 }
 
-/*Контейнер -обертка  для первой страницы about*/
 .container {
   max-width: 1170px;
   margin: 0 auto;
 }
 
-/*Шапка 1 страницы C -сравнить с шапками для 2 и 3 страницы- все одинаковое кроме высоты и подложки фона*/
-.page-header-about {
+/*Базовая шапка */
+.page-header {
+  display: block; 
   position: relative; 
   min-height: 500px;
   padding-top: 30px;
-  padding-bottom: 20px;
+  padding-bottom: 55px;
   box-sizing: border-box;
-  /*background-color: #41228e;*/
-  background-image: url(../img/header-index.jpg);
+  background-color: #41228e;
 }
 
-/*Заголовок шапки страницы about*/
-.page-header-about__heading {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
+/*Модификаторы  шапок трех страниц */
+.page-header--main {
+  /*background-image: url(../img/header-index.jpg);*/
 }
 
-/*.page-header-about__heading {*/
-  /*position: relative;*/
-  /*display:  block; */
-  /*width: 41%; */
-  /*padding: 0;*/
-/*}*/
+.page-header--blog{
+/*background-image: url(../img/header-blog-singl.jpg);*/
+}
 
-/*Псевдоэлемент*/
-.page-header-about__heading:after {
+/*Модификатор  шапки для стр kross*/
+.page-header--kross {
+  /*background-image: url(../img/header-kross.jpg);*/
+}
+
+/*Заголовки для  шапок  трех страниц*/
+.main__heading {
+ padding-top: 230px;
+ }
+.main__inner {
+  max-width: 670px;
+}
+
+ .blog__heading {
+  text-align: center;
+  padding-top: 160px;
+ }
+
+ .kross__heading {
+  padding: 180px 0 70px 180px;
+  line-height: 95px; 
+}
+
+/*Псевдоэлемент страницы about*/
+.main__heading:after {
   content: "";
   position: absolute;
   width: 74px;
@@ -89,49 +112,24 @@ h3 {
   background-repeat: no-repeat;
 }
 
-/*Шапка для страницы 2-blog*/
-.page-header-blog {
-  position: relative; 
-  min-height: 500px;
-  padding-top: 30px;
-  padding-bottom: 75px;
-  box-sizing: border-box;
-  background-color: #41228e;
-  /*background-image: url(../img/header-blog-singl.jpg);*/
-}
-
- /*Заголовок шапки для страницы blog*/
- .page-header-blog__heading {
-  margin-top: 160px;
-  text-align: center;
- }
-
-/*Шапка для 3-стр kross*/
-.main-header-kross {
-  position: relative;
-  min-height: 863px;
-  padding-top: 30px;
-  padding-bottom: 20px;
-  box-sizing: border-box;
-  /*background-color: #41228e;*/
-  background-image: url(../img/header-kross.jpg);
-}
-
-
 /*Навигация для страницы about */
 .navigation {
   position: relative;
   display: flex;
-  flex-wrap: wrap; 
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: flex-end;
   max-width: 1400px;
   box-sizing: border-box;
   margin: 0 auto;
   padding: 0 ;
   align-items: center; 
 }
+/*Модификаторы для логотипа внавигации*/
+.navigation--with-logo {
+  justify-content: space-between;
+}
 
-.navigation:before {
+.navigation--with-dots:before {
   content: "";
   position: absolute;
   width: 74px;
@@ -142,22 +140,8 @@ h3 {
   background-repeat: no-repeat;
 }
 
-/*Навигация для страницы 1blog */
-.navigation-blog {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-  max-width: 1600px;
-  box-sizing: border-box;
-  margin: 0 auto;
-  padding: 0 110px;
-  align-items: center; 
-}
-
-
 /*Базовый блок навигации*/
-
-.navigation__list {
+.navigation-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -167,12 +151,57 @@ h3 {
   max-width: 1440px;
   font-size: 18px;
   line-height: 84px;
-  }
+}
 
-.navigation__item a {
+.navigation-list__link {
   padding-left: 35px;
   color: #ffffff;
 }
+
+/*Активный пункт меню*/
+.navigation-list__item--active {
+font-weight:  700;
+}
+
+.search-group {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1460px;
+  margin: 0  auto;
+  align-items: flex-end;
+}
+
+.paginator {
+  display: inline-block;
+  vertical-align: bottom; 
+ }
+
+.paginator-item {
+  padding-left: 15px;
+  color:#ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 0;
+ }
+
+/*Текущая страница в пагинаторе*/
+.current {
+  font-size: 60px;
+  line-height: 75px;
+  font-weight: bold;
+}
+
+/*Социальные кнопки*/
+.social-icons__group {
+  display: inline-block; 
+  padding: 0;
+  margin: 0;
+}
+
+.social-icons {
+  padding-bottom:5px; 
+}
+
 
 .about-me {
   position: relative;
@@ -180,17 +209,9 @@ h3 {
   padding-bottom: 35px;
 }
 
-.about-me__content  {
+.about-me__content{
   position: relative;
-  width: 690px;
-}
-
-.about-me__content  h1 {
-  position: absolute;
-  top: -170px;
-  left: 5px;
-  padding: 0;
-  margin: 0;
+  max-width: 670px;
 }
 
 .about-me__content-item {
@@ -198,48 +219,41 @@ h3 {
   padding-bottom: 30px;
 }
 
-/*Реализована подложка вместо картинки- и она неправильная*/
-.about-me__photo{
+.about-me__info{
   position: absolute;
-  top: -240px;
+  top: -235px;
   right: 0;
 }
 
-.about-me__photo img {
+.about-me__photo {
   display: block;
   margin: 0 auto;
   border-radius: 25px;
   box-shadow: 0px 59px 39.1px 6.9px rgba(224, 241, 255, 0.34);
 }
 
+.about-me__caption-photo{
+  display: block;
+  margin: 0 auto;
+}
+
 .about-me__caption {
-  padding-top: 65px;
+  padding-top: 45px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.about-me__caption-name {
+  font-size: 22px;
+  line-height: 22px;
   text-align: center;
 }
 
-..about-me__caption span {
-  font-size: 22px;
-  line-height: 22px;
-   text-align: center;
-}
-
-
-/*Активный пункт меню*/
-.navigation--active a {
-font-weight:  700;
-}
-
-/*Типографика, в принципе тоже можно вынести в начало кода в -типографику*/
- h2 {
-  font-size: 60px;
-  line-height: 86px;
-}
-
 .work {
-  padding: 145px 150px 130px 150px;
+  padding: 135px 150px 130px 150px;
 }
 
-.work__list {
+.work-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;  
@@ -249,7 +263,7 @@ font-weight:  700;
   line-height: 84px;
 }
 
-.work__item {
+.work-list__item {
   position:  relative; 
   max-width: 273px;
   margin: 0;
@@ -257,14 +271,14 @@ font-weight:  700;
   text-align: center;
 }
 
-.work__item h3 {
+.work-list__headings {
   margin: 0;
   font-size: 22px;
   line-height: 84px;
   font-weight: normal;
 }
 
-.work__item p {
+.work-list__content {
   position: relative;
   margin: 0;
   font-size: 15px;
@@ -273,8 +287,7 @@ font-weight:  700;
   color: #585858;
 }
 
-/*ВСЕ ПРЕКРАСНО РАБОТАЕТ!!!!!!!!!!!!!!!!!!!!*/
-.work__item:before {
+.work-list__item:before {
   content: "";
   position: absolute;
   margin-bottom: 200px;
@@ -283,7 +296,7 @@ font-weight:  700;
 }
 
 /*Блок 1*/
-.work__item:nth-child(1)::before {
+.work-list__item:nth-child(1)::before {
   width: 58px;
   height: 58px;
   margin-left: -25px;
@@ -291,7 +304,7 @@ font-weight:  700;
 }
 
 /*Блок 2*/
-.work__item:nth-child(2)::before {
+.work-list__item:nth-child(2)::before {
   width: 50px;
   height: 50px;
   margin-left: -25px;
@@ -299,7 +312,7 @@ font-weight:  700;
 }
 
 /*Блок 3*/
-.work__item:nth-child(3)::before { 
+.work-list__item:nth-child(3)::before { 
   width: 60px;
   height: 45px;
   margin-bottom: 200px;
@@ -310,7 +323,9 @@ font-weight:  700;
 .team {
   position:  relative;
   min-height: 868px;
-  padding-top: 20px;
+  padding-top: 45px;
+  box-sizing:  border-box; 
+
 }
 
 .team:after {
@@ -318,29 +333,26 @@ font-weight:  700;
   display: block; 
   content:  '';
   margin: 0;
-  background-color:#f6f4fc;
+  background-color:#ece8f8;
   width: 52%;
-  height: 93%; 
+  height: 810px; 
   left: 0;
   top: 0;
   bottom: 40px; 
   opacity:  0.5;  
 }
 
-
 .team:before {
   position: absolute; 
   display: block; 
   content: '';
-  /*background-image: url(../img/rectangle-5.jpg);*/
-  /*background-repeat: repeat;*/
   background-image: url(../img/точка1.png.);
   background-repeat: repeat; 
   width: 100%;
-  height: 80%; 
+  height: 745px; 
   left: 0;
   top: 0; 
-  margin-top: 125px;  
+  margin-top: 125px;
 }
 
 .team__content {
@@ -350,51 +362,52 @@ font-weight:  700;
   z-index: 1; 
 }
 
-.team h2 {
+.team__heading {
 margin: 0; 
 padding: 0;
 }
 
-.team__list{
+.team-list{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin: 0px;
   padding: 100px 0;
   font-size: 22px;
   line-height: 84px;
 }
 
-/*Реализуем подложку под картинку-неправильно получилось*/
-.team__member-profile {
-  padding-bottom: 40px;
+.team-list__info {
   color: #000000;
   background-color: #ffffff;
   border-radius: 7px;
   box-shadow: 0px 59px 42.826px 3px rgba(224, 241, 255, 0.34);
   /*background-color: #d4cfcf;*/
+  padding-bottom: 40px;
 }
 
-.team__photo {
+.team-list__photo {
   border-radius: 7px 7px 0 0;
 }
 
-.team__member figcaption {
+.team-list__name {
   max-width: 210px;
   margin: 0 auto;
   line-height: 30px;
 }
 
-.team__position {
+.team-list__position {
   color: #dddddd;
 }
 
 .clients {
   min-height: 300px;
-  padding-bottom: 115px;
+  padding-top: 15px;
+  padding-bottom: 130px;
   box-sizing: border-box;
 }
 
-.clients__list {
+.clients-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -416,30 +429,30 @@ padding: 0;
   background-repeat: repeat;
 }
 
-.contact h2 {
+.contact__heading{
+  padding:0; 
   margin: 0 auto;
   max-width: 1170px;
 }
 
-.contact__list {
+.login-form {
   position: absolute;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between; 
-  flex-wrap: wrap;
   box-sizing: border-box;
   left: 50%;
   margin-left: -382px; 
   width: 765px;
   height: 505px;
-  margin-top: 80px;
+  margin-top: 70px;
   padding: 10px 75px 40px 65px;
   background-color: #ffffff;
   border-radius: 8px;
   box-shadow: 0 0 81px 14px rgba(224, 241, 255, 0.34);
 }
 
-.contact__list h3 {
+.login-form__heading {
   display: block;
   position: relative;
   width: 100%;
@@ -447,23 +460,25 @@ padding: 0;
   margin-bottom: 0;
   padding-bottom: 30px;
   font-size: 22px;
-  line-height: 0px;
+  line-height: 0;
   font-weight: normal;
 }
 
-.contact__item {
+.login-form__label {
   width: 50%;
   font-family: 'Roboto', sans-serif;
   color: #737373;
 }
 
-.contact__messege {
+.login-form__messege {
+  
   width: 100%;
+ 
   font-family: 'Roboto', sans-serif;
   color: #737373;
 }
 
-.contact__item input {
+.login-form__input {
   width: 265px;
   height: 10px;
   padding-top: 10px;
@@ -471,23 +486,36 @@ padding: 0;
   border-bottom: 1px solid #c7c7c7;
 }
 
-.contact__messege textarea {
+.login-form__textarea {
   width: 100%;
   border: 0;
   border-bottom: 1px solid #c7c7c7;
 }
 
-.contact-submit {
+/*Общая кнопка*/
+.submit {
   display: block;
   margin: 0 auto;
-  margin-top: 20px;
-  padding: 0 150px;
+  margin-top: 22px;
   background-color: #41228e;
   color: #ffffff;
   font-size: 22px;
-  line-height: 0;
+  line-height: 60px;
   font-family: 'Playfair Display';
   border-radius: 9px;
+}
+
+/*Модификатор для кнопки формы feedback */
+.submit--feedback{
+  margin-top: 10px;
+  padding: 0px 210px;
+  font-weight: 700;
+}
+
+/*Модификатор для кнопки формы contact -почему приходится line-height: модифицировать, я не понимаю но так надо */
+.submit--contact {
+  padding: 0 150px;
+  line-height: 0;
 }
 
 .footer {
@@ -502,14 +530,12 @@ padding: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 0 auto;
-  padding: 0 213px;
   font-size: 22px;
   line-height: 84px;
   color: #ffffff;
 }
 
-.footer__list li {
+.footer__info{
   display:  block; 
   width: 280px;
   padding-bottom: 60px;
@@ -525,37 +551,32 @@ padding: 0;
   padding-right: 0px;
 }
 
-.contact-name {
+.footer--el {
   font-size: 18px;
   line-height: 50px;
   color: #7a7a7a;
 }
 
-.footer__copyright span{
+.footer__copyright {
+  display: block;
   width: 100%;
   padding-top: 35px;
+  margin:  0 auto;
+  border-top: 1px solid #363636;
   font-size: 15px;
   line-height: 28px;
   font-family: 'Roboto', sans-serif;
   color: #bdbdbd;
   text-align: center;
-  border-top: 1px solid #363636;
 }
 
 /*Вторая страница*/
-.blogs {
-  padding: 75px 100px 55px 100px;
+.blog {
+  padding: 75px 100px 10px 100px;
   box-sizing: border-box; 
 }
 
-.blogs h1 {
-  position: absolute;
-  top: -320px;
-  left: 0;
-  margin-left: 682px;
-}
-
-.blogs__text h2 {
+.blog__subheading {
   /*опять отступы у заголовков, а не секции*/
   /*ширина тут не нужна, уж обсуждали*/
   width: 790px;
@@ -564,39 +585,41 @@ padding: 0;
   line-height: 57px;
 }
 
-.blog__photo {
+.blog__info {
   margin-top: 10px;
 }
 
-.blogs__figcaption {
+.blog__figcaption {
   padding-bottom: 25px;
   font-size: 22px;
   color: #737373;
   /*background-color: #3b04db;*/
 }
 
-.blog-photo img {
+.blog__photo {
   border-radius: 10px;
 }
 
-.blogs-text figure + p {
-  
-  padding-bottom: 30px;
-  margin-top: 35px;
+.blog__list{
+  margin: 0;
+  padding: 35px 0 0;
+}
+
+.blog__item  {
+  margin: 0;
+  padding-bottom: 25px;
+  font-size: 15px;
+  line-height: 25px;
+  font-family: 'Roboto', sans-serif;
+  color: #707070;
+}
+
+.blog-item--el {
+  padding-bottom: 35px;
   font-size: 22px;
   line-height: 36px;
   font-family: 'Playfair Display';
   color: #000000;
-}
-
-.blogs-text p {
-  padding-bottom: 30px;
-  font-size: 15px;
-  color: #707070;
-  line-height: 25px;
-  font-family: 'Roboto', sans-serif;
-  margin: 0;
-  padding-bottom: 15px;
 }
 
 .comments {
@@ -634,23 +657,13 @@ padding: 0;
   border-bottom: 1px solid #eeeeee;
 }
 
-.comments-item-author {
-  display: flex;
-}
-
-.comments-item-author-name {
-  position: relative;
-}
-
-/*Цветная подложка под аватарку сделана*/
-.comments__item img {
+.comments__img {
   position: absolute;
   top: 0;
   left: 0;
   margin-left: -100px;
   margin-top: 15px;
   border-radius: 34px;
-  /*background-color: #dbdbdb;*/
 }
 
 .comments__author {
@@ -679,10 +692,9 @@ padding: 0;
   opacity: 0;
 }
 
-
  .feedback {
   display: block;
-  padding: 10px 100px 0 170px;
+  padding: 10px 100px 10px 170px;
   box-sizing: border-box; 
   border-bottom: 2px solid red;
 }
@@ -692,29 +704,31 @@ padding: 0;
   flex-wrap: wrap;
   justify-content: space-between;
   box-sizing: border-box;
+  padding: 10px 0;
+  min-height:  305px;
   font-size: 15px;
   line-height: 28px;
   }
  
- .feedback h3{
+ .feedback__heading {
   display:  block; 
-  padding-bottom: 30px;
+  padding: 25px 0 25px;
+  margin: 0;
   border-bottom: 1px solid #eeeeee;
   text-align: left; 
  }
 
-.feedback__name-author {
+.feedback__author {
   width: 400px;
 }
 
-.feedback-modal-show-messege {
-  width: 470px;
-  margin-bottom: 15px;
+feedback__messege {
+width: 475px;
 }
 
-.feedback__name-author-item input {
+.feedback__input {
   width: 98%;
-  padding: 40px 0 10px;
+  padding: 50px 0 5px;
   border: 0;
   border-bottom: 1px solid #c7c7c7;
   font-size: 15px;
@@ -723,11 +737,10 @@ padding: 0;
   color: #737373;
 }
 
-
-.feedback__messege-author textarea{
+.feedback__textarea{
   width: 475px;
-  min-height:  165px;
-  padding-top: 55px;
+  height:  225px;
+  margin-top: 25px;
   border: 0;
   font-size: 15px;
   line-height: 28px;
@@ -735,49 +748,32 @@ padding: 0;
   color: #737373;
   background-color: #fafafa;
   border-radius:  8px;
-}
-
-.feedback-modal-info-submit {
-  display: block; 
-  margin: 0 auto;
-  margin-top: 25px;
-  padding: 0 210px;
-  background-color: #41228e;
-  color: #ffffff;
-  font-size: 22px;
-  line-height: 60px;
-  font-weight: 700;
-  font-family:'Playfair Display';
-  border-radius: 9px;
+  bottom: 3px red;
 }
 
 .stories {
-  padding: 155px 0 130px 0;
-
+  padding: 190px 0 125px 0;
 }
 
-.stories-list {
+.stories__list {
   display: flex;
   flex-wrap: wrap; 
   justify-content: space-between;
-  padding-top: 20px;
-  padding: 20px 0;
-  /*margin: 0;*/
+  padding: 60px 0 20px;
 }
 
-.stories-item {
+.stories__item {
   height:  500px;
   width:  370px;
   box-shadow: 0 0 81px 14px rgba(224, 241, 255, 0.34); 
 }
 
-/*Цветная подложка под фото сделана*/
-.stories-photo {
+.stories__photo {
   height:  270px;
   background-color: #72bf44;
 }
 
-.stories-item-text {
+.stories__info {
   width: 370px;
   height: 230px;
   margin: 0;
@@ -785,14 +781,12 @@ padding: 0;
   box-sizing: border-box;
 }
 
-.stories-item-text h3{
+.stories__heading{
   margin: 0;
   padding: 0;
-  font-weight: normal; 
-  text-align: left;
 }
 
-.stories-item-text p{
+.stories__text {
   margin: 0;
   padding-bottom: 5px;
   font-size: 15px;
@@ -801,12 +795,14 @@ padding: 0;
   color: #737373;
 }
 
-.stories-item a {
+.stories__link {
   font-size: 15px;
   padding: 5px 10px 5px 15px;
   background-color: #f6fafa; 
 }
 
+/*01.02 замечания*/
+/*1.Если присваивать классы h2 , как в примере с contact h2  contact__heading то по логике надо всем без исключения, а  не выборочно- ведь это форма - запуталась */
 
 
 /*По Алискиным замечаниям\
@@ -814,19 +810,13 @@ padding: 0;
 
 /*Вопросы
 
-5pзасунуть на место логотип.
-1.промо-салют текст сделать в процентахот контейнера, фигкаптион тоже- тогда они не будут налезать друг на друга при смене экране при перестроении.
-10- сделать кнопку отправить ссылкой и куда отправлятьподумать
-окно работает, но форма не отправляется
 11ошибка. ворк не туда прицеплен.
 12/ стр 2 в подписи к фото в блоге есть сиреневые буквы. получается, что это ссылки.КУда они ведут
 почитать про ссылки якоря ?
-12 а.не выделен на обоих страницах класс - находимся на этой странице.
 14. не прописан адрес ссылок перехода наа другую страницу по хлебным крошкам.
 64 строка кода Reply? - ответить - это ссылка или кнопка Думаю, что кнопка, так как навешиваем потом скрипт.
 18-сделать прокрутку на блоге, а то он бесконечный
 20- полосочка никак не выравнивается по правому краю в комментах
 переделать аватарку с подписью bи переверстать возможно полностью во флекс
-21-пыталась реализовать подложку, под картинки, но вышло неправильно
 
 /

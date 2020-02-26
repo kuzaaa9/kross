@@ -17,7 +17,7 @@ button {
 a {
   text-decoration: none;
 }
-/*ul обычно надо очищать margin:  0 padding:  0*/
+
 ul { 
  list-style: none; 
 }
@@ -42,8 +42,7 @@ h2 {
   text-align:center;
 }
 
-/*Типографика, в принципе тоже можно вынести в начало кода в -типографику*/
- h2 {
+h2 {
   font-size: 60px;
   line-height: 86px;
 }
@@ -74,7 +73,7 @@ h3 {
 }
 
 .page-header--blog{
-/*background-image: url(../img/header-blog-singl.jpg);*/
+  /*background-image: url(../img/header-blog-singl.jpg);*/
 }
 
 /*Модификатор  шапки для стр kross*/
@@ -85,18 +84,18 @@ h3 {
 /*Заголовки для  шапок  трех страниц*/
 .main__heading {
  padding-top: 230px;
- }
+}
 .main__inner {
   max-width: 670px;
 }
 
- .blog__heading {
+.blog__heading {
   text-align: center;
   padding-top: 160px;
- }
+}
 
- .kross__heading {
-  padding: 180px 0 70px 180px;
+.kross__heading {
+  padding: 180px 0 65px 205px;
   line-height: 95px; 
 }
 
@@ -160,10 +159,10 @@ h3 {
 
 /*Активный пункт меню*/
 .navigation-list__item--active {
-font-weight:  700;
+  font-weight:  700;
 }
 
-.search-group {
+.redirection-group {
   display: flex;
   justify-content: space-between;
   max-width: 1460px;
@@ -171,37 +170,39 @@ font-weight:  700;
   align-items: flex-end;
 }
 
-.paginator {
-  display: inline-block;
-  vertical-align: bottom; 
- }
+.pagination {
+  display:flex;
+  flex-wrap:wrap;
+  align-items:  flex-end;
+  margin: 0;
+}
 
-.paginator-item {
+.paginator__item{
   padding-left: 15px;
+}
+
+.paginator__link {
   color:#ffffff;
   font-size: 18px;
   font-weight: bold;
-  line-height: 0;
- }
+}
 
 /*Текущая страница в пагинаторе*/
-.current {
+.paginator__link--current {
   font-size: 60px;
   line-height: 75px;
-  font-weight: bold;
 }
 
 /*Социальные кнопки*/
-.social-icons__group {
+.social-icons {
   display: inline-block; 
   padding: 0;
   margin: 0;
 }
 
-.social-icons {
-  padding-bottom:5px; 
+.social__item {
+  padding-top: 5px; 
 }
-
 
 .about-me {
   position: relative;
@@ -214,7 +215,7 @@ font-weight:  700;
   max-width: 670px;
 }
 
-.about-me__content-item {
+.about-me__content p {
   margin: 0;
   padding-bottom: 30px;
 }
@@ -363,8 +364,8 @@ font-weight:  700;
 }
 
 .team__heading {
-margin: 0; 
-padding: 0;
+  margin: 0; 
+  padding: 0;
 }
 
 .team-list{
@@ -473,7 +474,7 @@ padding: 0;
 .login-form__messege {
   
   width: 100%;
- 
+  
   font-family: 'Roboto', sans-serif;
   color: #737373;
 }
@@ -535,13 +536,13 @@ padding: 0;
   color: #ffffff;
 }
 
-.footer__info{
+.footer__column{
   display:  block; 
   width: 280px;
   padding-bottom: 60px;
 }
 
-.footer__item {
+.footer__item-contact {
   display: block;
   width: 100%;
   line-height: 35px;
@@ -551,7 +552,7 @@ padding: 0;
   padding-right: 0px;
 }
 
-.footer--el {
+.footer__item--title {
   font-size: 18px;
   line-height: 50px;
   color: #7a7a7a;
@@ -577,7 +578,6 @@ padding: 0;
 }
 
 .blog__subheading {
-  /*опять отступы у заголовков, а не секции*/
   /*ширина тут не нужна, уж обсуждали*/
   width: 790px;
   text-align: left;
@@ -692,7 +692,7 @@ padding: 0;
   opacity: 0;
 }
 
- .feedback {
+.feedback {
   display: block;
   padding: 10px 100px 10px 170px;
   box-sizing: border-box; 
@@ -708,22 +708,22 @@ padding: 0;
   min-height:  305px;
   font-size: 15px;
   line-height: 28px;
-  }
- 
- .feedback__heading {
+}
+
+.feedback__heading {
   display:  block; 
   padding: 25px 0 25px;
   margin: 0;
   border-bottom: 1px solid #eeeeee;
   text-align: left; 
- }
+}
 
 .feedback__author {
   width: 400px;
 }
 
 feedback__messege {
-width: 475px;
+  width: 475px;
 }
 
 .feedback__input {
@@ -801,22 +801,314 @@ width: 475px;
   background-color: #f6fafa; 
 }
 
-/*01.02 замечания*/
+
+.skills {
+  margin: 0 auto;
+  padding: 80px 0 45px;
+  box-sizing: border-box; 
+  text-align:  center;
+}
+
+.skills__content{
+  font-size: 22px;
+  margin: 0;
+  padding: 0 95px;
+}
+
+.skills__heading{
+  margin:  0;
+  padding: 100px 0 75px;
+}
+
+.skills__link {
+  font-size: 18px;
+  line-height: 84px;
+  font-weight: 700;
+}
+
+.skills__graphs{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.skills__item {
+  border:  1px solid red;
+  box-shadow: 0 59px 39.1px 15px rgba(224, 241, 255, 0.34);
+}
+
+
+.skills__title {
+  margin:  0px;
+  font-size: 22px;
+  line-height: 61px;
+}
+
+.experience {
+  padding-top:110px;
+  padding-bottom: 90px;
+}
+
+.experience__list{
+  display: flex; 
+  flex-wrap:  wrap; 
+  justify-content: space-around; 
+  padding: 0;
+  margin: 0;
+}
+
+.experience_heading {
+  margin: 0;
+  padding-bottom: 50px;
+}
+
+.experience__item {
+  padding: 0;
+}
+
+.experience__text {
+  text-align: center;
+  padding: 15px 0;
+}
+
+.experience__img{
+  display: block;
+  margin: 0 auto;
+} 
+
+.experience__date {
+  margin: 0;
+  line-height: 35px;
+  font-family:'Roboto';
+}
+
+.experience__position,
+.experience__company {
+  margin: 0;
+  font-size: 22px;
+  line-height: 35px;
+}
+
+.experience__company {
+  color: #999999;
+}
+
+.education {
+  position: relative; 
+  padding: 75px 0 75px;
+}
+
+.education:before {
+  position: absolute;
+  display:  block;  
+  content: "";
+  width: 1570px;
+  height:1199px;
+  top: -45%;
+  left: -17%;
+  right:17%;
+  margin-right: 200px;  
+  background-image: url(../img/line-1.png);
+  background-repeat:  no-repeat; 
+  margin:  0 auto ;
+}
+
+.education__heading {
+  margin: 0;
+  padding-bottom: 70px;
+}
+
+.education__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.education__item {
+  width: 50%;
+  padding: 0px 0 50px 185px;
+  box-sizing: border-box;
+}
+
+.education__text {
+  position:  relative; 
+  margin: 0;
+  text-align: start;
+}
+
+.education__text:before {
+  position:  absolute; 
+  content:"";
+  width: 105px;
+  height: 105px;
+  top: 0;
+  left: 0;
+  margin-left: -200px;
+  margin-top: -20px;
+  background-image: url(../img/icon-education.png);
+  background-repeat:  no-repeat;
+}
+
+.education__date {
+  margin: 0;
+  line-height: 35px;
+  font-family: 'Roboto';
+}
+
+.education__position{
+  margin: 0;
+  font-size: 22px;
+  line-height: 38px;
+}
+
+.education__school{
+  margin: 0;
+  line-height: 35px;
+  color: #999999;
+}
+
+.services {
+  padding: 75px 90px; 
+}
+
+.services__heading {
+  margin: 0;
+  padding-bottom: 75px;
+}
+
+.services__list {
+  display: flex;
+  justify-content: space-between; 
+  flex-wrap: wrap; 
+  margin: 0;
+  padding: 0; 
+}
+
+.services__item {
+  position: relative;
+  width: 375px;
+  box-sizing: border-box; 
+  padding: 95px 50px 55px;
+  margin: 0;
+  text-align: center;
+  font-size: 15px;
+  line-height: 28px;
+  font-family: 'Roboto';
+  border: 1px solid red;
+}
+
+.services__subheading {
+  font-size: 22px;
+  line-height: 35px;
+  padding-top: 35px;
+  margin: 0;
+}
+
+.services--color {
+  color: #ffffff;
+  background-color: #41228e;
+}
+
+.portfolio {
+  padding-top: 90px;
+  padding-bottom: 150px;
+}
+
+.portfolio__heading {
+  margin: 0;
+  padding-bottom: 75px
+}
+
+.portfolio__wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.portfolio__item {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.portfolio--width {
+  width: 67%;
+}
+
+.portfolio__list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.portfolio__images {
+  margin: 0;
+  margin-bottom: 15px;
+  padding: 0;
+}
+
+.testimonials {
+  border: 1px solid red;
+  padding: 95px 0 125px;
+  text-align: center;
+  color: #ffffff; 
+  background-image: url(../img/map.png); 
+}
+
+.testimonials__heading {
+  margin: 0;
+  padding-bottom: 105px;
+}
+
+.testimonials__content {
+  font-size: 22px;
+  margin: 0 auto;
+  padding: 7px  95px 40px;
+  box-sizing: border-box;
+}
+
+.testimonials__list {
+  margin:  0 auto;
+}
+
+.testimonials__img {
+  display: block; 
+  margin:  0 auto;
+}
+
+.testimonials__name {
+padding: 0;
+margin: 0;
+font-size: 22px;
+line-height: 60px;
+}
+
+.testimonials__position {
+  padding: 0;
+  margin: 0;
+  line-height: 0px;
+  color: #8d7abb;
+}
+
 /*1.Если присваивать классы h2 , как в примере с contact h2  contact__heading то по логике надо всем без исключения, а  не выборочно- ведь это форма - запуталась */
 
-
 /*По Алискиным замечаниям\
-7- подложки под картинки не работают проверить под блоки- почему не работают.
-
-/*Вопросы
-
-11ошибка. ворк не туда прицеплен.
 12/ стр 2 в подписи к фото в блоге есть сиреневые буквы. получается, что это ссылки.КУда они ведут
-почитать про ссылки якоря ?
-14. не прописан адрес ссылок перехода наа другую страницу по хлебным крошкам.
 64 строка кода Reply? - ответить - это ссылка или кнопка Думаю, что кнопка, так как навешиваем потом скрипт.
 18-сделать прокрутку на блоге, а то он бесконечный
-20- полосочка никак не выравнивается по правому краю в комментах
-переделать аватарку с подписью bи переверстать возможно полностью во флекс
+19 Нет шариков под шапкой.
+20. может картинки в блоге сделать все на дивах так как не могу сбросить стартовые стили и вровнять низ не могу по одной линейке
+ 21 как делать слайдер и для чего он здесь-после гомес- я не знаю.
+ 22 непонятно как реализована карта - почитать
 
 /

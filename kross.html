@@ -216,14 +216,35 @@
 </section>
 <section class="testimonials">
   <h2 class="testimonials__heading">Testimonials</h2>
-  <p class="testimonials__content container">
-   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
- </p>
- <div class="testimonials__list"> 
-  <img class="testimonials__img" src="img/testimonials-img.png " width="106" height="106" alt="testimonials img ">
-  <p class="testimonials__name">Jesica Gomez</p>
-  <p class="testimonials__position">CEO, Founder</p>
-</div>
+  <div class="slider__wrapper">
+    <!--Создаем механизм переключения и в стилях скрываем его  -->
+    <div id="first" class="slider__item">
+      <p class="slider__content container">
+       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        <a class="slider__content--link" href="#">
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+        </a>
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+       </p>
+       <img class="slider__img" src="img/testimonials-img.png " width="106" height="106" alt="slider__img ">
+       <p class="slider__name">Jesica Gomez</p>
+       <p class="slider__position">CEO, Founder</p>
+    </div>
+    <div id="second" class="slider__item">
+    </div>
+    <div id="third" class="slider__item">
+    </div>
+     <!-- Сделаем новые переключатели на основе меток лейбл.  атрибут фор связан с  инпутом через ид и фор-->
+    <input id="slide1" class="slider__input" type="radio" name="slider__input" 
+    checked="checked">
+    <input id="slide2" class="slider__input" type="radio" name="slider__input">
+    <input id="slide3" class="slider__input" type="radio"  name="slider__input">
+    <div class="slider__label-list">
+     <label id="switcher1" class="slider__label" for="slide1"></label>
+     <label id="switcher2" class="slider__label" for="slide2"></label>
+     <label id="switcher3" class="slider__label" for="slide3"></label>
+   </div>
+ </div>
 </section>
 </main>
 </body>

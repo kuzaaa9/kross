@@ -1058,47 +1058,124 @@ feedback__messege {
 }
 
 .testimonials {
-  border: 1px solid red;
-  padding: 95px 0 125px;
+  padding: 95px 0 75px;
   text-align: center;
-  color: #ffffff; 
+  color: #ffffff;
   background-image: url(../img/map.png); 
 }
+
+/* Блок testimonials*/
 
 .testimonials__heading {
   margin: 0;
   padding-bottom: 105px;
 }
 
-.testimonials__content {
+/*Сама слайдер-обертка*/
+.slider__wrapper {
+  position:  relative; 
+  height: 390px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  border-bottom: 1px solid red;
+}
+
+/*Сами слайды- задаем такого же размера, делаем абсолютное позиционирование, чтоб находились все в одном месте и прячем*/
+.slider__item {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /*visibility: hidden;*/
+}
+
+.slider__content {
+  position: relative; 
   font-size: 22px;
   margin: 0 auto;
   padding: 7px  95px 40px;
   box-sizing: border-box;
 }
 
-.testimonials__list {
-  margin:  0 auto;
+.slider__content::after {
+  content:"";
+  position: absolute;
+  width: 59px; 
+  height: 46px;
+  top: 0;
+  left: 50%;
+  margin-left:-30px;
+  margin-top: -70px;  
+  background-image: url("../img/guote.png")
+}
+ 
+.slider__content--link {
+  color: #2bfdff;
 }
 
-.testimonials__img {
+.slider__img {
   display: block; 
+  padding-left: 40px;
   margin:  0 auto;
 }
 
-.testimonials__name {
-padding: 0;
-margin: 0;
-font-size: 22px;
-line-height: 60px;
+.slider__name {
+  padding: 0;
+  padding: 5px 0 0 20px;
+  margin: 0;
+  font-size: 22px;
+  line-height: 60px;
 }
 
-.testimonials__position {
+.slider__position {
   padding: 0;
+  padding-left: 20px;
   margin: 0;
   line-height: 0px;
   color: #8d7abb;
 }
+
+/*1. Скрываем переключатели.которые дает нам программа*/
+.slider__input {
+  display: none;
+}
+
+/* Делаем свои переключатели из лейблов -заново своей формы - у нас это черточки*/
+slider__label-list {
+  position: relative ;
+  width: 100%;
+  height: 6px;
+  bottom: 0;
+  text-align: center;
+}
+
+.slider__label {
+  position: relative; 
+  display: inline-block;
+  background: #8773b8;
+  width: 11px;
+  height: 6px;
+  top: 375px;
+  margin: 0 5px;
+  border-radius: 4px;
+}
+
+/*Заставляем механизм работать*/
+#slide1 :checked ~ #first,
+#slide2:checked ~ #second,
+#slide3:checked ~ #third {
+  visibility: visible;
+  opacity: 1;
+}
+
+#slide1:checked ~ div #switcher1,
+#slide2:checked ~ div #switcher2,
+#slide3:checked ~ div #switcher3{
+  width: 26px;
+  height: 6px;
+  border-radius: 4px;
+  background: #ffffff;
+}
+
 
 /*1.Если присваивать классы h2 , как в примере с contact h2  contact__heading то по логике надо всем без исключения, а  не выборочно- ведь это форма - запуталась */
 

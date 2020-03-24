@@ -17,7 +17,7 @@ button {
 a {
   text-decoration: none;
 }
-/*ul обычно надо очищать margin:  0 padding:  0*/
+
 ul { 
  list-style: none; 
 }
@@ -33,6 +33,7 @@ h1 {
   font-weight: 700;
   font-family: 'Poppins', sans-serif;
   color: #ffffff;
+  margin:  0;
 }
 
 h2 {
@@ -41,187 +42,216 @@ h2 {
   text-align:center;
 }
 
+h2 {
+  font-size: 60px;
+  line-height: 86px;
+}
+
 h3 {
   text-align: center;
 }
 
-/*Контейнер -обертка  для первой страницы about*/
 .container {
   max-width: 1170px;
   margin: 0 auto;
 }
 
-.main-header {
+/*Базовая шапка */
+.page-header {
+  display: block; 
   position: relative; 
   min-height: 500px;
   padding-top: 30px;
-  padding-bottom: 20px;
-  box-sizing: border-box;
-  /*background-color: #41228e;*/
-  background-image: url(../img/header-index.jpg);
-}
-
-.main-title {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 10px;
-}
-
-.main-header-title {
-  display:  block; 
-  width: 58%; 
-  padding: 0;
-}
-
-.main-header-blog {
-  position: relative; 
-  min-height: 500px;
-  padding-top: 30px;
-  padding-bottom: 75px;
+  padding-bottom: 55px;
   box-sizing: border-box;
   background-color: #41228e;
+}
+
+/*Модификаторы  шапок трех страниц */
+.page-header--main {
+  /*background-image: url(../img/header-index.jpg);*/
+}
+
+.page-header--blog{
   /*background-image: url(../img/header-blog-singl.jpg);*/
 }
- 
- .main-title-blogs {
-  /*див итак блочный элемент*/
-  margin-top: 160px;
-  text-align: center;
- }
 
-/*Подложка для шапки для первой страницы*/
-.header-index {
-  margin: 0 auto;
-  max-width: 1440px;
-  padding: 0 15px;
+/*Модификатор  шапки для стр kross*/
+.page-header--kross {
+  /*background-image: url(../img/header-kross.jpg);*/
 }
 
+/*Заголовки для  шапок  трех страниц*/
+.main__heading {
+ padding-top: 230px;
+}
+.main__inner {
+  max-width: 670px;
+}
 
-/*Подложка для шапки для второй страницы*/
-.header-blog {
-  /*не сделала паддинги слева справа для этого блока*/
-  /*margin: 0 auto;*/
-  max-width: 1600px;
-  padding: 0 110px;
- }
+.blog__heading {
+  text-align: center;
+  padding-top: 160px;
+}
+
+.kross__heading {
+  padding: 180px 0 65px 205px;
+  line-height: 95px; 
+}
+
+/*Псевдоэлемент страницы about*/
+.main__heading:after {
+  content: "";
+  position: absolute;
+  width: 74px;
+  height: 54px;
+  bottom: -27px;
+  left: 390px;
+  background-image: url("../img/dots2.png");
+  background-repeat: no-repeat;
+}
 
 /*Навигация для страницы about */
-.main-navigation-about {
-  box-sizing: border-box;
-  display: flex;
-  flex-wrap: wrap; 
-  justify-content: space-between;
-  align-items: center; 
-}
-
-/*Навигация для страницы blog */
-.main-navigation-blog {
-  box-sizing: border-box;
+.navigation {
+  position: relative;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
-  align-items: center; 
+  max-width: 1400px;
+  box-sizing: border-box;
   margin: 0 auto;
+  padding: 0 ;
+  align-items: center; 
+}
+/*Модификаторы для логотипа внавигации*/
+.navigation--with-logo {
+  justify-content: space-between;
 }
 
- .main-navigation-blog h1 {
-  text-align:  center; 
- }
-
+.navigation--with-dots:before {
+  content: "";
+  position: absolute;
+  width: 74px;
+  height: 32px;
+  bottom: -25px;
+  left: -30px;
+  background-image: url("../img/dots1.png");
+  background-repeat: no-repeat;
+}
 
 /*Базовый блок навигации*/
-.site-navigation {
+.navigation-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  max-width: 1440px;
   font-size: 18px;
   line-height: 84px;
-  }
-
-/*Блок для навигации первой страницы*/
-.site-index {
-  margin: 0;
-  padding: 0 10px;
-  max-width: 1440px;
 }
 
-/*Блок для навигации второй */
-
-/*неправильно сделано, а паддинг обнулять здесь вообще не нужно*/
-.site-blog {
-  padding: 0 10px;
-  margin:  0;
-  max-width: 1440px;
-}
-
-.site-navigation-item a {
-  padding-left:35px;
+.navigation-list__link {
+  padding-left: 35px;
   color: #ffffff;
 }
 
-.promo {
+/*Активный пункт меню*/
+.navigation-list__item--active {
+  font-weight:  700;
+}
+
+.redirection-group {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1460px;
+  margin: 0  auto;
+  align-items: flex-end;
+}
+
+.pagination {
+  display:flex;
+  flex-wrap:wrap;
+  align-items:  flex-end;
+  margin: 0;
+}
+
+.paginator__item{
+  padding-left: 15px;
+}
+
+.paginator__link {
+  color:#ffffff;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/*Текущая страница в пагинаторе*/
+.paginator__link--current {
+  font-size: 60px;
+  line-height: 75px;
+}
+
+/*Социальные кнопки*/
+.social-icons {
+  display: inline-block; 
+  padding: 0;
+  margin: 0;
+}
+
+.social__item {
+  padding-top: 5px; 
+}
+
+.about-me {
   position: relative;
   padding-top: 55px;
   padding-bottom: 35px;
 }
 
-.promo-salute {
+.about-me__content{
   position: relative;
-  width: 690px;
+  max-width: 670px;
 }
 
-.promo-salute h1 {
-  position: absolute;
-  top: -170px;
-  left: 5px;
-  padding: 0;
-  margin: 0;
-}
-
-.promo-salute-item {
+.about-me__content p {
   margin: 0;
   padding-bottom: 30px;
 }
 
-/*Реализована подложка вместо картинки- и она неправильная*/
-.profile-photo {
+.about-me__info{
   position: absolute;
-  top: -240px;
+  top: -235px;
   right: 0;
 }
 
-.profile-photo img {
+.about-me__photo {
   display: block;
   margin: 0 auto;
   border-radius: 25px;
+  box-shadow: 0px 59px 39.1px 6.9px rgba(224, 241, 255, 0.34);
 }
 
-.profile-photo-signature {
-  padding-top: 65px;
+.about-me__caption-photo{
+  display: block;
+  margin: 0 auto;
+}
+
+.about-me__caption {
+  padding-top: 45px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.about-me__caption-name {
+  font-size: 22px;
+  line-height: 22px;
   text-align: center;
 }
 
-.profile-photo-signature span {
-  font-size: 22px;
-  line-height: 22px;
-}
-
-
-/*Активный пункт меню*/
-.active a {
-font-weight:  700;
-}
-
-/*Типографика, в принципе тоже можно вынести в начало кода в -типографику*/
- h2 {
-  font-size: 60px;
-  line-height: 86px;
-}
-
 .work {
-  padding: 145px 150px ;
+  padding: 135px 150px 130px 150px;
 }
 
 .work-list {
@@ -234,7 +264,7 @@ font-weight:  700;
   line-height: 84px;
 }
 
-.work-item {
+.work-list__item {
   position:  relative; 
   max-width: 273px;
   margin: 0;
@@ -242,14 +272,14 @@ font-weight:  700;
   text-align: center;
 }
 
-.work-item h3 {
+.work-list__headings {
   margin: 0;
   font-size: 22px;
   line-height: 84px;
   font-weight: normal;
 }
 
-.work-item p {
+.work-list__content {
   position: relative;
   margin: 0;
   font-size: 15px;
@@ -258,8 +288,7 @@ font-weight:  700;
   color: #585858;
 }
 
-/*ВСЕ ПРЕКРАСНО РАБОТАЕТ!!!!!!!!!!!!!!!!!!!!*/
-.work-item:before {
+.work-list__item:before {
   content: "";
   position: absolute;
   margin-bottom: 200px;
@@ -268,7 +297,7 @@ font-weight:  700;
 }
 
 /*Блок 1*/
-.work-item:nth-child(1)::before {
+.work-list__item:nth-child(1)::before {
   width: 58px;
   height: 58px;
   margin-left: -25px;
@@ -276,7 +305,7 @@ font-weight:  700;
 }
 
 /*Блок 2*/
-.work-item:nth-child(2)::before {
+.work-list__item:nth-child(2)::before {
   width: 50px;
   height: 50px;
   margin-left: -25px;
@@ -284,7 +313,7 @@ font-weight:  700;
 }
 
 /*Блок 3*/
-.work-item:nth-child(3)::before { 
+.work-list__item:nth-child(3)::before { 
   width: 60px;
   height: 45px;
   margin-bottom: 200px;
@@ -294,6 +323,10 @@ font-weight:  700;
 
 .team {
   position:  relative;
+  min-height: 868px;
+  padding-top: 45px;
+  box-sizing:  border-box; 
+
 }
 
 .team:after {
@@ -301,82 +334,77 @@ font-weight:  700;
   display: block; 
   content:  '';
   margin: 0;
-  background-color:#f6f4fc;
+  background-color:#ece8f8;
   width: 52%;
-  height: 93%; 
+  height: 810px; 
   left: 0;
   top: 0;
   bottom: 40px; 
   opacity:  0.5;  
 }
 
-
 .team:before {
   position: absolute; 
   display: block; 
   content: '';
-  /*background-image: url(../img/rectangle-5.jpg);*/
-  /*background-repeat: repeat;*/
   background-image: url(../img/точка1.png.);
   background-repeat: repeat; 
   width: 100%;
-  height: 85%; 
+  height: 745px; 
   left: 0;
   top: 0; 
-  margin-top: 125px;  
+  margin-top: 125px;
 }
 
-.team-content {
+.team__content {
   position: relative;
-  height:  868px;
   text-align: center;
-  padding-top: 45px; 
   box-sizing:  border-box; 
   z-index: 1; 
 }
 
-.team h2 {
-margin: 0; 
-padding: 0;
+.team__heading {
+  margin: 0; 
+  padding: 0;
 }
 
 .team-list{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin: 0px;
   padding: 100px 0;
   font-size: 22px;
   line-height: 84px;
 }
 
-/*Реализуем подложку под картинку-неправильно получилось*/
-.team-members-profile {
-  padding-bottom: 40px;
+.team-list__info {
   color: #000000;
   background-color: #ffffff;
   border-radius: 7px;
   box-shadow: 0px 59px 42.826px 3px rgba(224, 241, 255, 0.34);
   /*background-color: #d4cfcf;*/
+  padding-bottom: 40px;
 }
 
-.team-members-photo {
+.team-list__photo {
   border-radius: 7px 7px 0 0;
 }
 
-.team-members figcaption {
+.team-list__name {
   max-width: 210px;
   margin: 0 auto;
   line-height: 30px;
 }
 
-.team-position {
+.team-list__position {
   color: #dddddd;
 }
 
 .clients {
-  height: 420px;
-  padding-top: 20px;
-  padding-bottom: 115px;
+  min-height: 300px;
+  padding-top: 15px;
+  padding-bottom: 130px;
   box-sizing: border-box;
 }
 
@@ -393,7 +421,7 @@ padding: 0;
 .contact {
   box-sizing: border-box;
   height: 525px;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
   padding-top: 40px;
   margin:  0 auto;
   font-size: 15px;
@@ -402,30 +430,30 @@ padding: 0;
   background-repeat: repeat;
 }
 
-.contact h2 {
+.contact__heading{
+  padding:0; 
   margin: 0 auto;
   max-width: 1170px;
 }
 
-.contact-list {
+.login-form {
   position: absolute;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between; 
-  flex-wrap: wrap;
   box-sizing: border-box;
   left: 50%;
   margin-left: -382px; 
   width: 765px;
   height: 505px;
-  margin-top: 80px;
+  margin-top: 70px;
   padding: 10px 75px 40px 65px;
   background-color: #ffffff;
   border-radius: 8px;
   box-shadow: 0 0 81px 14px rgba(224, 241, 255, 0.34);
 }
 
-.contact-list h3 {
+.login-form__heading {
   display: block;
   position: relative;
   width: 100%;
@@ -433,23 +461,25 @@ padding: 0;
   margin-bottom: 0;
   padding-bottom: 30px;
   font-size: 22px;
-  line-height: 0px;
+  line-height: 0;
   font-weight: normal;
 }
 
-.contact-item {
+.login-form__label {
   width: 50%;
   font-family: 'Roboto', sans-serif;
   color: #737373;
 }
 
-.contact-item-messege {
+.login-form__messege {
+  
   width: 100%;
+  
   font-family: 'Roboto', sans-serif;
   color: #737373;
 }
 
-.contact-item input {
+.login-form__input {
   width: 265px;
   height: 10px;
   padding-top: 10px;
@@ -457,92 +487,97 @@ padding: 0;
   border-bottom: 1px solid #c7c7c7;
 }
 
-.contact-item-messege textarea {
+.login-form__textarea {
   width: 100%;
   border: 0;
   border-bottom: 1px solid #c7c7c7;
 }
 
-.contact-submit {
+/*Общая кнопка*/
+.submit {
   display: block;
   margin: 0 auto;
-  margin-top: 20px;
-  padding: 0 150px;
+  margin-top: 22px;
   background-color: #41228e;
   color: #ffffff;
   font-size: 22px;
-  line-height: 0;
+  line-height: 60px;
   font-family: 'Playfair Display';
   border-radius: 9px;
 }
 
+/*Модификатор для кнопки формы feedback */
+.submit--feedback{
+  margin-top: 10px;
+  padding: 0px 210px;
+  font-weight: 700;
+}
+
+/*Модификатор для кнопки формы contact -почему приходится line-height: модифицировать, я не понимаю но так надо */
+.submit--contact {
+  padding: 0 150px;
+  line-height: 0;
+}
+
 .footer {
-  min-height: 544px;
+  min-height: 540px;
   padding: 225px 0px 75px;
   box-sizing: border-box;
   background-color: #222222;
   box-shadow: 0 7px 6px 1px rgba(153, 153, 153, 0.5);
 }
 
-.footer-list {
+.footer__list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 0 auto;
-  padding: 0 213px;
   font-size: 22px;
   line-height: 84px;
   color: #ffffff;
 }
 
-.footer-list li {
+.footer__column{
   display:  block; 
   width: 280px;
   padding-bottom: 60px;
 }
 
-.footer-item {
+.footer__item-contact {
   display: block;
   width: 100%;
   line-height: 35px;
 }
 
-.footer-item:nth-child(2) {
+.footer__item:nth-child(2) {
   padding-right: 0px;
 }
 
-.contact-name {
+.footer__item--title {
   font-size: 18px;
   line-height: 50px;
   color: #7a7a7a;
 }
 
-.footer-copyright {
+.footer__copyright {
+  display: block;
   width: 100%;
   padding-top: 35px;
+  margin:  0 auto;
+  border-top: 1px solid #363636;
   font-size: 15px;
   line-height: 28px;
   font-family: 'Roboto', sans-serif;
   color: #bdbdbd;
   text-align: center;
-  border-top: 1px solid #363636;
 }
 
 /*Вторая страница*/
-.blogs {
-  padding: 65px 100px 55px 100px;
+.blog {
+  padding: 75px 100px 10px 100px;
   box-sizing: border-box; 
 }
 
-.blogs h1 {
-  position: absolute;
-  top: -320px;
-  left: 0;
-  margin-left: 682px;
-}
-
-.blogs-text h2 {
-  /*опять отступы у заголовков, а не секции*/
+.blog__subheading {
   /*ширина тут не нужна, уж обсуждали*/
   width: 790px;
   text-align: left;
@@ -550,40 +585,41 @@ padding: 0;
   line-height: 57px;
 }
 
-.blog-photo {
+.blog__info {
   margin-top: 10px;
 }
 
-/*Сделана подложка под картинку , для того, что , если картинка слетела, то оставался фон.и потом , фон везде сделан в макете.- почему-то везде неправильно*/
-.blog-photo figcaption {
+.blog__figcaption {
   padding-bottom: 25px;
   font-size: 22px;
   color: #737373;
   /*background-color: #3b04db;*/
 }
 
-.blog-photo img {
+.blog__photo {
   border-radius: 10px;
 }
 
-.blogs-text figure + p {
-  
-  padding-bottom: 30px;
-  margin-top: 35px;
+.blog__list{
+  margin: 0;
+  padding: 35px 0 0;
+}
+
+.blog__item  {
+  margin: 0;
+  padding-bottom: 25px;
+  font-size: 15px;
+  line-height: 25px;
+  font-family: 'Roboto', sans-serif;
+  color: #707070;
+}
+
+.blog-item--el {
+  padding-bottom: 35px;
   font-size: 22px;
   line-height: 36px;
   font-family: 'Playfair Display';
   color: #000000;
-}
-
-.blogs-text p {
-  padding-bottom: 30px;
-  font-size: 15px;
-  color: #707070;
-  line-height: 25px;
-  font-family: 'Roboto', sans-serif;
-  margin: 0;
-  padding-bottom: 15px;
 }
 
 .comments {
@@ -591,14 +627,14 @@ padding: 0;
   box-sizing:  border-box; 
 }
 
-.comments-list {
+.comments__list {
   padding: 25px 100px 15px 100px ;
   margin: 0;
   box-sizing: border-box;
   background: #fafafa;
 }
 
-.comments-title {
+.comments__title {
   margin: 0;
   padding-bottom: 15px;
   font-family: 'Playfair Display';
@@ -606,47 +642,37 @@ padding: 0;
   text-align: left;
 }
 
-.comments-item {
+.comments__item {
   position: relative;
   padding-bottom: 5px;
 }
 
-.comments-item:nth-child(2n+1) {
+.comments__item:nth-child(2n+1) {
   margin-left: 70px;
 }
 
-.comments-item:nth-child(2n) {
+.comments__item:nth-child(2n) {
   margin-left: 160px;
   border-top: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
 }
 
-.comments-item-author {
-  display: flex;
-}
-
-.comments-item-author-name {
-  position: relative;
-}
-
-/*Цветная подложка под аватарку сделана*/
-.comments-item img {
+.comments__img {
   position: absolute;
   top: 0;
   left: 0;
   margin-left: -100px;
   margin-top: 15px;
   border-radius: 34px;
-  /*background-color: #dbdbdb;*/
 }
 
-.comments-item-author-name {
+.comments__author {
   margin: 0;
   padding-top: 25px;
   font-size: 22px;
 }
 
-.comments-item-author-text {
+.comments__text {
   margin: 0;
   padding-top: 20px;
   font-size: 15px;
@@ -655,7 +681,7 @@ padding: 0;
   font-family: 'Roboto', sans-serif;
 }
 
-.comments-item-reply {
+.comments__reply {
   padding-top: 5px;
   font-size: 15px;
   color: #000000;
@@ -666,42 +692,43 @@ padding: 0;
   opacity: 0;
 }
 
-
- .feedback {
+.feedback {
   display: block;
-  padding: 10px 100px 0 170px;
+  padding: 10px 100px 10px 170px;
   box-sizing: border-box; 
   border-bottom: 2px solid red;
 }
 
-.feedback-list {
+.feedback__list {
   display: flex;
-  flex-wrap: wrap;: 
+  flex-wrap: wrap;
   justify-content: space-between;
   box-sizing: border-box;
+  padding: 10px 0;
+  min-height:  305px;
   font-size: 15px;
   line-height: 28px;
-  }
- 
- .feedback h3{
+}
+
+.feedback__heading {
   display:  block; 
-  padding-bottom: 30px;
+  padding: 25px 0 25px;
+  margin: 0;
   border-bottom: 1px solid #eeeeee;
   text-align: left; 
- }
+}
 
-.feedback-modal-show-name {
+.feedback__author {
   width: 400px;
 }
 
-.feedback-modal-show-messege {
-  width: 470px;
-  margin-bottom: 15px;
+feedback__messege {
+  width: 475px;
 }
 
-.feedback-modal-show-name-item input {
+.feedback__input {
   width: 98%;
-  padding: 40px 0 10px;
+  padding: 50px 0 5px;
   border: 0;
   border-bottom: 1px solid #c7c7c7;
   font-size: 15px;
@@ -710,11 +737,10 @@ padding: 0;
   color: #737373;
 }
 
-
-.feedback-modal-show-messege textarea{
+.feedback__textarea{
   width: 475px;
-  min-height:  165px;
-  padding-top: 55px;
+  height:  225px;
+  margin-top: 25px;
   border: 0;
   font-size: 15px;
   line-height: 28px;
@@ -722,47 +748,32 @@ padding: 0;
   color: #737373;
   background-color: #fafafa;
   border-radius:  8px;
-}
-
-.feedback-modal-info-submit {
-  display: block; 
-  margin: 0 auto;
-  margin-top: 25px;
-  padding: 0 210px;
-  background-color: #41228e;
-  color: #ffffff;
-  font-size: 22px;
-  line-height: 60px;
-  font-weight: 700;
-  font-family:'Playfair Display';
-  border-radius: 9px;
+  bottom: 3px red;
 }
 
 .stories {
-  padding-top: 155px;
+  padding: 190px 0 125px 0;
 }
 
-.stories-list {
+.stories__list {
   display: flex;
   flex-wrap: wrap; 
   justify-content: space-between;
-  padding: 0;
-  margin: 0;
+  padding: 60px 0 20px;
 }
 
-.stories-item {
+.stories__item {
   height:  500px;
   width:  370px;
   box-shadow: 0 0 81px 14px rgba(224, 241, 255, 0.34); 
 }
 
-/*Цветная подложка под фото сделана*/
-.stories-photo {
+.stories__photo {
   height:  270px;
   background-color: #72bf44;
 }
 
-.stories-item-text {
+.stories__info {
   width: 370px;
   height: 230px;
   margin: 0;
@@ -770,14 +781,12 @@ padding: 0;
   box-sizing: border-box;
 }
 
-.stories-item-text h3{
+.stories__heading{
   margin: 0;
   padding: 0;
-  font-weight: normal; 
-  text-align: left;
 }
 
-.stories-item-text p{
+.stories__text {
   margin: 0;
   padding-bottom: 5px;
   font-size: 15px;
@@ -786,33 +795,397 @@ padding: 0;
   color: #737373;
 }
 
-.stories-item a {
+.stories__link {
   font-size: 15px;
   padding: 5px 10px 5px 15px;
   background-color: #f6fafa; 
 }
 
 
+.skills {
+  margin: 0 auto;
+  padding: 80px 0 45px;
+  box-sizing: border-box; 
+  text-align:  center;
+}
+
+.skills__content{
+  font-size: 22px;
+  margin: 0;
+  padding: 0 95px;
+}
+
+.skills__heading{
+  margin:  0;
+  padding: 100px 0 75px;
+}
+
+.skills__link {
+  font-size: 18px;
+  line-height: 84px;
+  font-weight: 700;
+}
+
+.skills__graphs{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.skills__item {
+  border:  1px solid red;
+  box-shadow: 0 59px 39.1px 15px rgba(224, 241, 255, 0.34);
+}
+
+
+.skills__title {
+  margin:  0px;
+  font-size: 22px;
+  line-height: 61px;
+}
+
+.experience {
+  padding-top:110px;
+  padding-bottom: 90px;
+}
+
+.experience__list{
+  display: flex; 
+  flex-wrap:  wrap; 
+  justify-content: space-around; 
+  padding: 0;
+  margin: 0;
+}
+
+.experience_heading {
+  margin: 0;
+  padding-bottom: 50px;
+}
+
+.experience__item {
+  padding: 0;
+}
+
+.experience__text {
+  text-align: center;
+  padding: 15px 0;
+}
+
+.experience__img{
+  display: block;
+  margin: 0 auto;
+} 
+
+.experience__date {
+  margin: 0;
+  line-height: 35px;
+  font-family:'Roboto';
+}
+
+.experience__position,
+.experience__company {
+  margin: 0;
+  font-size: 22px;
+  line-height: 35px;
+}
+
+.experience__company {
+  color: #999999;
+}
+
+.education {
+  position: relative; 
+  padding: 75px 0 75px;
+}
+
+.education:before {
+  position: absolute;
+  display:  block;  
+  content: "";
+  width: 1570px;
+  height:1199px;
+  top: -45%;
+  left: -17%;
+  right:17%;
+  margin-right: 200px;  
+  background-image: url(../img/line-1.png);
+  background-repeat:  no-repeat; 
+  margin:  0 auto ;
+}
+
+.education__heading {
+  margin: 0;
+  padding-bottom: 70px;
+}
+
+.education__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.education__item {
+  width: 50%;
+  padding: 0px 0 50px 185px;
+  box-sizing: border-box;
+}
+
+.education__text {
+  position:  relative; 
+  margin: 0;
+  text-align: start;
+}
+
+.education__text:before {
+  position:  absolute; 
+  content:"";
+  width: 105px;
+  height: 105px;
+  top: 0;
+  left: 0;
+  margin-left: -200px;
+  margin-top: -20px;
+  background-image: url(../img/icon-education.png);
+  background-repeat:  no-repeat;
+}
+
+.education__date {
+  margin: 0;
+  line-height: 35px;
+  font-family: 'Roboto';
+}
+
+.education__position{
+  margin: 0;
+  font-size: 22px;
+  line-height: 38px;
+}
+
+.education__school{
+  margin: 0;
+  line-height: 35px;
+  color: #999999;
+}
+
+.services {
+  padding: 75px 90px; 
+}
+
+.services__heading {
+  margin: 0;
+  padding-bottom: 75px;
+}
+
+.services__list {
+  display: flex;
+  justify-content: space-between; 
+  flex-wrap: wrap; 
+  margin: 0;
+  padding: 0; 
+}
+
+.services__item {
+  position: relative;
+  width: 375px;
+  box-sizing: border-box; 
+  padding: 95px 50px 55px;
+  margin: 0;
+  text-align: center;
+  font-size: 15px;
+  line-height: 28px;
+  font-family: 'Roboto';
+  border: 1px solid red;
+}
+
+.services__subheading {
+  font-size: 22px;
+  line-height: 35px;
+  padding-top: 35px;
+  margin: 0;
+}
+
+.services--color {
+  color: #ffffff;
+  background-color: #41228e;
+}
+
+.portfolio {
+  padding-top: 90px;
+  padding-bottom: 150px;
+}
+
+.portfolio__heading {
+  margin: 0;
+  padding-bottom: 75px
+}
+
+.portfolio__wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.portfolio__item {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.portfolio--width {
+  width: 67%;
+}
+
+.portfolio__list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.portfolio__images {
+  margin: 0;
+  margin-bottom: 15px;
+  padding: 0;
+}
+
+.testimonials {
+  padding: 95px 0 75px;
+  text-align: center;
+  color: #ffffff;
+  background-image: url(../img/map.png); 
+}
+
+/* Блок testimonials*/
+
+.testimonials__heading {
+  margin: 0;
+  padding-bottom: 105px;
+}
+
+/*Сама слайдер-обертка*/
+.slider__wrapper {
+  position:  relative; 
+  height: 390px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  border-bottom: 1px solid red;
+}
+
+/*Сами слайды- задаем такого же размера, делаем абсолютное позиционирование, чтоб находились все в одном месте и прячем*/
+.slider__item {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /*visibility: hidden;*/
+}
+
+.slider__content {
+  position: relative; 
+  font-size: 22px;
+  margin: 0 auto;
+  padding: 7px  95px 40px;
+  box-sizing: border-box;
+}
+
+.slider__content::after {
+  content:"";
+  position: absolute;
+  width: 59px; 
+  height: 46px;
+  top: 0;
+  left: 50%;
+  margin-left:-30px;
+  margin-top: -70px;  
+  background-image: url("../img/guote.png")
+}
+ 
+.slider__content--link {
+  color: #2bfdff;
+}
+
+.slider__img {
+  display: block; 
+  padding-left: 40px;
+  margin:  0 auto;
+}
+
+.slider__name {
+  padding: 0;
+  padding: 5px 0 0 20px;
+  margin: 0;
+  font-size: 22px;
+  line-height: 60px;
+}
+
+.slider__position {
+  padding: 0;
+  padding-left: 20px;
+  margin: 0;
+  line-height: 0px;
+  color: #8d7abb;
+}
+
+/*1. Скрываем переключатели.которые дает нам программа*/
+.slider__input {
+  display: none;
+}
+
+/* Делаем свои переключатели из лейблов -заново своей формы - у нас это черточки*/
+slider__label-list {
+  position: relative ;
+  width: 100%;
+  height: 6px;
+  bottom: 0;
+  text-align: center;
+}
+
+.slider__label {
+  position: relative; 
+  display: inline-block;
+  background: #8773b8;
+  width: 11px;
+  height: 6px;
+  top: 375px;
+  margin: 0 5px;
+  border-radius: 4px;
+}
+
+/*Заставляем механизм работать*/
+#slide1 :checked ~ #first,
+#slide2:checked ~ #second,
+#slide3:checked ~ #third {
+  visibility: visible;
+  opacity: 1;
+}
+
+#slide1:checked ~ div #switcher1,
+#slide2:checked ~ div #switcher2,
+#slide3:checked ~ div #switcher3{
+  width: 26px;
+  height: 6px;
+  border-radius: 4px;
+  background: #ffffff;
+}
+
+
+/*1.Если присваивать классы h2 , как в примере с contact h2  contact__heading то по логике надо всем без исключения, а  не выборочно- ведь это форма - запуталась */
 
 /*По Алискиным замечаниям\
-4.не работает форма
-5pзасунуть на место логотип.
-7- подложки под картинки не работают проверить под блоки- почему не работают.
-
-/*Вопросы
-
-
-10- сделать кнопку отправить ссылкой и куда отправлятьподумать
-окно работает, но форма не отправляется
-11ошибка. ворк не туда прицеплен.
 12/ стр 2 в подписи к фото в блоге есть сиреневые буквы. получается, что это ссылки.КУда они ведут
-почитать про ссылки якоря ?
-12 а.не выделен на обоих страницах класс - находимся на этой странице.
-14. не прописан адрес ссылок перехода наа другую страницу по хлебным крошкам.
 64 строка кода Reply? - ответить - это ссылка или кнопка Думаю, что кнопка, так как навешиваем потом скрипт.
 18-сделать прокрутку на блоге, а то он бесконечный
-20- полосочка никак не выравнивается по правому краю в комментах
-переделать аватарку с подписью bи переверстать возможно полностью во флекс
-21-пыталась реализовать подложку, под картинки, но вышло неправильно
+19 Нет шариков под шапкой.
+20. может картинки в блоге сделать все на дивах так как не могу сбросить стартовые стили и вровнять низ не могу по одной линейке
+ 21 как делать слайдер и для чего он здесь-после гомес- я не знаю.
+ 22 непонятно как реализована карта - почитать
 
 /

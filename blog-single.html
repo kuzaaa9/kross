@@ -2,185 +2,194 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <link rel="stylesheet"  href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Poppins:400,700|Roboto:400,700&display=swap" rel="stylesheet">
   <title>Kross</title>
 </head>
 <body>
-  <header class="main-header-blog">
-    <nav class="main-navigation-blog header-blog">
-      <ul class="site-navigation site-blog">
-        <li class="site-navigation-item active">
-          <a href="#">home</a>
+  <header class="page-header page-header--blog">
+    <nav class="navigation">
+      <ul class="navigation-list">
+        <li class="navigation-list__item navigation-list__item--active">
+          <a class="navigation-list__link" href="kross.html">home</a>
         </li>
-        <li class="site-navigation-item">
-          <a href="#">skil</a>
+        <li class="navigation-list__item">
+          <a class="navigation-list__link" href="#">skil</a>
         </li>
-        <li class="site-navigation-item">
-          <a href="#">service</a>
+        <li class="navigation-list__item">
+          <a class="navigation-list__link" href="#">service</a>
         </li>
-        <li class="site-navigation-item">
-          <a href="#">porfolio</a>
+        <li class="navigation-list__item">
+          <a class="navigation-list__link" href="#">porfolio</a>
         </li>
-        <li class="site-navigation-item">
-          <a href="#">contact</a>
+        <li class="navigation-list__item">
+          <a class="navigation-list__link" href="#">contact</a>
         </li>
-        <li class="site-navigation-item">
-          <a href="#">pages</a>
+        <li class="navigation-list__item">
+          <a class="navigation-list__link" href="#">pages</a>
         </li>
       </ul>
     </nav>
-    <div class="main-title-blogs container">
-     <h1 >Blogs</h1>
-    </div>
-  </header>
-  <main>
-   <section class="blogs container">
-    <div class="blogs-text">
-      <h2>What should be the proper purpose of UI and UX design?</h2>
-      <figure class="blog-photo">
-        <figcaption>Published on May 26, 2017 by 
+    <div class="blog__heading container">
+     <h1>Blogs</h1>
+   </div>
+ </header>
+ <main>
+   <section class="blog container">
+    <div class="blog__wrapper">
+      <h2 class="blog__subheading">What should be the proper purpose of UI and UX design?</h2>
+      <figure class="blog__info">
+        <figcaption class="blog__figcaption">Published on May 26, 2017 by 
           <a href="#">uixgeek</a> on 
           <a href="#">UX design</a> 
         </figcaption>
-        <img src="img/photo-blog.jpg" width="965" height="500" alt="photo">
+        <img class="blog__photo" src="img/photo-blog.jpg" width="965" height="500" alt="photo">
       </figure>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt  ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat .
-        </p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, s
-        </p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, 
-        </p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, 
-        </p>
+      <div class="blog__list"> 
+      <p class="blog__item blog-item--el">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt  ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+      <p class="blog__item">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat .
+      </p>
+      <p class="blog__item">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, s
+      </p>
+      <p class="blog__item">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, 
+      </p>
+      <p class="blog__item">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, 
+      </p>
+     </div>
     </div>
   </section>
-    <!-- Добавляем отзывы -->
-    <section class="comments container">
-        <h3 class="comments-title"><sub>3</sub>Comments</h3>
-        <ul class="comments-list">
-          <li class="comments-item">
-            <img src="img/avatar-1.jpg"  alt="avatar-1">
-            <p class="comments-item-author-name">Jack Hughman </p>
-            <p class="comments-item-author-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde aspernatur deleniti hic eos minima exercitationem! Voluptas itaque nihil temporibus magni. 
-            </p>
-            <a href="#" class="comments-item-reply">Reply</a>
-          </li>
-          <li class="comments-item">
-            <img src="img/avatar-2.jpg" alt="avatar-2">
-            <p class="comments-item-author-name">Jack Hughman</p>
-            <p class="comments-item-author-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde aspernatur deleniti hic eos minima exercitationem! Voluptas itaque nihil temporibus magni. 
-            </p>
-            <a href="#" class="comments-item-reply">Reply</a>  
-          </li>
-          <li class="comments-item">
-            <img src="img/avatar-3.jpg" alt="avatar-3">
-            <p class="comments-item-author-name">Jack Hughman</p>
-            <p class="comments-item-author-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde aspernatur deleniti hic eos minima exercitationem! Voluptas itaque nihil temporibus magni. 
-            </p>
-            <a href="#" class="comments-item-reply">Reply</a>
-          </li>
-        </ul>
-    </section>
-    <section class="feedback container">
-        <h3>Leave A Comment</h3>
-      <!-- Создаем форму - -->
-      <form  class="feedback-list" method="post" action= https://echo.htmlacademy.ru>
-        <div class="feedback-modal-show-name"> 
-          <label class="feedback-modal-show-name-item"> 
-            <input type="text" name="first-name" placeholder="First Name">
-          </label>
-        <label class="feedback-modal-show-name-item">
-          <input type="text" name="last-name" placeholder="Last Name">
+  <!-- Добавляем отзывы -->
+  <section class="comments container">
+    <h3 class="comments__title"><sub>3</sub>Comments</h3>
+    <ul class="comments__list">
+      <li class="comments__item">
+        <img class="comments__img" src="img/avatar-1.jpg"  alt="avatar-1">
+        <p class="comments__author">Jack Hughman </p>
+        <p class="comments__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde aspernatur deleniti hic eos minima exercitationem! Voluptas itaque nihil temporibus magni. 
+        </p>
+        <a href="#" class="comments__reply">Reply</a>
+      </li>
+      <li class="comments__item">
+        <img class="comments__img" src="img/avatar-2.jpg" alt="avatar-2">
+        <p class="comments__author">Jack Hughman</p>
+        <p class="comments__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde aspernatur deleniti hic eos minima exercitationem! Voluptas itaque nihil temporibus magni. 
+        </p>
+        <a href="#" class="comments__reply">Reply</a>  
+      </li>
+      <li class="comments__item">
+        <img class="comments__img" src="img/avatar-3.jpg" alt="avatar-3">
+        <p class="comments__author">Jack Hughman</p>
+        <p class="comments__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde aspernatur deleniti hic eos minima exercitationem! Voluptas itaque nihil temporibus magni. 
+        </p>
+        <a href="#" class="comments__reply">Reply</a>
+      </li>
+    </ul>
+  </section>
+  <section class="feedback container">
+    <h3 class="feedback__heading">Leave A Comment</h3>
+    <!-- Создаем форму - -->
+    <form  class="feedback__list" method="post" action= https://echo.htmlacademy.ru>
+      <div class="feedback__author"> 
+        <label class="feedback__label"> 
+          <input class="feedback__input" type="text" name="first-name" placeholder="First Name">
         </label>
-        <label class="feedback-modal-show-name-item">
-          <input type="email" name="email" placeholder= "Email Adress">
+        <label class="feedback__label">
+          <input class="feedback__input" type="text" name="last-name" placeholder="Last Name">
         </label>
-        </div>   
-        <div class="feedback-modal-show-messege">
-          <label> 
-            <textarea name="messege">Messege</textarea>
-          </label>
-          <button class="feedback-modal-info-submit" type="submit">SEND</button>
+        <label class="feedback__label">
+          <input class="feedback__input" type="email" name="email" placeholder= "Email Adress">
+        </label>
+      </div>   
+      <div class="feedback__messege">
+        <label> 
+          <textarea class="feedback__textarea" name="messege">Messege</textarea>
+        </label>
+        <button class="submit submit--feedback" type="submit">SEND</button>
+      </div>
+    </form>
+  </section>
+  <section class="stories container">
+    <h2 class="stories__heading ">
+    Similar stories
+    </h2>
+    <ul class="stories__list">
+      <li class="stories__item">
+        <img  class="stories__photo" src="img/stories-photo-1.jpg" 
+        width="370" alt="story title">
+        <div class="stories__info"> 
+          <h3 class="stories__heading">Amazon increase income 1.5 Million</h3>
+          <p class="stories__text"
+          >Lorem ipsum dolor sit amet, consectetur 
+          adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <a class="stories__link" href="#">Creative</a>
         </div>
-      </form>
-    </section>
-    <section class="stories container">
-      <h2>Similar stories</h2>
-      <ul class="stories-list">
-        <li class="stories-item">
-          <img  class="stories-photo" src="img/stories-photo-1.jpg" width="370" 
-          alt="story title">
-          <div class="stories-item-text"> 
-            <h3>Amazon increase income 1.5 Million</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur 
-              adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-            <a href="#">Creative</a>
-          </div>
-        </li>
-        <li class="stories-item">
-          <img class="stories-photo" src="img/stories-photo-2.jpg" width="370" 
-          alt="story title">
-          <div class="stories-item-text"> 
-            <h3>Amazon increase income 1.5 Million</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur 
-              adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-            <a href="#">Creative</a>
-          </div>
-        </li>
-        <li class="stories-item">
-          <img class="stories-photo" src="img/stories-photo-3.jpg" width="370" 
-          alt="story title">
-          <div class="stories-item-text">
-            <h3>Amazon increase income 1.5 Million</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur 
-              adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-            <a href="#">Creative</a>
-          </div> 
-        </li>
-      </ul>
-    </section>
-    <section class="contact">
-      <h2>Contact Info</h2>
-      <form class="contact-list container" method="post" action= https://echo.htmlacademy.ru>
-        <h3>Contact Form</h3>  
-        <label class="contact-item">Full Name 
-          <input type="text" name="full-name" value="">
-        </label>
-        <label class="contact-item">Email@example.com
-          <input type="email" name="email" value="">
-        </label>
-        <label class="contact-item-messege">Type messege Here
-          <textarea></textarea>
-        </label>
-        <button class="contact-submit" type="submit">SEND</button>
-      </form>
-    </section>
-  </main>
-   <footer class="footer"> 
-  <ul class="footer-list container">
-    <li>
-      <!-- опять русское слово в названии класса -->
-      <span class="footer-item contact-name">Email</span>
-      <span class="footer-item">steve.fruits@email.com</span>
+       <li class="stories__item">
+        <img  class="stories__photo" src="img/stories-photo-1.jpg" 
+        width="370" alt="story title">
+        <div class="stories__info"> 
+          <h3 class="stories__heading">Amazon increase income 1.5 Million</h3>
+          <p class="stories__text"
+          >Lorem ipsum dolor sit amet, consectetur 
+          adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+        <a class="stories__link" href="#">Creative</a>
+      </div>
     </li>
-    <li> 
-      <span class="footer-item contact-name">Phone</span>
-      <span class="footer-item">+880 2544 658 256</span>
-    </li>
-    <li>  
-      <span class="footer-item contact-name">Adress</span>
-      <span class="footer-item">125/A, CA Commercial Area,  California, USA</span>
+    <li class="stories__item">
+      <img class="stories__photo" src="img/stories-photo-2.jpg" width="370"
+      alt="story title">
+      <div class="stories__info"> 
+        <h3 class="stories__heading">Amazon increase income 1.5 Million</h3>
+        <p class="stories__text">Lorem ipsum dolor sit amet, consectetur 
+          adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+        <a class="stories__link" href="#">Creative</a>
+      </div>
     </li>
   </ul>
-  <div class="footer-copyright">© Kross. All Right Reserved 2018. 
-  </div>    
-  </footer>
+</section>
+<section class="contact">
+  <h2 class="contact__heading">Contact Info</h2>
+  <form class="login-form container" method="post" action= 
+  "https://echo.htmlacademy.ru">
+    <h3 class="login-form__heading">Contact Form</h3>  
+    <label class="login-form__label">
+      Full Name
+      <input class="login-form__input" type="text" name="full-name">
+    </label>
+    <label class="login-form__label">
+      Email@example.com
+      <input class="login-form__input" type="email" name="email">
+    </label>
+    <label class="login-form__messege">
+      Type messege Here
+      <textarea class="login-form__textarea"></textarea>
+    </label>
+    <button class="submit submit--contact" type="submit">SEND</button>
+  </form> 
+</section>
+</main>
+<footer class="footer"> 
+  <ul class="footer__list container">
+    <li class="footer__column">
+      <!-- опять русское слово в названии класса -->
+      <span class="footer__item footer__item--title">Email</span>
+      <span class="footer__item-contact">steve.fruits@email.com</span>
+    </li>
+    <li class="footer__column"> 
+      <span class="footer__item footer__item--title">Phone</span>
+      <span class="footer__item-contact">+880 2544 658 256</span>
+    </li>
+    <li class="footer__column">  
+      <span class="footer__item footer__item--title">Adress</span>
+      <span class="footer__item-contact">125/A, CA Commercial Area,  California, USA</span>
+    </li>
+  </ul>
+  <p class="footer__copyright">© Kross. All Right Reserved 2018. 
+  </p>    
+</footer>
 </body>
 </html>
 
